@@ -1,0 +1,109 @@
+{
+  "n_requests": 600,
+  "catalogs": {
+    "synth": "合成目录(53 个手写工具)",
+    "real_mono": "真实目录 + 单语索引",
+    "real_bi": "真实目录 + 双语索引(新默认)"
+  },
+  "summary": {
+    "synth": {
+      "zh_main_r1_strict": 0.0,
+      "zh_main_r5_strict": 0.0,
+      "zh_main_r1_name": 0.0,
+      "zh_main_r5_name": 0.0016666666666666668,
+      "zh_upper_r1_strict": 0.0,
+      "zh_upper_r5_strict": 0.0,
+      "zh_upper_r1_name": 0.0,
+      "zh_upper_r5_name": 0.0,
+      "en_main_r1_strict": 0.0,
+      "en_main_r5_strict": 0.0,
+      "en_main_r1_name": 0.0016666666666666668,
+      "en_main_r5_name": 0.0016666666666666668,
+      "en_upper_r1_strict": 0.0,
+      "en_upper_r5_strict": 0.0,
+      "en_upper_r1_name": 0.0016666666666666668,
+      "en_upper_r5_name": 0.0033333333333333335,
+      "latency_p50": 1.7252914840355515,
+      "latency_p95": 1.8773250340018421,
+      "risk_top1": {
+        "L0": 38,
+        "L1": 252,
+        "L2": 37,
+        "L3": 37
+      },
+      "pred_none": 236
+    },
+    "real_mono": {
+      "zh_main_r1_strict": 0.028333333333333332,
+      "zh_main_r5_strict": 0.0725,
+      "zh_main_r1_name": 0.04388888888888889,
+      "zh_main_r5_name": 0.0875,
+      "zh_upper_r1_strict": 0.04083333333333333,
+      "zh_upper_r5_strict": 0.1025,
+      "zh_upper_r1_name": 0.06305555555555556,
+      "zh_upper_r5_name": 0.12083333333333333,
+      "en_main_r1_strict": 0.28694444444444445,
+      "en_main_r5_strict": 0.5580555555555555,
+      "en_main_r1_name": 0.47611111111111115,
+      "en_main_r5_name": 0.6669444444444445,
+      "en_upper_r1_strict": 0.33805555555555555,
+      "en_upper_r5_strict": 0.6480555555555555,
+      "en_upper_r1_name": 0.5472222222222222,
+      "en_upper_r5_name": 0.7652777777777778,
+      "latency_p50": 2.1732085151597857,
+      "latency_p95": 3.121677116723731,
+      "risk_top1": {
+        "L0": 219,
+        "L1": 11,
+        "L2": 59,
+        "L3": 54
+      },
+      "pred_none": 257
+    },
+    "real_bi": {
+      "zh_main_r1_strict": 0.08666666666666667,
+      "zh_main_r5_strict": 0.23694444444444443,
+      "zh_main_r1_name": 0.19583333333333333,
+      "zh_main_r5_name": 0.3238888888888889,
+      "zh_upper_r1_strict": 0.20777777777777778,
+      "zh_upper_r5_strict": 0.48388888888888887,
+      "zh_upper_r1_name": 0.3769444444444444,
+      "zh_upper_r5_name": 0.6125,
+      "en_main_r1_strict": 0.28277777777777774,
+      "en_main_r5_strict": 0.5586111111111112,
+      "en_main_r1_name": 0.475,
+      "en_main_r5_name": 0.6744444444444445,
+      "en_upper_r1_strict": 0.3333333333333333,
+      "en_upper_r5_strict": 0.6469444444444444,
+      "en_upper_r1_name": 0.5461111111111111,
+      "en_upper_r5_name": 0.7727777777777778,
+      "latency_p50": 2.3445000406354666,
+      "latency_p95": 3.3046305878087874,
+      "risk_top1": {
+        "L0": 243,
+        "L1": 3,
+        "L2": 28,
+        "L3": 69
+      },
+      "pred_none": 257
+    }
+  },
+  "need": {
+    "zh": {
+      "n": 479,
+      "pos": 260,
+      "recall": 0.8423076923076923,
+      "precision": 0.7963636363636364,
+      "pred_none": 204,
+      "pred_none_gold_needs": 41
+    },
+    "en": {
+      "n": 479,
+      "pos": 260,
+      "recall": 0.9346153846153846,
+      "precision": 0.574468085106383,
+      "pred_none": 56,
+      "pred_none_gold_needs": 17
+    }
+  }
+}

@@ -1,0 +1,236 @@
+﻿id,text,text_orig,source,labeler1_name,labeler1_need,labeler1_domains,labeler2_name,labeler2_need,labeler2_domains,local_need,local_domains,need,domains,actions,note
+bfcl-1959,帮我找出洛杉矶所有的超市，再查一下迈阿密最受欢迎的景点是哪里。,Locate all supermarkets in Los Angeles and find the most popular site seeing place in Miami.,bfcl,jev,multi,search_web;browser;weather_geo;system_misc,haiku,single,search_web;weather_geo,multi,calendar_task,multi,search_web;browser;weather_geo;system_misc,read,两路不一致
+alpaca_zh-32456,你们城市最繁荣的行业是什么？,你们城市最繁荣的行业是什么？,alpaca_zh,jev,single,search_web,haiku,,,none,,none,search_web,read,有一路没问到答案
+bfcl-59,帮我加一个待办：明天去健身房。,add a todo 'go to gym tomorrow.',bfcl,jev,single,calendar_task;system_misc,haiku,single,calendar_task,single,calendar_task,single,calendar_task;system_misc,create,两路不一致
+bfcl-1839,纽约和华盛顿特区之间的驾车距离是多少？还有洛杉矶和旧金山之间的驾车距离，查询时请启用可选参数 shortest route（最短路线）。,"What's the driving distance between New York and Washington DC, and between Los Angeles and San Francisco with optional parameter shortest route enabled?",bfcl,jev,none,,haiku,single,weather_geo,multi,comms,multi,,,两路不一致
+alpaca_zh-16853,"生成一个简短的叙述，解释所给概念。
+公共物品是一种既不可排除又不可竞争的商品或服务。","生成一个简短的叙述，解释所给概念。
+公共物品是一种既不可排除又不可竞争的商品或服务。",alpaca_zh,jev,none,,haiku,,,none,,none,,,有一路没问到答案
+apibank-1189,我想预约10月3日下午3点和心脏科医生的线上问诊。我的患者ID是ABC123。,I would like to book a virtual consultation with a cardiologist on October 3 at 3 PM. My patient ID is ABC123.,apibank,jev,single,browser;calendar_task;business;system_misc,haiku,single,business,single,calendar_task,single,browser;calendar_task;business;system_misc,create;send,两路不一致
+bfcl-1992,你能帮我找一本书吗？我不记得书名了，但知道它是一本悬疑小说。我想先在纽约市的图书馆里找，然后再去 Google Books 和 Open Library 上查。你能帮我完成这些搜索吗？,"""Can you help me find a book? I'm not sure of the title, but I know it's a mystery novel. I'd like to search in the library in New York City first, then I'd like to check Google Books and Open Library. Can you assist with these searches?""",bfcl,jev,multi,search_web;browser;system_misc,haiku,multi,search_web,multi,file;comms,multi,search_web;browser;system_misc,read,两路不一致
+bfcl-68,千禧一代自2022年7月以来对苹果的看法发生了怎样的变化?,How have millennials views of Apple changed since July 2022?',bfcl,jev,single,search_web;system_misc,haiku,none,,none,,none,search_web;system_misc,read,两路不一致
+apibank-1397,你能告诉我 Metformin 在 New York City 的价格范围吗？,Can you tell me the price range for the drug Metformin in New York City?,apibank,jev,single,search_web;system_misc,haiku,single,search_web,single,cloud_ops,single,search_web;system_misc,read,两路不一致
+bfcl-1285,你能告诉我韩国首尔现在的天气吗？用摄氏度显示。另外，帮我打开客厅的空调。我还对Imjin War挺感兴趣的，能帮我找一些最新的相关信息吗？,"Can you tell me the weather in Seoul, South Korea using Celsius units? Also, turn on the air conditioner in the living room, and I'm curious about the Imjin War, Find some up-to-date information on that?",bfcl,jev,multi,search_web;browser;weather_geo;system_misc,haiku,multi,search_web;weather_geo;system_misc,multi,comms,multi,search_web;browser;weather_geo;system_misc,execute,两路不一致
+bfcl-1709,"如何评估华盛顿州过去十年鹿群数量的增长情况,以及它们对林地的影响?",How to assess the population growth in deer and their impact on woodland in Washington state over the past decade?,bfcl,jev,single,database;search_web;knowledge;system_misc,haiku,none,,none,,none,database;search_web;knowledge;system_misc,read,两路不一致
+bfcl-1895,纽约过去7天的平均气温是多少华氏度？它与同一时期洛杉矶的平均气温（摄氏度）相比如何？,What is the average temperature in New York for the past 7 days in Fahrenheit and how does it compare to the average temperature in Los Angeles for the same period in Celsius?,bfcl,jev,single,database;search_web;browser;weather_geo;system_misc,haiku,single,weather_geo,none,,single,database;search_web;browser;weather_geo;system_misc,read,两路不一致
+bfcl-1412,"请预测一下旧金山一套房子的价格,这套房子有 3 间卧室、2 间卫生间,面积为 1800 平方英尺。","Predict the price of the house in San Francisco with 3 bedrooms, 2 bathrooms and area of 1800 square feet.",bfcl,jev,single,search_web,haiku,none,,multi,comms,multi,search_web,read,两路不一致
+alpaca_zh-22774,解释为什么这本书被评为4.5/5分。,解释为什么这本书被评为4.5/5分。,alpaca_zh,jev,none,,haiku,single,search_web,none,,none,,,两路不一致
+bfcl-1032,帮我查一下肯尼亚内罗毕在 2023-04-20 的天气预报好吗？,"Check the weather forecast for Nairobi, Kenya on 2023-04-20?",bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-2001,你能帮我规划一天在西雅图（华盛顿州）的出游吗？我们一行10个朋友都是美食爱好者，想在午餐时尝尝海鲜和意大利菜。晚上我们想去看演唱会或体育比赛。你能帮我们找到合适的餐厅和活动吗？,"""Can you help me plan a day out in Seattle, WA for my group of 10 friends? We are food lovers and would like to try some Seafood and Italian cuisine for lunch. Later in the evening, we are interested in attending a Concert or a Sports event. Could you find suitable restaurants and events for us?""",bfcl,jev,multi,search_web;browser;weather_geo;entertainment;system_misc,haiku,single,search_web;weather_geo;entertainment,multi,comms,multi,search_web;browser;weather_geo;entertainment;system_misc,read,两路不一致
+apibank-1385,我想看一下患者ID为123456的病历。,I would like to view the medical records of patient ID 123456.,apibank,jev,single,database,haiku,single,business,single,cloud_ops,single,database,read,两路不一致
+bfcl-1958,"请帮我获取美国波士顿未来10天的气温和湿度预报,以及意大利罗马未来10天的降水预报。","Get temperature and humidity forecast for Boston, USA and precipitation forecast for Rome, Italy for next 10 days.",bfcl,jev,multi,search_web;weather_geo;system_misc,haiku,single,weather_geo,multi,comms,multi,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1796,帮我按现在的汇率把200欧元换成美元。,Convert 200 euros to US dollars using current exchange rate.,bfcl,jev,single,search_web;system_misc,haiku,single,file,single,browser,single,search_web;system_misc,read,两路不一致
+bfcl-1281,帮我列出 C 盘里的文件，然后新建一个叫 testing.txt 的文件。,list file in c drive and make file called testing.txt,bfcl,jev,multi,file,haiku,single,file,multi,file;comms,multi,file,create;execute,两路不一致
+bfcl-706,能在厨房里播放我最喜欢的曲目《Summer Vibes》吗?是 DJ Sunny 的歌。,"Can you play my favorite track Summer Vibes by DJ Sunny in the kitchen, please?",bfcl,jev,single,media,haiku,single,entertainment;system_misc,single,file,single,media,execute,两路不一致
+bfcl-1284,"거실, 에어컨, 실행하고, 침실, 공기청정기, 중지해줘.","거실, 에어컨, 실행하고, 침실, 공기청정기, 중지해줘.",bfcl,jev,multi,system_misc,haiku,single,system_misc,multi,comms,multi,system_misc,execute,两路不一致
+bfcl-745,帮我找一部纪录片，我想在洛杉矶的电影院看，要普通的放映格式。,Find a documentary movie for me to watch in a regular format at theaters in Los Angeles?,bfcl,jev,single,search_web;browser;entertainment;system_misc,haiku,single,entertainment,multi,comms,single,search_web;browser;entertainment;system_misc,read,两路不一致
+bfcl-205,我想看部电影。你能帮我找一部由 Sterling K. Brown 主演、并且由 Thurop Van Orman 执导的电影吗?,I like to watch a movie. will you find me a movie which has sterling K. Brown as a actor and it should be directed by Thurop Van Orman,bfcl,jev,none,,haiku,single,entertainment,multi,comms,multi,,,两路不一致
+apibank-368,我想取消我已经预约好的远程精神科咨询（telehealth psychiatry consultation）。,I'd like to cancel my scheduled telehealth psychiatry consultation session.,apibank,jev,single,calendar_task;business;system_misc,haiku,single,calendar_task,single,cloud_ops,single,calendar_task;business;system_misc,update;delete,两路不一致
+apibank-816,"我想把我的健身目标更新一下，把每天的步数从 10,000 步提高到 15,000 步。","I want to update my fitness goal to increase my daily step count from 10,000 to 15,000.",apibank,jev,single,system_misc,haiku,none,,multi,database;comms,multi,system_misc,update,两路不一致
+bfcl-1183,帮我查一下NYC的天气,get the weather of nyc,bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1857,帮我查一下德国柏林 'Queens Hotel' 在2022年3月10日到2022年3月20日期间的房间空余情况，再查一下法国巴黎 'Royal Hotel' 在2022年4月5日到2022年4月15日期间的房间空余情况。,"Check the hotel room availability for 'Queens Hotel' in Berlin, Germany from March 10, 2022 to March 20, 2022 and for 'Royal Hotel' in Paris, France from April 5, 2022 to April 15, 2022.",bfcl,jev,multi,database;search_web;browser;business;weather_geo;system_misc,haiku,single,weather_geo,multi,comms,multi,database;search_web;browser;business;weather_geo;system_misc,read,两路不一致
+apibank-1112,我想知道9月1号到9月20号之间我去过的医院都有哪些。,I want to know the list of hospitals that I visited between September 1st and September 20th.,apibank,jev,single,database;system_misc,haiku,single,calendar_task;weather_geo,single,database,single,database;system_misc,read,两路不一致
+bfcl-1994,用户请求：根据 'us_history.population_by_state_year' 函数，加利福尼亚州在1980年和1990年的人口是多少？另外，根据 'us_economy.gdp_by_state_year' 函数，将调整方式设为 'Real'，加利福尼亚州在同样这两年的实际 GDP 是多少？,"""What was the population of California in 1980 and 1990 according to the 'us_history.population_by_state_year' function, and what was the Real GDP of California in those same years according to the 'us_economy.gdp_by_state_year' function with the adjustment set to 'Real'?""",bfcl,jev,multi,database;system_misc,haiku,multi,file,multi,database;comms,multi,database;system_misc,read;execute,两路不一致
+bfcl-1269,"你能告诉我一下 Boston, MA 和 San Francisco 现在的天气怎么样吗？","Could you tell me the current weather conditions for Boston, MA and also for San Francisco?",bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,multi,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-82,我刚刚在早上吃零食的时候喝了一大杯加了half and half（半奶半奶油）的chai茶。你能帮我记录一下，我当作零食喝了16盎司的chai茶吗？,I just enjoyed a large cup of chai tea with half and half for my morning snack. Could you record that I drank 16 ounces of chai tea as a snack?,bfcl,jev,single,system_misc,haiku,none,,multi,comms,multi,system_misc,create,两路不一致
+bfcl-1765,帮我查一下东京明天（2023年6月1日）的紫外线指数。,"Give me the UV index for Tokyo for tomorrow, June01 2023.",bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,calendar_task;system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+alpaca_zh-40083,根据给定的数据集，创建一个可视化图表以突出数据中的主要趋势。,根据给定的数据集，创建一个可视化图表以突出数据中的主要趋势。,alpaca_zh,jev,single,database;media,haiku,none,,multi,database;comms,multi,database;media,create,两路不一致
+bfcl-4,特拉维夫现在的天气怎么样？麻烦用华氏度告诉我一下。,"What are the current weather conditions in Tel Aviv, and could you provide that in Fahrenheit, please?",bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1287,"请帮我获取法国巴黎的最新新闻,并查询爱尔兰Letterkenny的当前天气,温度用摄氏度显示。","Could you fetch me the latest news from Paris, France, and also the current weather in Letterkenny, Ireland, in Celsius?",bfcl,jev,multi,search_web;weather_geo;system_misc,haiku,multi,search_web;weather_geo,multi,search_web;comms,multi,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-153,列出 c drive 里的内容,list c drive,bfcl,jev,single,file,haiku,single,file;system_misc,single,file,single,file,read;execute,两路不一致
+bfcl-1980,在游戏 Battle Reign 里，把护甲等级改成 5，然后帮我找一份在雪天环境下怎么取胜的游戏攻略。另外，帮我找找 Shadow Fall 这款游戏有没有现成的攻略指南。,"In game Battle Reign, change the armor level to 5 and find me a game guide for how to win in snowy weather conditions. Also find me any strategy guides available for game Shadow Fall.",bfcl,jev,single,search_web;browser;knowledge;entertainment;system_misc,haiku,multi,search_web;entertainment,multi,comms,multi,search_web;browser;knowledge;entertainment;system_misc,update,两路不一致
+apibank-145,我打算做根管治疗，想比较一下上海和北京两家诊所的费用。,"I'm planning to have a root canal done, and I want to compare the costs of two clinics, one in Shanghai and the other in Beijing.",apibank,jev,single,search_web;system_misc,haiku,single,search_web,none,,single,search_web;system_misc,read,两路不一致
+bfcl-2000,你能帮我查一下《Call of Duty》在欧洲地区 PlayStation 平台上的最新更新吗？然后再查一下这款游戏在 Xbox 平台上的当前价格，最后帮我找一下美国地区用户对《FIFA 21》的评价。,"""Could you please find the latest updates for the game 'Call of Duty' on the 'Playstation' platform for the 'European' region, then find the current price for the same game on the 'Xbox' platform, and finally find reviews for the game 'FIFA 21' from the 'American' region?""",bfcl,jev,multi,search_web;browser;entertainment;system_misc,haiku,single,search_web;entertainment,multi,search_web;comms,multi,search_web;browser;entertainment;system_misc,read,两路不一致
+bfcl-1132,"你能帮我预订一趟火车票吗？2023年5月5日下午15:00从纽约（New York, NY）去洛杉矶（Los Angeles），两位成人，并且要包含行程保障。","Can you reserve tickets for two adults for a train journey from New York, NY to Los Angeles on May 5th, 2023, starting at 15:00, with trip protection included?",bfcl,jev,single,search_web;browser;business;weather_geo;system_misc,haiku,single,weather_geo,multi,comms;calendar_task,single,search_web;browser;business;weather_geo;system_misc,create;send,两路不一致
+bfcl-569,我马上要开始锻炼了，想放点歌。我特别喜欢 House 音乐，听说 The Martin Garrix Experience 这张专辑很不错。,I'm about to do my workout and I'd like to play some songs. I'm really into House music and I heard that The Martin Garrix Experience album is great.,bfcl,jev,none,,haiku,single,entertainment,multi,comms;calendar_task,multi,,,两路不一致
+apibank-516,你能告诉我洛杉矶 ABC 医院心脏内科目前的预计等待时间吗？,Can you please tell me the estimated wait time for the Department of Cardiology at ABC Hospital in Los Angeles?,apibank,jev,single,search_web;browser;system_misc,haiku,single,search_web,single,file,single,search_web;browser;system_misc,read,两路不一致
+apibank-132,我想记录一下昨天（3月8日）的体重，是60.5公斤。,"I want to record my weight from yesterday, which is March 8th, and my weight is 60.5 kg.",apibank,jev,none,,haiku,single,system_misc,multi,comms,multi,,,两路不一致
+bfcl-1283,能帮我查一下中国广州市和北京市现在的天气状况吗？请使用公制单位。,能帮我查一下中国广州市和北京市现在的天气状况吗？请使用公制单位。,bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-580,我想听歌，可能是 Enrique Iglesias 的歌，他是我最喜欢的歌手。帮我找一首来自 Euphoria 专辑的歌。,I need to listen to songs maybe by Enrique Iglesias as he is my favourite singer. Look for something from the Euphoria album.,bfcl,jev,none,,haiku,single,entertainment,multi,comms,multi,,,两路不一致
+alpaca_zh-9194,请帮我查找一下我的航班信息，我需要改变我的航班，但我不记得确切的细节。输入信息如下：姓名：John Smith，航班日期：2021年7月5日。,请帮我查找一下我的航班信息，我需要改变我的航班，但我不记得确切的细节。输入信息如下：姓名：John Smith，航班日期：2021年7月5日。,alpaca_zh,jev,single,database;business;weather_geo;system_misc,haiku,single,business;weather_geo,multi,search_web;comms,single,database;business;weather_geo;system_misc,read;update,两路不一致
+bfcl-1858,帮我在纽约的 Sheraton Hotel 订一间房，住 2 位成人和 1 个孩子，2022 年 5 月 1 日入住，5 月 5 日退房。另外，再帮我在洛杉矶的 Marriott 订一间房，住 1 位成人和 2 个孩子，2022 年 6 月 1 日入住，6 月 10 日退房。,"Book a room for 2 adults and a child at the Sheraton Hotel in New York with check-in on May 1, 2022 and check-out on May 5, 2022. Also, Book a room for 1 adult and 2 children at the Marriott in Los Angeles with check-in on June 1, 2022 and check-out on June 10, 2022.",bfcl,jev,multi,search_web;browser;business;system_misc,haiku,single,business,multi,comms,multi,search_web;browser;business;system_misc,create;send,两路不一致
+bfcl-182,"你能告诉我一下2023年3月5号 Marshall, MN 的天气预报吗？","Could you tell me the weather forecast for Marshall, MN on March 5th 2023?",bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,multi,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+apibank-591,我想在上海找个心理咨询师，约一次咨询。,I would like to find a psychologist for a counseling session in Shanghai.,apibank,jev,single,search_web;business;system_misc,haiku,multi,search_web;business,multi,comms,multi,search_web;business;system_misc,send,两路不一致
+apibank-1091,我想给患者（ID：123456）新增一条症状记录。症状类型是头痛，症状描述是前额有点钝痛，症状日期是今天上午10:30。,"I want to record a new symptom for my patient, with patient ID 123456. The symptom type is headache, the symptom description is a dull ache in the forehead, and the symptom date is today at 10:30 AM.",apibank,jev,single,database,haiku,single,business,multi,calendar_task,single,database,create,两路不一致
+alpaca_zh-30878,找到这本书的标题，给定ISBN：978-1-5247-3855-7。,找到这本书的标题，给定ISBN：978-1-5247-3855-7。,alpaca_zh,jev,single,search_web;system_misc,haiku,none,,multi,comms,multi,search_web;system_misc,read,两路不一致
+bfcl-948,我需要在洛杉矶订一栋房子，供四位成人在 04/23/2023 到 04/27/2023 入住。评分要高于 4.1 吗？,I need to book a house in Los Angeles for four adults from 04/23/2023 to 04/27/2023. rating higher than 4.1?,bfcl,jev,single,search_web;browser;business;system_misc,haiku,single,business,multi,comms,single,search_web;browser;business;system_misc,send,两路不一致
+bfcl-1920,"你能帮我找一下纽约（New York, NY）有 Reading Room 和 Fiction 区的公共图书馆吗？然后再帮我找洛杉矶（Los Angeles, CA）提供 Wi-Fi 并且有 Children Section 的公共图书馆，最后找芝加哥（Chicago, IL）有 Cafe 和 Reading Room 的公共图书馆。","Can you help me find public libraries in New York, NY that have a Reading Room and Fiction section, and then in Los Angeles, CA that offer Wi-Fi and have a Children Section, and finally in Chicago, IL that have a Cafe and a Reading Room?",bfcl,jev,multi,search_web;browser;system_misc,haiku,single,weather_geo,multi,comms,multi,search_web;browser;system_misc,read,两路不一致
+bfcl-1588,获取艺人碧昂丝（Beyonce）下个月（2022年4月）在圣地亚哥演出的演唱会详情。,Get concert details for the artist Beyonce performing in San Diego next month (April 2022).,bfcl,jev,single,search_web;browser;entertainment;system_misc,haiku,single,entertainment,single,database,single,search_web;browser;entertainment;system_misc,read,两路不一致
+bfcl-147,"来个4格的拼图，画的是各种漫画超级英雄。下面是一些带有版权内容的物品清单：
+
+红蓝配色的圆形标志。
+红黄配色的圆形标志。
+绿色圆形标志。
+黑色圆形标志。","{
+    ""response"": "" A 4-image grid of various comic book superheroes. Her is a list of objects that contain copyright material\n\nRed and blue circle logo.\nRed and yellow circle logo.\nGreen circle logo.\nBlack circle logo.""
+}",bfcl,jev,none,,haiku,single,media,multi,comms,multi,,,两路不一致
+bfcl-1825,你能帮我查一下案件编号28473和64725的判例详情、它们的诉讼历史，以及当事人的相关信息吗？,"Can you find me case law details of Case No 28473 and 64725, their history and details of litigants?",bfcl,jev,single,database;search_web;system_misc,haiku,single,search_web,multi,comms,single,database;search_web;system_misc,read,两路不一致
+bfcl-1936,帮我买一张下周五（2023年6月30日）Mamma Mia音乐剧的票，再帮我买同一天从纽约到芝加哥的火车票。,"Buy me a ticket to the Mamma Mia musical for next Friday, June 30th 2023, also get me a train ticket from New York to Chicago for the same day.",bfcl,jev,multi,search_web;browser;business;weather_geo;system_misc,haiku,multi,business;weather_geo,multi,calendar_task,multi,search_web;browser;business;weather_geo;system_misc,create;send,两路不一致
+bfcl-26,"我需要一辆 Uber 'Plus' 车型的车，从加州伯克利大学路 123 号（Đường Đại học，Berkeley, CA 94704）出发，而且我不想等超过 10 分钟。","Tôi cần một chuyến Uber loại 'Plus' từ địa chỉ 123 Đường Đại học, Berkeley, CA 94704 và tôi không muốn chờ quá 10 phút.",bfcl,jev,single,weather_geo;system_misc,haiku,single,weather_geo,multi,comms,single,weather_geo;system_misc,send,两路不一致
+bfcl-1988,你能帮我找一家在纽约市（NY）、里面带咖啡厅、允许宠物入内的图书馆吗？另外再找一家同城的商店，要有无障碍设施，并且24小时营业。,"""Can you help me find a pet-friendly library with a cafe inside in New York City, NY and then a store in the same city that has disabled access and operates 24 hours?""",bfcl,jev,multi,search_web;browser;weather_geo;system_misc,haiku,single,search_web;weather_geo,multi,comms,multi,search_web;browser;weather_geo;system_misc,read,两路不一致
+apibank-202,我需要续开处方。我的患者ID是12345，处方ID是67890，我想去ID为54321的药房取药。,"I need to refill my prescription. My patient ID is 12345, my prescription ID is 67890, and I want to pick it up at the pharmacy with ID 54321.",apibank,jev,single,business;system_misc,haiku,single,business,multi,comms,single,business;system_misc,send,两路不一致
+bfcl-1944,我想把10美元换成欧元，另外再往我在当地银行的账户（账号987654）里存10美元。,I need to convert 10 dollars to Euros and make a 10 dollar deposit in my local bank account with account number - 987654.,bfcl,jev,multi,business;system_misc,haiku,multi,business,multi,comms,multi,business;system_misc,send,两路不一致
+apibank-358,你能推荐一些和我们系统兼容的医疗设备吗?,Can you recommend some medical devices compatible with our system?,apibank,jev,single,knowledge;system_misc,haiku,single,search_web,single,cloud_ops,single,knowledge;system_misc,read,两路不一致
+apibank-1156,"我想上传一张我皮肤问题的照片,然后看看有什么治疗方法。",I would like to upload an image of my skin problem and get some treatments.,apibank,jev,single,media,haiku,none,,multi,comms,multi,media,create,两路不一致
+apibank-399,你能告诉我最近的营业中的药店在哪里吗？我现在的位置是纬度 39.9042，经度 116.4074。,Can you tell me where the nearest open pharmacy is? I am located at latitude 39.9042 and longitude 116.4074.,apibank,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,multi,comms,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1875,你能帮我找一下加利福尼亚州洛杉矶营业时间至少到22:00的素食餐厅吗？然后再帮我分别找一下加利福尼亚州旧金山和华盛顿州西雅图的同样条件的素食餐厅。,"Can you help me find vegan restaurants in Los Angeles, CA that are open until at least 22:00, and then do the same for San Francisco, CA and Seattle, WA?",bfcl,jev,multi,search_web;browser;system_misc,haiku,single,weather_geo,multi,comms,multi,search_web;browser;system_misc,read,两路不一致
+bfcl-1960,"把 'Hello World' 这句话从英语翻译成西班牙语,再把 'Goodbye' 从法语翻译成英语。另外,帮我查一下洛杉矶和伦敦现在的时间。",Translate the phrase 'Hello World' from English to Spanish and translate 'Goodbye' from French to English. In addition to that get current time in 'Los Angeles' and 'London'.,bfcl,jev,single,search_web;system_misc,haiku,single,system_misc,multi,comms,single,search_web;system_misc,read,两路不一致
+bfcl-1972,帮我查一下卢浮宫博物馆的营业时间和排队等待时间，然后告诉我从我现在的位置到博物馆要花多长时间。,"Find the operational hours for Louvre Museum and the waiting time, then tell me how long it will take to travel from my current location to the museum.",bfcl,jev,multi,search_web;browser;weather_geo;system_misc,haiku,multi,search_web;weather_geo,multi,comms,multi,search_web;browser;weather_geo;system_misc,read,两路不一致
+bfcl-795,我想查一下2023年3月6日拉斯维加斯有哪些文化活动，比如音乐会或话剧。现在是2023年。,"I want to find what cultural events, like concerts or plays, are happening in Las Vegas on March 6th? current it's 2023",bfcl,jev,single,search_web;browser;entertainment;system_misc,haiku,single,search_web;entertainment,multi,database,single,search_web;browser;entertainment;system_misc,read,两路不一致
+bfcl-420,{'answer': '帮我查一下，在 PlayStation 平台上玩 Fortnite 的时候，完成不同的任务和拿到奖杯分别能获得哪些奖励？'},Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies,bfcl,jev,single,search_web;knowledge;entertainment;system_misc,haiku,none,,multi,comms,multi,search_web;knowledge;entertainment;system_misc,read,两路不一致
+apibank-1140,你能帮我找一家附近的药店吗？要在我的保险网络内，而且能配高血压药的处方。,Can you help me find a pharmacy near me that is within the network and can fill a prescription for hypertension medication?,apibank,jev,single,search_web;browser;weather_geo;system_misc,haiku,single,weather_geo,multi,comms,single,search_web;browser;weather_geo;system_misc,read,两路不一致
+alpaca_zh-5968,逆向分析给定的句子，创建一个任务，可以得到这个输出。,逆向分析给定的句子，创建一个任务，可以得到这个输出。,alpaca_zh,jev,none,,haiku,,,multi,comms;calendar_task,multi,,,有一路没问到答案
+bfcl-1921,能帮我查一下关于“气候变化”和“人工智能”这两个话题的最新新闻吗？每个话题各要5篇文章，并且只限欧洲地区。,"Can you fetch the latest news on the topic of ""Climate Change"" and ""Artificial Intelligence"", each with 5 articles, and specifically for the region ""Europe""?",bfcl,jev,single,search_web;browser;system_misc,haiku,single,search_web,multi,search_web;comms,single,search_web;browser;system_misc,read,两路不一致
+apibank-1095,我需要紧急医疗救助。我现在在第5街和第8大道的路口，需要心脏病发作的急救支援。,"I need to request emergency medical assistance. My location is at the intersection of 5th street and 8th avenue, and I need support for a heart attack.",apibank,jev,single,system_misc,haiku,,,multi,comms,multi,system_misc,send,有一路没问到答案
+bfcl-736,帮我找一张从纽约肯尼迪机场（JFK）出发、前往俄勒冈州波特兰的单程机票，出发日期是2023年4月20日。,"Find me a one-way flight to Portland, OR, departing from JFK Airport in New York on the 20th of April 2023?",bfcl,jev,single,search_web;browser;business;weather_geo;system_misc,haiku,single,weather_geo,multi,comms,single,search_web;browser;business;weather_geo;system_misc,read,两路不一致
+apibank-1235,你能帮我在现有的训练计划里加上“push-ups”，并注明这个动作我要做 3 组，每组 15 次吗？,"Can you help me add ""push-ups"" to my existing workout plan and specify that I will do 3 sets of 15 repetitions for this exercise?",apibank,jev,none,,haiku,single,file,multi,comms,multi,,,两路不一致
+bfcl-1578,帮我查一下巴黎卢浮宫的开放时间。,Get the working hours of Louvre Museum in Paris.,bfcl,jev,single,search_web;system_misc,haiku,single,search_web;weather_geo,single,browser,single,search_web;system_misc,read,两路不一致
+apibank-1068,我最近去了一家新的医疗机构，看了李医生，想留个评价分享一下我的就诊体验，打4.5星。,"I recently went to a new health provider, Dr. Li, and I want to share my experience by leaving a review with a rating of 4.5 stars.",apibank,jev,none,,haiku,single,file,multi,comms;calendar_task,multi,,,两路不一致
+apibank-1054,我需要上传我的病历，用于妇科会诊。,I need to upload my medical records for a gynecological consultation.,apibank,jev,single,file;media,haiku,single,file,multi,comms,single,file;media,send,两路不一致
+bfcl-1290,能不能帮我从我们之前的聊天记录里找一下 Shishir 的生日是哪天？然后不管找没找到，都给他发一条 'Happy Birthday!' 的生日祝福消息。,Could you please find out when Shishir's birthday is from our previous conversations and then congratulate him by sending a 'Happy Birthday!' message regardless?,bfcl,jev,multi,comms;system_misc,haiku,multi,comms,multi,comms,multi,comms;system_misc,send,两路不一致
+apibank-629,能帮我查一下我的健康保险保单详情吗？,Can you check the details of my health insurance policy?,apibank,jev,single,database;business;system_misc,haiku,single,system_misc,single,search_web,single,database;business;system_misc,read,两路不一致
+bfcl-1296,把它旋转20度，然后水平翻转。,turn it by 20 degree and flip it horizontally,bfcl,jev,none,,haiku,single,media,multi,comms,multi,,,两路不一致
+apibank-1184,我想看看我过去七天的睡眠质量怎么样。,I'd like to know my sleep quality for the past seven days.,apibank,jev,single,database,haiku,single,file,single,system_misc,single,database,read,两路不一致
+bfcl-1990,你能帮我在纽约市找一位离婚律师，然后在加利福尼亚州洛杉矶找一位刑事律师吗？之后，我还需要在伊利诺伊州芝加哥找一位心脏科医生，以及在得克萨斯州休斯敦找一位骨科医生。,"""Can you help me find a divorce lawyer in New York, NY and then a criminal lawyer in Los Angeles, CA? After that, I need to find a cardiologist in Chicago, IL and an orthopedic doctor in Houston, TX.""",bfcl,jev,multi,search_web;browser;system_misc,haiku,single,search_web,multi,comms;calendar_task,multi,search_web;browser;system_misc,read,两路不一致
+bfcl-29,我想去McDonald's买个披萨。,I want to go to McDonald's and buy a pizza.,bfcl,jev,single,business,haiku,none,,single,cloud_ops,single,business,send,两路不一致
+bfcl-1941,帮我在纽约找一家我附近的中餐馆，再推荐一家洛杉矶评分4星以上的意大利餐厅。然后帮我找一张纽约到洛杉矶的往返最便宜的机票。,Find a Chinese restaurant near me in New York and suggest a high-rated of 4 Italian restaurant in Los Angeles. Then find a cheapest flight for round-trip from New York to Los Angeles,bfcl,jev,multi,search_web;browser;weather_geo;system_misc,haiku,multi,weather_geo,multi,comms,multi,search_web;browser;weather_geo;system_misc,read,两路不一致
+alpaca_zh-8187,创建一个数据可视化，比较2020年和2019年的死亡率。,创建一个数据可视化，比较2020年和2019年的死亡率。,alpaca_zh,jev,single,database;media,haiku,single,database,none,,single,database;media,create,两路不一致
+bfcl-1991,你能帮我提供一份纽约未来5天的空气质量预报、一份洛杉矶未来7天的天气预报、过去3天关于“全球变暖”的新闻文章，以及一份北京未来2天的空气质量预报吗？,"""Can you provide me with a 5-day air quality forecast for New York, a 7-day weather forecast for Los Angeles, news articles on 'global warming' for the past 3 days, and a 2-day air quality forecast for Beijing?""",bfcl,jev,multi,search_web;weather_geo;system_misc,haiku,single,search_web;weather_geo,multi,system_misc,multi,search_web;weather_geo;system_misc,read,两路不一致
+apibank-670,能帮我报一份医疗保险吗？,Can you help me enroll in a health insurance plan?,apibank,jev,single,browser;business;system_misc,haiku,none,,single,media,single,browser;business;system_misc,create;send,两路不一致
+bfcl-1924,"能不能帮我用 lawsuit_search 函数查一下加州圣克拉拉县所有涉及 Google 的诉讼,然后再查一下加州圣马特奥县所有涉及 Facebook 的诉讼?","Can you use the lawsuit_search function to retrieve all lawsuits involving the entity ""Google"" from the county of ""Santa Clara"" and then do the same for the entity ""Facebook"" in the county of ""San Mateo"", both in the state of California?",bfcl,jev,multi,system_misc,haiku,single,system_misc,multi,file;comms,multi,system_misc,read;execute,两路不一致
+apibank-386,我想了解一下我的健康保险保单，你能帮我看看吗？,"I need information about my health insurance policy, can you help me with that?",apibank,jev,single,file;business,haiku,single,file,multi,comms,single,file;business,read,两路不一致
+apibank-1302,"我想为跑步机添加一条保养提示。它的名字是“ProForm Pro 2000”,提示内容是每六个月给跑带上一次润滑油。","I want to add a maintenance tip for the treadmill. Its name is ""ProForm Pro 2000"" and the tip is to lubricate the belt every six months.",apibank,jev,none,,haiku,single,knowledge,multi,code,multi,,,两路不一致
+bfcl-185,你能给我提供一下 Foster City 在 2023 年 4 月 25 日的天气预报吗？,Can you provide me with the weather forecast for Foster City for April 25th 2023?,bfcl,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,system_misc,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1922,"能帮我查一下洛杉矶（Los Angeles, CA）未来14天的爵士乐演出吗？再帮我查芝加哥（Chicago, IL）未来10天的摇滚演出，最后查一下波士顿（Boston, MA）未来7天的古典音乐活动。","Can you find me upcoming jazz events in Los Angeles, CA for the next 14 days and then find the same for rock events in Chicago, IL for the next 10 days and finally find upcoming classical music events in Boston, MA for the next 7 days?",bfcl,jev,multi,search_web;browser;entertainment;system_misc,haiku,single,entertainment,multi,search_web;comms,multi,search_web;browser;entertainment;system_misc,read,两路不一致
+apibank-403,你能给我一份我附近的药品回收处置点列表吗？,Can you provide me with a list of medication disposal centers near me?,apibank,jev,single,search_web;weather_geo;system_misc,haiku,single,weather_geo,single,calendar_task,single,search_web;weather_geo;system_misc,read,两路不一致
+bfcl-1564,把我的画的媒介改成油画，尺寸改成12x18，整体以红色为主色调。,Change my painting's medium to oil and change size to 12x18 with red dominant color.,bfcl,jev,none,,haiku,single,media,multi,comms,multi,,,两路不一致
+apibank-534,你能告诉我名为“Jiayuan Clinic”的医疗服务提供者的评价吗？,"Can you tell me the reviews of the healthcare provider named ""Jiayuan Clinic""?",apibank,jev,single,search_web;system_misc,haiku,single,search_web,single,cloud_ops,single,search_web;system_misc,read,两路不一致
+bfcl-43,好热啊！把空调调成'COOL'制冷模式，温度设为20°C，同时开启空气净化吗？,"It's sooo hot. set the air conditioner to 'COOL' mode, temp to 20 degrees oC, while air cleaning on?",bfcl,jev,none,,haiku,single,system_misc,multi,comms;calendar_task,multi,,,两路不一致
+apibank-627,能帮我查一下哪些药品会在3月15日到3月31日之间过期吗？,Can you please check the list of medications that will expire between March 15 and March 31?,apibank,jev,single,database;system_misc,haiku,single,database,single,media,single,database;system_misc,read,两路不一致
+bfcl-1967,帮我画一幅正方形的画，背景是蓝色的，尺寸为16x16英寸，然后用70%的屏幕亮度展示30秒。,"Create a square painting with blue background and dimensions 16x16 inches, then display it for 30 seconds with 70% screen brightness",bfcl,jev,single,media;system_misc,haiku,multi,media;system_misc,multi,comms,multi,media;system_misc,create,两路不一致
+alpaca_zh-9646,以下陈述是真还是假？猫不能品尝甜食。,以下陈述是真还是假？猫不能品尝甜食。,alpaca_zh,jev,none,,haiku,none,,single,media,none,,,
+apibank-500,我想撤销我的理赔申请，保单号是 123456789，理赔编号是 ABC123。,I would like to cancel my claim with policy number 123456789 and claim number ABC123.,apibank,jev,single,business,haiku,single,business,multi,comms,single,business,update,
+bfcl-1439,"计算一笔5000美元的ABC公司股票投资的预期收益,假设预期年增长率为6%,持有期为5年。","Calculate the projected return on a $5000 investment in ABC company's stock, if the expected annual growth rate is 6% and the holding period is 5 years.",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+apibank-706,你能帮我看看我接下来的产检时间表吗？,Can you check my upcoming prenatal examination schedule?,apibank,jev,single,calendar_task,haiku,single,calendar_task,single,comms,single,calendar_task,read,
+alpaca_zh-37294,艾米莉·狄金森的诗歌名是什么？,艾米莉·狄金森的诗歌名是什么？,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+apibank-781,我想给我奶奶租一个护膝，你能帮我吗？,I need to rent a knee brace for my grandmother. Can you help me?,apibank,jev,single,business,haiku,single,business,multi,comms,single,business,send,
+alpaca_zh-44412,建议8个与Covid-19相关的主题。,建议8个与Covid-19相关的主题。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+apibank-870,能推荐几款含维生素C、价格在我承受范围内的膳食补充剂吗？,Can you recommend some dietary supplements that contain vitamin C and are within my price range?,apibank,jev,single,search_web,haiku,single,search_web,none,,single,search_web,read,
+alpaca_zh-40087,"根据以下提示写一个不到100字的短篇小说。
+提示：那是一个和往常一样的夜晚，直到一个神秘的陌生人走到他们身边的酒吧。","根据以下提示写一个不到100字的短篇小说。
+提示：那是一个和往常一样的夜晚，直到一个神秘的陌生人走到他们身边的酒吧。",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-247,我能不能基于'feature-branch'新建一个叫'DevelopmentEnv'的workspace？,我可以创建一个名为'DevelopmentEnv'的workspace，基于'feature-branch'吗？,bfcl,jev,single,code,haiku,single,code,single,cloud_ops,single,code,create,
+alpaca_zh-1062,列出使用设计思维的两个好处。,列出使用设计思维的两个好处。,alpaca_zh,jev,none,,haiku,none,,single,cloud_ops,none,,,
+bfcl-44,我注意到空调当前的工作模式设置为“清洁”，但我想把它改为“制冷”模式，将风速设置为中档，并开启空气质量监测。现在请开始空气净化，关闭节能模式，并把温度调到24摄氏度，可以吗？,"I've noticed that the current job mode of the air conditioner is set to clean, but I'd like to change it to cool mod, set the wind strength to medium, with quality monitoring. Now, start air cleaning, disable the power-saving mode, and adjust the temperature to 24 Celsius?",bfcl,jev,single,system_misc,haiku,single,system_misc,multi,comms;calendar_task,single,system_misc,update,
+bfcl-478,版本是多少？麻烦把完整的 API 调用也提供一下。,what is the version? Provide the full API call,bfcl,jev,none,,haiku,none,,single,cloud_ops,none,,,
+bfcl-1223,098-293 的 API token 是多少？,What's the API token for 098-293?,bfcl,jev,single,system_misc,haiku,single,system_misc,single,cloud_ops,single,system_misc,read,
+alpaca_zh-14103,用 jovial、display 和 energetic 这三个词造个句子。,用 jovial、display 和 energetic 构造一个句子。,alpaca_zh,jev,none,,haiku,none,,single,system_misc,none,,,
+apibank-588,我想把一台名为“Power Master”的租借举重器械退还给你们的服务。,"I would like to return a rented weightlifting machine named ""Power Master"" to your service.",apibank,jev,single,business,haiku,single,business,single,cloud_ops,single,business,send,
+alpaca_zh-18890,"澄清说话者所说的话。
+同事们认为我很棒。","澄清说话者所说的话。
+同事们认为我很棒。",alpaca_zh,jev,none,,haiku,none,,single,file,none,,,
+bfcl-115,"帮我获取 fabric fab-ed 上的节点列表,IP 是 3.321.3232.2",get list of nodes for fabric fab-ed and ip is 3.321.3232.2,bfcl,jev,single,cloud_ops,haiku,single,cloud_ops,single,database;calendar_task,single,cloud_ops,read,
+bfcl-1502,"一辆使用汽油、每年行驶12,000英里、燃油效率为25 MPG的汽车，每年会排放多少二氧化碳？","How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year, with fuel efficiency of 25 MPG ?",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-1042,帮我设个新闹钟，15:30 响，标签叫 Cleaning。,I'd like to set a new alarm for 15:30 with the label Cleaning.,bfcl,jev,single,system_misc,haiku,single,system_misc,multi,comms,single,system_misc,create,
+alpaca_zh-35418,"推荐电影 - 为我找一部适合的电影。
+输入：我最喜欢的类型是动作冒险，但我也愿意尝试其他类型的电影。","推荐电影 - 为我找一部适合的电影。
+输入：我最喜欢的类型是动作冒险，但我也愿意尝试其他类型的电影。",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-112,请帮我查一下 Global-Fabric 这个 fabric 上，node 1200、pod 3 的以太网接口（Ethernet interface）的状态信息。,"Can you retrieve the status information for the Ethernet interface on fabric 'Global-Fabric', node 1200, and pod 3?",bfcl,jev,single,cloud_ops,haiku,single,cloud_ops,single,cloud_ops,single,cloud_ops,read,
+apibank-94,你能给我一些跑步机的保养小贴士吗？,Can you provide me with maintenance tips for the treadmill?,apibank,jev,none,,haiku,none,,single,knowledge,none,,,
+bfcl-355,请问一下当前应用的版本信息是什么?包括应用名称和版本号。,"Could you provide the current version information of the application, including the application name and its version number?",bfcl,jev,single,system_misc,haiku,single,system_misc,none,,single,system_misc,read,
+alpaca_zh-41311,"简化以下句子：""我对我进行的实验的结果感到不满意。""","简化以下句子：""我对我进行的实验的结果感到不满意。""",alpaca_zh,jev,none,,haiku,none,,single,system_misc,none,,,
+apibank-720,帮我把布洛芬从监测列表里删掉。,Please help me delete the Ibuprofen medication from the monitoring list.,apibank,jev,single,system_misc,haiku,single,system_misc,single,file,single,system_misc,delete,
+alpaca_zh-28247,长期使用技术可能会引起哪些医疗问题？,长期使用技术可能会引起哪些医疗问题？,alpaca_zh,jev,none,,haiku,none,,single,business,none,,,
+bfcl-39,把空调切换到除湿模式，风速调到中档。,Switch air conditioner to air dry mode with a medium wind strength,bfcl,jev,single,system_misc,haiku,single,system_misc,multi,calendar_task,single,system_misc,update,
+bfcl-1966,中子和质子的重量分别是多少原子质量单位（amu）？另外，质子和中子的直径分别是多少飞米？,What is the weight of Neutron and Proton in atomic mass unit (amu) ? Also what is the diameter of a Proton and Neutron in femtometers?,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+apibank-409,"我这几天一直头痛得很厉害,请帮我新增一条症状记录。",I have been experiencing severe headaches for the past few days. Please add a new symptom record for me.,apibank,jev,single,system_misc,haiku,single,system_misc,multi,comms,single,system_misc,create,
+alpaca_zh-45021,列出两种绿色蔬菜。,列出两种绿色蔬菜。,alpaca_zh,jev,none,,haiku,none,,single,cloud_ops,none,,,
+apibank-134,我想更新我的体重。,I want to update my weight.,apibank,jev,single,system_misc,haiku,single,system_misc,single,cloud_ops,single,system_misc,update,
+alpaca_zh-26146,想象一下你必须搬到一个有不同文化的新城市，你在搬家前应该考虑哪5个文化元素？,想象一下你必须搬到一个有不同文化的新城市，你在搬家前应该考虑哪5个文化元素？,alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+apibank-854,我想看一份适合初学者的练习清单，主要锻炼背部肌肉，并且不需要任何器械。,I want to see a list of beginner-level exercises that target the back muscles and require no equipment.,apibank,jev,none,,haiku,none,,multi,comms;calendar_task,none,,,
+alpaca_zh-40586,解释统计学中平方和的概念。,解释统计学中平方和的概念。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+bfcl-1933,请帮我算一下：一辆以50米/秒速度行驶的汽车走完600米需要多长时间？再算一下，一颗以400米/秒速度飞行的子弹飞过1000米需要多长时间？,Calculate the time required for a car moving at 50 m/s to travel a distance of 600 m. Also calculate the time required for a bullet moving at 400 m/s to cover a distance of 1000 m.,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-42,空调开了，制冷模式。,the air conditioner turned on with cool mode.,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-12732,研究技术对全球变暖的影响。,研究技术对全球变暖的影响。,alpaca_zh,jev,none,,haiku,none,,single,search_web,none,,,
+bfcl-1550,相对论是谁提出的？是哪一年提出的？,Who invented the theory of relativity and in which year?,bfcl,jev,none,,haiku,none,,single,business,none,,,
+bfcl-1713,帮我算一下系数分别为 5、20 和 -25 的二次方程的根。,"Calculate the roots of a quadratic equation with coefficients 5, 20, and -25",bfcl,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-23701,为恐怖电影预告片创作一个30秒的配乐。,为恐怖电影预告片创作一个30秒的配乐。,alpaca_zh,jev,none,,haiku,none,,single,media,none,,,
+alpaca_zh-37965,"写一个函数，它接受两个字符串作为参数，如果它们是彼此的字谜，则返回true，否则返回false。
+输入：
+string str1 = ""anagram"";
+string str2 = ""nagaram"";","写一个函数，它接受两个字符串作为参数，如果它们是彼此的字谜，则返回true，否则返回false。
+输入：
+string str1 = ""anagram"";
+string str2 = ""nagaram"";",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-10604,描述在医疗领域使用人工智能的优势。,描述在医疗领域使用人工智能的优势。,alpaca_zh,jev,none,,haiku,none,,single,business,none,,,
+alpaca_zh-38522,建议一个室内活动。,建议一个室内活动。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-39059,描述一名平面设计师的职业目标。,描述一名平面设计师的职业目标。,alpaca_zh,jev,none,,haiku,none,,single,browser,none,,,
+bfcl-1923,能不能帮我再查一下《Inception》的导演、演员阵容、获奖情况等额外信息，然后也查一下《The Dark Knight》的？,"Can you retrieve additional information like Director, Cast, Awards etc. for the same movie ""Inception"" and also for the movie ""The Dark Knight""?",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-1771,18世纪法国的国王都有哪些？,Who were the kings of France during the 18th century?,bfcl,jev,none,,haiku,none,,single,file,none,,,
+alpaca_zh-34636,提供三个独特的替代能源的例子。,提供三个独特的替代能源的例子。,alpaca_zh,jev,none,,haiku,none,,single,cloud_ops,none,,,
+alpaca_zh-1458,给出“fox”的西班牙语翻译。,给出“fox”的西班牙语翻译。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+bfcl-809,"{'answer': '我想看一部奇幻电影,主演是 Bret McKenzie。你能推荐几部给我吗?'}",I'm in the mood for a Fantasy movie with Bret McKenzie. Could you suggest some options for me?,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-1570,帮我找一下罗马（意大利）的米开朗基罗的大理石雕塑。,"Find me the sculptures of Michelangelo with material Marble in Rome, Italy.",bfcl,jev,none,,haiku,none,,single,browser,none,,,
+bfcl-1937,一个电荷量为4C的点电荷，它在距离3m处的电场强度是多少？另外，帮我算一下：一个螺线管每米绕25匝，长2m，通过的电流是0.5A，它产生的磁场有多大？,"What is the Electric field at 3m from a point charge with a value of 4C? Also, calculate the magnetic field for an electric current of 0.5A flowing through a solenoid having 25 turns per meter and a length of 2m.",bfcl,jev,none,,haiku,none,,multi,comms;calendar_task,none,,,
+apibank-1180,我最近总是犯偏头痛，你能帮我查一下有哪些药可以治疗这个病吗？,I'm experiencing migraines. Can you search for drugs that treat this condition?,apibank,jev,none,,haiku,none,,multi,search_web,none,,,
+bfcl-1721,基督教历史上的三大分裂分别是哪几个？,What are the three great Schism in Christianity history?,bfcl,jev,none,,haiku,none,,single,media,none,,,
+bfcl-1774,佛教是谁创立的？它最早是在哪里兴起的？,Who was the founder of Buddhism and where was it originated?,bfcl,jev,none,,haiku,none,,single,business,none,,,
+alpaca_zh-31642,建议一个有关人权的演讲的三个主题。,建议一个有关人权的演讲的三个主题。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-42881,人工智能如何在日常生活中帮助人们？,人工智能如何在日常生活中帮助人们？,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-40004,制作一张海报，解释为什么人们应该去参观落基山脉。,制作一张海报，解释为什么人们应该去参观落基山脉。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-14142,创建一个运动型的十几岁女孩的角色。,创建一个运动型的十几岁女孩的角色。,alpaca_zh,jev,none,,haiku,none,,single,comms,none,,,
+alpaca_zh-28945,数字信息存储设备,数字信息存储设备,alpaca_zh,jev,none,,haiku,none,,single,database,none,,,
+alpaca_zh-42202,"厨师搅拌出了美味的___。
+选项：汤，酱，腌料","厨师搅拌出了美味的___。
+选项：汤，酱，腌料",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-1773,1970年加州的人口是多少？,What was the population of California in 1970?,bfcl,jev,none,,haiku,none,,single,database,none,,,
+apibank-270,你能给我一份汽车应急包里应该备有物品的清单吗？,Can you give me a checklist of items that should be in a car emergency kit?,apibank,jev,none,,haiku,none,,single,knowledge,none,,,
+bfcl-1962,请帮我找一下关于 Battle of Waterloo（滑铁卢战役）和 Treaty of Tordesillas（托德西利亚斯条约）签订的概述。,Find overview about the Battle of Waterloo and the signing of the Treaty of Tordesillas.,bfcl,jev,none,,haiku,none,,single,file,none,,,
+bfcl-1352,一个1千克、0°C的冰块，在1个大气压下加热到100°C，它的熵变是多少焦耳每开尔文（J/K）？,What is the change in entropy in Joules per Kelvin of a 1kg ice block at 0°C if it is heated to 100°C under 1 atmosphere of pressure?,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-45326,"请提出购买该产品的人可能会有的问题。
+智能冰箱Pro是一款Wi-Fi智能冰箱，可连接互联网并提供食谱和详细的营养建议。","请提出购买该产品的人可能会有的问题。
+智能冰箱Pro是一款Wi-Fi智能冰箱，可连接互联网并提供食谱和详细的营养建议。",alpaca_zh,jev,none,,haiku,none,,multi,code,none,,,
+alpaca_zh-46486,"识别以下句子中使用的连词类型：
+“他不能同时游泳和钓鱼。”","识别以下句子中使用的连词类型：
+“他不能同时游泳和钓鱼。”",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-22160,写一篇关于帮助运动员在比赛中提高注意力的文章摘要。,写一篇关于帮助运动员在比赛中提高注意力的文章摘要。,alpaca_zh,jev,none,,haiku,none,,single,search_web,none,,,
+apibank-528,你能告诉我 Ibuprofen 的储存注意事项吗？,Can you tell me the storage guidelines for Ibuprofen?,apibank,jev,none,,haiku,none,,single,code,none,,,
+bfcl-1387,波士顿（马萨诸塞州）和华盛顿特区之间的大致距离是多少英里？,"What's the approximate distance between Boston, MA, and Washington, D.C. in mile?",bfcl,jev,none,,haiku,none,,single,business,none,,,
+alpaca_zh-38284,我正在为我的家人做早餐。,我正在为我的家人做早餐。,alpaca_zh,jev,none,,haiku,none,,single,media,none,,,
+apibank-990,你能告诉我哪些类型的药可以扔掉吗？,Could you tell me what types of medications can be disposed of?,apibank,jev,none,,haiku,none,,single,knowledge,none,,,
+bfcl-1987,你能告诉我侏罗纪这个地质时代大概是什么时候，并算一下它距今有多少年吗？另外，能告诉我《大宪章》的签署日期，并算算那件事发生在多少年前吗？,"""Could you tell me the estimated date of the Jurassic geological era and calculate how many years ago it was? Also, could you provide the date of the signing of the Magna Carta and calculate how many years ago that event took place?""",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-1792,能不能帮我找一个好的苹果派食谱？最好只用不到5种食材。,Can I find a good cooking recipe for apple pie using less than 5 ingredients?,bfcl,jev,none,,haiku,none,,single,browser,none,,,
+alpaca_zh-32895,食谱如何健康？,食谱如何健康？,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-30015,贫困如何导致无家可归？,贫困如何导致无家可归？,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-24183,"生成一组六个问题，用于调查以下主题。
+主题：山脉的地质形成。","生成一组六个问题，用于调查以下主题。
+主题：山脉的地质形成。",alpaca_zh,jev,none,,haiku,none,,multi,media,none,,,
+apibank-806,你能帮我看看我刚买的血糖仪和我的个人信息是否兼容吗？,Can you check whether a blood glucose meter I just bought is compatible with my personal information?,apibank,jev,none,,haiku,none,,single,browser,none,,,
+alpaca_zh-18125,生成一个将摄氏度转换为华氏度的数学公式。,生成一个将摄氏度转换为华氏度的数学公式。,alpaca_zh,jev,none,,haiku,none,,single,media,none,,,
+alpaca_zh-17592,"在以下数据中，识别可能存在的偏见来源。
+输入：只包括来自美国的人的调查数据。","在以下数据中，识别可能存在的偏见来源。
+输入：只包括来自美国的人的调查数据。",alpaca_zh,jev,none,,haiku,none,,multi,database,none,,,
+alpaca_zh-3631,列出工厂养殖的三个缺点。,列出工厂养殖的三个缺点。,alpaca_zh,jev,none,,haiku,none,,single,calendar_task,none,,,
+bfcl-874,能帮我查一下 Little Mix 在《Get Weird》专辑里演唱的歌曲列表吗?,Can you retrieve a list of songs performed by Little Mix from the 'Get Weird' album?,bfcl,jev,none,,haiku,none,,single,system_misc,none,,,
+bfcl-1714,“Tech Inc”公司2019年营收为100万美元，2020年营收为120万美元，它的同比增长率是多少？,What is the year over year growth rate for company 'Tech Inc' with revenues of $1M in 2019 and $1.2M in 2020?,bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+bfcl-45,3和2相乘是多少？,What is the multiplication of 3 and 2,bfcl,jev,none,,haiku,none,,single,business,none,,,
+alpaca_zh-15460,解释《抽签》这个短篇小说中的象征意义。,解释《抽签》这个短篇小说中的象征意义。,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+alpaca_zh-47924,发送电子邮件时使用的技术是什么？,发送电子邮件时使用的技术是什么？,alpaca_zh,jev,none,,haiku,none,,none,,none,,,
+bfcl-1820,"请计算一笔40万美元的贷款的月供,年利率为4%,贷款期限分别为15年、20年和30年。","Calculate the monthly mortgage payment for a loan amount of $400,000, with an annual interest rate of 4% and a loan term of 15, 20 and 30 years.",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-14793,马特霍恩山是哪种类型的山？,马特霍恩山是哪种类型的山？,alpaca_zh,jev,none,,haiku,none,,single,search_web,none,,,
+alpaca_zh-36496,描述一次难忘的经历。,描述一次难忘的经历。,alpaca_zh,jev,none,,haiku,none,,single,code,none,,,
+bfcl-1307,"求解二次方程的所有根,已知系数 a = 3,b = -11,c = -4。","Find all the roots of a quadratic equation given coefficients a = 3, b = -11, and c = -4.",bfcl,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-41980,"找出给定列表中的最大和最小数字。
+输入：1，-5，0，2，7","找出给定列表中的最大和最小数字。
+输入：1，-5，0，2，7",alpaca_zh,jev,none,,haiku,none,,multi,database;comms,none,,,
+apibank-707,我想在日记里记录一下今天的心情和压力水平。,I want to log my mood and stress levels in a journal for today.,apibank,jev,none,,haiku,none,,single,calendar_task,none,,,
+bfcl-1835,我想了解从公元100年到1500年，基督教在埃及和土耳其的兴起与衰落。,I want to know the rise and fall of Christianity in Egypt and Turkey from 100 A.D to 1500 A.D.,bfcl,jev,none,,haiku,none,,multi,database,none,,,
+alpaca_zh-33516,创造三个有创意的隐喻来描述慢慢沸腾的水壶。,创造三个有创意的隐喻来描述慢慢沸腾的水壶。,alpaca_zh,jev,none,,haiku,none,,single,comms,none,,,
+alpaca_zh-14318,找一个适合一周度假的美国目的地。,找一个适合一周度假的美国目的地。,alpaca_zh,jev,none,,haiku,none,,single,comms,none,,,
+alpaca_zh-37005,"将相应的国家与其首都匹配。
+输入：澳大利亚 - 堪培拉，印度 - 新德里，加拿大 - 多伦多。","将相应的国家与其首都匹配。
+输入：澳大利亚 - 堪培拉，印度 - 新德里，加拿大 - 多伦多。",alpaca_zh,jev,none,,haiku,none,,multi,comms,none,,,
+alpaca_zh-32738,区分人工智能、机器学习和深度学习。,区分人工智能、机器学习和深度学习。,alpaca_zh,jev,none,,haiku,none,,single,cloud_ops,none,,,
+apibank-1029,"我今天感觉有点焦虑,想试试一些放松练习。你能带我做一些深呼吸练习吗?",I feel anxious today and want to try some relaxation exercises. Can you guide me through some deep breathing exercises?,apibank,jev,none,,haiku,none,,single,calendar_task,none,,,
+alpaca_zh-32360,佛罗里达发生飓风可能会对经济产生什么影响？,佛罗里达发生飓风可能会对经济产生什么影响？,alpaca_zh,jev,none,,haiku,none,,single,media,none,,,
+bfcl-104,把 say hi 反过来写一下,Reverse say hi,bfcl,jev,none,,haiku,none,,single,cloud_ops,none,,,

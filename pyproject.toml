@@ -1,0 +1,16 @@
+[project]
+name = "mcpcls"
+version = "0.1.0"
+description = "在原有快速分类模型上并联 MCP 分类头:请求侧路由 + 工具侧目录与风险分级"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "scikit-learn"]
+
+[project.optional-dependencies]
+llm = ["anthropic"]
+mcp = ["mcp"]
+st = ["sentence-transformers"]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

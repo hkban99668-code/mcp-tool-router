@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+# 可选
+# anthropic           LLM 打标与兜底
+# mcp                 拉取真实 MCP server 的工具列表
+pytest
+# 语义编码器(sentence-transformers / torch)不在这个文件里,默认的 tfidf 用不到。
+# 要用 `--encoder st:<模型名>` 或 `--retrieval-encoder st:<模型名>` 时装 requirements-st.txt。

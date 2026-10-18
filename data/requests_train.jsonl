@@ -1,0 +1,207 @@
+{"text": "把订单 1001 的状态改成已发货", "need": "single", "domains": ["database"], "actions": ["execute", "update", "delete"], "tool_ids": ["postgres/execute_sql"]}
+{"text": "Google Drive 里有没有叫季度规划的文件", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["gdrive/search_files"]}
+{"text": "生成一张产品海报", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["image_gen/generate_image"]}
+{"text": "什么是 RESTful API", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "用 squash 方式合并 123 号 PR", "need": "single", "domains": ["code"], "actions": ["update"], "tool_ids": ["github/merge_pull_request"]}
+{"text": "新建一个 hello.py 文件,内容写 print('hi')", "need": "single", "domains": ["file"], "actions": ["create", "delete"], "tool_ids": ["filesystem/write_file"]}
+{"text": "看看 GitHub Actions 失败的原因", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["ci/get_workflow_run_logs"]}
+{"text": "截一下浏览器现在的画面", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_take_screenshot"]}
+{"text": "看看 AWS 上停止的实例,写个清单发给运维", "need": "multi", "domains": ["cloud_ops", "comms"], "actions": ["read", "send"], "tool_ids": ["aws/describe_instances", "gmail/send_email"]}
+{"text": "给团队群发消息说会议改到四点", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["slack/post_message"]}
+{"text": "读一下 report.txt 然后发给老板", "need": "multi", "domains": ["file", "comms"], "actions": ["read", "send"], "tool_ids": ["filesystem/read_file", "gmail/send_email"]}
+{"text": "帮我创建一个半小时的视频会议", "need": "single", "domains": ["comms"], "actions": ["create"], "tool_ids": ["zoom/create_meeting"]}
+{"text": "列出最近十笔支付", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["stripe/list_payments"]}
+{"text": "把客户多扣的 50 块退回去", "need": "single", "domains": ["business"], "actions": ["send"], "tool_ids": ["stripe/create_refund"]}
+{"text": "微服务有什么优缺点", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "看看 downloads 文件夹里有哪些文件", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/list_directory"]}
+{"text": "读取 /data/report.txt 的内容", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/read_file"]}
+{"text": "把失败的 CI 重跑一遍", "need": "single", "domains": ["code"], "actions": ["execute"], "tool_ids": ["ci/rerun_workflow"]}
+{"text": "跑一段代码算一下 1 到 100 的质数", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["python/run_code"]}
+{"text": "搜一下竞品最新动态,整理成 Notion 页面", "need": "multi", "domains": ["search_web", "knowledge"], "actions": ["read", "create"], "tool_ids": ["brave_search/web_search", "notion/create_page"]}
+{"text": "你记得我上次说的项目名称吗", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["memory/search_memory"]}
+{"text": "在 Notion 里找上周的周报", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["notion/search_pages"]}
+{"text": "删除日历里周五的聚餐", "need": "single", "domains": ["calendar_task"], "actions": ["delete"], "tool_ids": ["gcal/delete_event"]}
+{"text": "SQL 里 join 有几种", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "在知识库新建一页写部署步骤", "need": "single", "domains": ["knowledge"], "actions": ["create"], "tool_ids": ["notion/create_page"]}
+{"text": "拉一下仓库里 src/app.ts 的代码", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/get_file_contents"]}
+{"text": "把整个网页截长图", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_take_screenshot"]}
+{"text": "部署一下 staging 的 CloudFormation", "need": "single", "domains": ["cloud_ops"], "actions": ["execute"], "tool_ids": ["aws/deploy_stack"]}
+{"text": "什么是 F1 分数", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "PR 已经审完了,帮我 merge", "need": "single", "domains": ["code"], "actions": ["update"], "tool_ids": ["github/merge_pull_request"]}
+{"text": "给当前页面截个图", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_take_screenshot"]}
+{"text": "把这段总结保存成 summary.md", "need": "single", "domains": ["file"], "actions": ["create", "delete"], "tool_ids": ["filesystem/write_file"]}
+{"text": "给这个客户问题建个工单", "need": "single", "domains": ["business"], "actions": ["create"], "tool_ids": ["zendesk/create_ticket"]}
+{"text": "统计每个城市的用户数并更新到表格里", "need": "multi", "domains": ["database"], "actions": ["read", "update"], "tool_ids": ["postgres/query", "sheets/update_cells"]}
+{"text": "如何提高英语口语", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "知识库里有没有入职指南", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["notion/search_pages"]}
+{"text": "总结一下你刚才说的要点", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "从公司到机场怎么走", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["maps/get_directions"]}
+{"text": "明天下午三点约个会,叫上王五", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["gcal/create_event"]}
+{"text": "看看这个客户的联系人是谁", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["crm/get_customer"]}
+{"text": "把明天的周会取消掉", "need": "single", "domains": ["calendar_task"], "actions": ["delete"], "tool_ids": ["gcal/delete_event"]}
+{"text": "帮我把牙医预约记到日历", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["gcal/create_event"]}
+{"text": "统计每个城市的用户数", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/query"]}
+{"text": "看看 #support 频道最近聊了什么", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["slack/get_channel_history"]}
+{"text": "帮我看一下 config.yaml 里写了什么", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/read_file"]}
+{"text": "把这些数据填到 Sheet1 的 A 列", "need": "single", "domains": ["database"], "actions": ["update"], "tool_ids": ["sheets/update_cells"]}
+{"text": "开车到浦东要多久", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["maps/get_directions"]}
+{"text": "更新生产环境的 stack", "need": "single", "domains": ["cloud_ops"], "actions": ["execute"], "tool_ids": ["aws/deploy_stack"]}
+{"text": "帮我填一下网页上的报名表", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_fill_form"]}
+{"text": "把这个商机推进到谈判阶段", "need": "single", "domains": ["business"], "actions": ["update"], "tool_ids": ["crm/update_deal"]}
+{"text": "把新的基础设施模板部署上去", "need": "single", "domains": ["cloud_ops"], "actions": ["execute"], "tool_ids": ["aws/deploy_stack"]}
+{"text": "列出东京区的 EC2 实例", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["aws/describe_instances"]}
+{"text": "邮箱里有没有关于发票的邮件", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["gmail/search_emails"]}
+{"text": "这周末上海会下雨吗", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["weather/get_forecast"]}
+{"text": "线上那个 pod 为什么一直重启,看下日志", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["kubernetes/get_pod_logs"]}
+{"text": "查一下上个月的订单总数,然后发到 #sales 频道", "need": "multi", "domains": ["database", "comms"], "actions": ["read", "send"], "tool_ids": ["postgres/query", "slack/post_message"]}
+{"text": "什么是 MCP 协议", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "开一个 Zoom 会议链接", "need": "single", "domains": ["comms"], "actions": ["create"], "tool_ids": ["zoom/create_meeting"]}
+{"text": "在 #dev 频道发个通知说今晚发版", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["slack/post_message"]}
+{"text": "把注册页的信息填好", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_fill_form"]}
+{"text": "arXiv 上搜一下知识蒸馏的最新研究", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["arxiv/search_papers"]}
+{"text": "给张三发封邮件说合同已经签了", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["gmail/send_email"]}
+{"text": "什么是 Kubernetes", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "解释一下 HTTP 状态码 404", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "流水线再跑一次", "need": "single", "domains": ["code"], "actions": ["execute"], "tool_ids": ["ci/rerun_workflow"]}
+{"text": "抓取一下 https://example.com 的正文", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["fetch/fetch_url"]}
+{"text": "查一下去西湖的公交路线", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["maps/get_directions"]}
+{"text": "截取这段视频的 1 分到 2 分", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["video/trim_video"]}
+{"text": "把 draft.docx 移到 archive 文件夹", "need": "single", "domains": ["file"], "actions": ["update"], "tool_ids": ["filesystem/move_file"]}
+{"text": "把报价发邮件给 li@example.com", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["gmail/send_email"]}
+{"text": "比较一下 Redis 和 Memcached", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "搜索一下 Python 3.13 有什么新特性", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["brave_search/web_search"]}
+{"text": "如何设计一个分类体系", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "执行代码画个正弦曲线", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["python/run_code"]}
+{"text": "在项目里加个待办:写接口文档", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["linear/create_issue"]}
+{"text": "把 #42 这个 PR 合进去", "need": "single", "domains": ["code"], "actions": ["update"], "tool_ids": ["github/merge_pull_request"]}
+{"text": "查一下杭州未来三天的天气", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["weather/get_forecast"]}
+{"text": "查一下之前存过的客户偏好", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["memory/search_memory"]}
+{"text": "pod 一直重启,看下日志再扩个容", "need": "multi", "domains": ["cloud_ops"], "actions": ["read", "update"], "tool_ids": ["kubernetes/get_pod_logs", "kubernetes/scale_deployment"]}
+{"text": "Python 里列表和元组有什么区别", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "看看仓库里还有哪些没关的 issue", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/list_issues"]}
+{"text": "把表格 B2 改成 300", "need": "single", "domains": ["database"], "actions": ["update"], "tool_ids": ["sheets/update_cells"]}
+{"text": "浏览器跳转到后台管理页面", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_navigate"]}
+{"text": "打开 README.md 给我看看", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/read_file"]}
+{"text": "帮我把这个列表按字母排序:香蕉 苹果 橙子", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "看看 AWS 上现在有几台机器在跑", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["aws/describe_instances"]}
+{"text": "网上查查今年的诺贝尔奖得主", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["brave_search/web_search"]}
+{"text": "找几篇 RAG 论文,下载后列个清单存到云盘", "need": "multi", "domains": ["search_web", "file"], "actions": ["read", "create"], "tool_ids": ["arxiv/search_papers", "filesystem/write_file"]}
+{"text": "用一句话介绍你自己", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "更新一下 A 公司订单的金额", "need": "single", "domains": ["business"], "actions": ["update"], "tool_ids": ["crm/update_deal"]}
+{"text": "删除 staging 里的 test pod", "need": "single", "domains": ["cloud_ops"], "actions": ["delete"], "tool_ids": ["kubernetes/delete_pod"]}
+{"text": "生成一张海报,然后发到 general 频道", "need": "multi", "domains": ["media", "comms"], "actions": ["create", "send"], "tool_ids": ["image_gen/generate_image", "slack/post_message"]}
+{"text": "把 status 为 test 的数据全部删掉", "need": "single", "domains": ["database"], "actions": ["execute", "update", "delete"], "tool_ids": ["postgres/execute_sql"]}
+{"text": "任务 ENG-12 的状态改成进行中", "need": "single", "domains": ["calendar_task"], "actions": ["update"], "tool_ids": ["linear/update_issue"]}
+{"text": "查一下明天北京天气,如果下雨就把户外活动取消", "need": "multi", "domains": ["system_misc", "calendar_task"], "actions": ["read", "delete"], "tool_ids": ["weather/get_forecast", "gcal/delete_event"]}
+{"text": "列出当前目录下的所有文件", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/list_directory"]}
+{"text": "流量大了,把前端扩容一下", "need": "single", "domains": ["cloud_ops"], "actions": ["update"], "tool_ids": ["kubernetes/scale_deployment"]}
+{"text": "给这个订单退款", "need": "single", "domains": ["business"], "actions": ["send"], "tool_ids": ["stripe/create_refund"]}
+{"text": "下周三下午我有空吗", "need": "single", "domains": ["calendar_task"], "actions": ["read"], "tool_ids": ["gcal/list_events"]}
+{"text": "点一下页面上的登录按钮", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_click"]}
+{"text": "把这段代码改成更简洁的写法:for i in range(len(a)): print(a[i])", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "帮我列个学习计划大纲", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "src 目录下都有什么", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/list_directory"]}
+{"text": "打开淘宝首页", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_navigate"]}
+{"text": "把这份会议纪要记到 Notion", "need": "single", "domains": ["knowledge"], "actions": ["create"], "tool_ids": ["notion/create_page"]}
+{"text": "帮我起个产品名字", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "北京明天天气怎么样", "need": "single", "domains": ["system_misc"], "actions": ["read"], "tool_ids": ["weather/get_forecast"]}
+{"text": "帮我想三个周末活动", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "看看库里有没有日志表", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/list_tables"]}
+{"text": "看看这周日历上有哪些会", "need": "single", "domains": ["calendar_task"], "actions": ["read"], "tool_ids": ["gcal/list_events"]}
+{"text": "订单 1234 全额退款", "need": "single", "domains": ["business"], "actions": ["send"], "tool_ids": ["stripe/create_refund"]}
+{"text": "给 users 表加一个 phone 字段", "need": "single", "domains": ["database"], "actions": ["execute", "update", "delete"], "tool_ids": ["postgres/execute_sql"]}
+{"text": "把今天的复盘整理成一篇 wiki", "need": "single", "domains": ["knowledge"], "actions": ["create"], "tool_ids": ["notion/create_page"]}
+{"text": "把 worker 缩容到 1 个", "need": "single", "domains": ["cloud_ops"], "actions": ["update"], "tool_ids": ["kubernetes/scale_deployment"]}
+{"text": "如何判断一个数是不是质数", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "CRM 里这家公司的状态是什么", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["crm/get_customer"]}
+{"text": "在 Slack 上提醒大家交周报", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["slack/post_message"]}
+{"text": "把登录 bug 的任务转给王五", "need": "single", "domains": ["calendar_task"], "actions": ["update"], "tool_ids": ["linear/update_issue"]}
+{"text": "看看 CI 为什么挂了,修好后提个 PR", "need": "multi", "domains": ["code"], "actions": ["read", "create"], "tool_ids": ["ci/get_workflow_run_logs", "github/create_pull_request"]}
+{"text": "在日历上加一个下周一的周会", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["gcal/create_event"]}
+{"text": "把结果写到 output.csv 里", "need": "single", "domains": ["file"], "actions": ["create", "delete"], "tool_ids": ["filesystem/write_file"]}
+{"text": "读一下这篇博客链接里的文章", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["fetch/fetch_url"]}
+{"text": "1 加 1 等于几", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "用 Python 把这个列表排序后输出", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["python/run_code"]}
+{"text": "给这个修复开一个 pull request", "need": "single", "domains": ["code"], "actions": ["create"], "tool_ids": ["github/create_pull_request"]}
+{"text": "列出 public schema 下的所有表", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/list_tables"]}
+{"text": "把这个任务标记为完成", "need": "single", "domains": ["calendar_task"], "actions": ["update"], "tool_ids": ["linear/update_issue"]}
+{"text": "数据库里有哪些表", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/list_tables"]}
+{"text": "如何写好一份周报", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "怎么理解边际效用递减", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "在 Notion 里找到发布流程,然后在 #dev 发出来", "need": "multi", "domains": ["knowledge", "comms"], "actions": ["read", "send"], "tool_ids": ["notion/search_pages", "slack/post_message"]}
+{"text": "拉一下 Slack 群里今天的消息", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["slack/get_channel_history"]}
+{"text": "把卡住的那个 pod 删掉", "need": "single", "domains": ["cloud_ops"], "actions": ["delete"], "tool_ids": ["kubernetes/delete_pod"]}
+{"text": "我明天有什么安排", "need": "single", "domains": ["calendar_task"], "actions": ["read"], "tool_ids": ["gcal/list_events"]}
+{"text": "看看今天收了多少钱", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["stripe/list_payments"]}
+{"text": "把那个单子标记为赢单", "need": "single", "domains": ["business"], "actions": ["update"], "tool_ids": ["crm/update_deal"]}
+{"text": "怎么做番茄炒蛋", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "在 web 仓库新建 PR,标题叫修复登录", "need": "single", "domains": ["code"], "actions": ["create"], "tool_ids": ["github/create_pull_request"]}
+{"text": "在页面上点击下一页", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_click"]}
+{"text": "什么是 OAuth", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "在表单里填上我的姓名和邮箱", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_fill_form"]}
+{"text": "发邮件通知客户明天停机维护", "need": "single", "domains": ["comms"], "actions": ["send"], "tool_ids": ["gmail/send_email"]}
+{"text": "那个评审会不开了,从日历删了", "need": "single", "domains": ["calendar_task"], "actions": ["delete"], "tool_ids": ["gcal/delete_event"]}
+{"text": "那个异常 pod 直接干掉重建", "need": "single", "domains": ["cloud_ops"], "actions": ["delete"], "tool_ids": ["kubernetes/delete_pod"]}
+{"text": "查一下那台数据库服务器的配置", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["aws/describe_instances"]}
+{"text": "搜一下来自 HR 的邮件", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["gmail/search_emails"]}
+{"text": "拉一下 payment pod 最近 100 行日志", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["kubernetes/get_pod_logs"]}
+{"text": "提一个高优先级工单说支付失败", "need": "single", "domains": ["business"], "actions": ["create"], "tool_ids": ["zendesk/create_ticket"]}
+{"text": "查一下客户 A 最近的付款记录", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["stripe/list_payments"]}
+{"text": "把这个网址的内容拿下来给我总结", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["fetch/fetch_url"]}
+{"text": "这句话有没有语病:我们要提高大家的认识水平", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "早上好", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "删除 Drive 上的 draft_v1", "need": "single", "domains": ["file"], "actions": ["delete"], "tool_ids": ["gdrive/delete_file"]}
+{"text": "帮我做个 logo 图", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["image_gen/generate_image"]}
+{"text": "抓取这个网页,把正文保存成 markdown 文件", "need": "multi", "domains": ["search_web", "file"], "actions": ["read", "create"], "tool_ids": ["fetch/fetch_url", "filesystem/write_file"]}
+{"text": "提醒我周一交报告,建个待办", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["linear/create_issue"]}
+{"text": "搜一下最新的 MCP 协议规范", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["brave_search/web_search"]}
+{"text": "给我讲个笑话", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "执行一下 npm install", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["shell/run_command"]}
+{"text": "仓库根目录下的 Dockerfile 写了什么", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/get_file_contents"]}
+{"text": "在预算表里更新三月的数字", "need": "single", "domains": ["database"], "actions": ["update"], "tool_ids": ["sheets/update_cells"]}
+{"text": "这个语音消息说了什么", "need": "single", "domains": ["media"], "actions": ["read"], "tool_ids": ["whisper/transcribe_audio"]}
+{"text": "找一下上周财务发来的邮件", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["gmail/search_emails"]}
+{"text": "把片头去掉只留正片", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["video/trim_video"]}
+{"text": "CI 为什么挂了,看下日志", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["ci/get_workflow_run_logs"]}
+{"text": "画一张猫在月球上的插画", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["image_gen/generate_image"]}
+{"text": "查一下上个月的订单总数", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/query"]}
+{"text": "帮我把下面的要点扩写成一段话", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "dev 频道昨天有人说什么了", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["slack/get_channel_history"]}
+{"text": "重新触发一下这次构建", "need": "single", "domains": ["code"], "actions": ["execute"], "tool_ids": ["ci/rerun_workflow"]}
+{"text": "帮我听写这个会议音频", "need": "single", "domains": ["media"], "actions": ["read"], "tool_ids": ["whisper/transcribe_audio"]}
+{"text": "把这几张图片挪到 images 目录", "need": "single", "domains": ["file"], "actions": ["update"], "tool_ids": ["filesystem/move_file"]}
+{"text": "帮我查查多模态大模型的综述论文", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["arxiv/search_papers"]}
+{"text": "用浏览器打开后台,截个图发给我邮箱", "need": "multi", "domains": ["browser", "comms"], "actions": ["read", "send"], "tool_ids": ["playwright/browser_navigate", "playwright/browser_take_screenshot", "gmail/send_email"]}
+{"text": "把 status 是 test 的数据删掉,然后通知大家", "need": "multi", "domains": ["database", "comms"], "actions": ["delete", "send"], "tool_ids": ["postgres/execute_sql", "slack/post_message"]}
+{"text": "写一个冒泡排序的伪代码", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "运行 ls -la", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["shell/run_command"]}
+{"text": "谢谢你的帮助", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "查一下这个客户的付款记录,有问题就建个工单", "need": "multi", "domains": ["business"], "actions": ["read", "create"], "tool_ids": ["stripe/list_payments", "zendesk/create_ticket"]}
+{"text": "解释一下 Transformer 的注意力机制", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "帮我把这句话翻译成英文:今天天气很好", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "用浏览器打开公司官网", "need": "single", "domains": ["browser"], "actions": ["read"], "tool_ids": ["playwright/browser_navigate"]}
+{"text": "拉一下最近一次构建的日志", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["ci/get_workflow_run_logs"]}
+{"text": "把视频剪成前 30 秒", "need": "single", "domains": ["media"], "actions": ["create"], "tool_ids": ["video/trim_video"]}
+{"text": "把云盘里那个旧的测试文档删掉", "need": "single", "domains": ["file"], "actions": ["delete"], "tool_ids": ["gdrive/delete_file"]}
+{"text": "看下 api 服务 pod 的日志", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["kubernetes/get_pod_logs"]}
+{"text": "把这段录音转成文字", "need": "single", "domains": ["media"], "actions": ["read"], "tool_ids": ["whisper/transcribe_audio"]}
+{"text": "最近有人提了什么 issue", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/list_issues"]}
+{"text": "帮我点提交", "need": "single", "domains": ["browser"], "actions": ["execute"], "tool_ids": ["playwright/browser_click"]}
+{"text": "云盘里的重复文件帮我删了", "need": "single", "domains": ["file"], "actions": ["delete"], "tool_ids": ["gdrive/delete_file"]}
+{"text": "记忆里有没有我的生日", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["memory/search_memory"]}
+{"text": "把 api 服务扩到 3 个副本", "need": "single", "domains": ["cloud_ops"], "actions": ["update"], "tool_ids": ["kubernetes/scale_deployment"]}
+{"text": "列出带 bug 标签的 issue", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/list_issues"]}
+{"text": "把 a.txt 改名成 b.txt", "need": "single", "domains": ["file"], "actions": ["update"], "tool_ids": ["filesystem/move_file"]}
+{"text": "找几篇关于 RAG 的论文", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["arxiv/search_papers"]}
+{"text": "查一下客户 A 的跟进记录", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["crm/get_customer"]}
+{"text": "帮我搜云盘中关于合同的文档", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["gdrive/search_files"]}
+{"text": "跑一下 make test", "need": "single", "domains": ["system_misc"], "actions": ["execute"], "tool_ids": ["shell/run_command"]}
+{"text": "建一个任务,让李四周五前修完登录 bug", "need": "single", "domains": ["calendar_task"], "actions": ["create"], "tool_ids": ["linear/create_issue"]}
+{"text": "看下 GitHub 上 main 分支的 package.json", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/get_file_contents"]}
+{"text": "开个售后工单跟进退货", "need": "single", "domains": ["business"], "actions": ["create"], "tool_ids": ["zendesk/create_ticket"]}
+{"text": "帮我从 feature 分支向 main 提个 PR", "need": "single", "domains": ["code"], "actions": ["create"], "tool_ids": ["github/create_pull_request"]}
+{"text": "在云盘里找一下预算表", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["gdrive/search_files"]}
+{"text": "推荐几本机器学习入门书", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "查一下 wiki 上的发布流程", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["notion/search_pages"]}
+{"text": "数据库里昨天新增了多少注册", "need": "single", "domains": ["database"], "actions": ["read"], "tool_ids": ["postgres/query"]}
+{"text": "建个线上会议,主题是需求评审", "need": "single", "domains": ["comms"], "actions": ["create"], "tool_ids": ["zoom/create_meeting"]}

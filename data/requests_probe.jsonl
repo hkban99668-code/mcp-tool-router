@@ -1,0 +1,40 @@
+{"text": "What's the difference between TCP and UDP?", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "解释一下什么是闭包", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "帮我把这句话翻成英文:会议改到下午三点", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "给这篇周报想个标题", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "How do I pronounce schedule in American English?", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "你觉得远程办公和坐班哪个更好", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "写一段 200 字的自我介绍", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "为什么天空是蓝色的", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "What does the volatile keyword do in Java?", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "把下面这段话改得更口语一点", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "推荐几部适合周末看的电影", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "解释一下 CAP 定理", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "帮我想三个健身计划的名字", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "把这段文字压缩成一句话", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "What is the difference between stack and heap memory?", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "翻一下这句英文:The deadline has been moved up.", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "帮我写个请假理由", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "说说你对微服务的看法", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "长时间坐着脖子疼怎么办", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "Python 里 yield 和 return 有什么区别", "need": "none", "domains": [], "actions": [], "tool_ids": []}
+{"text": "解释一下我仓库里 setup.py 做了什么", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/get_file_contents"]}
+{"text": "看看我的 notes.md 里都记了什么", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/read_file"]}
+{"text": "把我的 todo.md 内容念出来", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["filesystem/read_file"]}
+{"text": "总结一下昨天群里聊了啥", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["slack/get_channel_history"]}
+{"text": "我这周还有什么会要开", "need": "single", "domains": ["calendar_task"], "actions": ["read"], "tool_ids": ["gcal/list_events"]}
+{"text": "客户 7788 之前的沟通记录是什么", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["crm/get_customer"]}
+{"text": "解释一下这次 CI 为什么挂了", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["ci/get_workflow_run_logs"]}
+{"text": "我邮箱里有发票相关的邮件吗", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["gmail/search_emails"]}
+{"text": "我们知识库里关于发布流程的文档在哪", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["notion/search_pages"]}
+{"text": "explain what's written in my repo's README", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["github/get_file_contents"]}
+{"text": "现在线上有几台服务器在跑", "need": "single", "domains": ["cloud_ops"], "actions": ["read"], "tool_ids": ["aws/describe_instances"]}
+{"text": "总结一下 #release 频道最近的讨论", "need": "single", "domains": ["comms"], "actions": ["read"], "tool_ids": ["slack/get_channel_history"]}
+{"text": "我网盘里那个季度预算表写了什么", "need": "single", "domains": ["file"], "actions": ["read"], "tool_ids": ["gdrive/search_files"]}
+{"text": "上次评审的结论在知识库里吗", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["notion/search_pages"]}
+{"text": "你还记得我之前说过的偏好设置吗", "need": "single", "domains": ["knowledge"], "actions": ["read"], "tool_ids": ["memory/search_memory"]}
+{"text": "看看我最近的付款记录", "need": "single", "domains": ["business"], "actions": ["read"], "tool_ids": ["stripe/list_payments"]}
+{"text": "帮我查一下那个 URL 里写了什么", "need": "single", "domains": ["search_web"], "actions": ["read"], "tool_ids": ["fetch/fetch_url"]}
+{"text": "把今天的录音转成文字后发到 #general", "need": "multi", "domains": ["media", "comms"], "actions": ["read", "send"], "tool_ids": ["whisper/transcribe_audio", "slack/post_message"]}
+{"text": "把这周的会议整理成待办事项", "need": "multi", "domains": ["calendar_task"], "actions": ["read", "create"], "tool_ids": ["gcal/list_events", "linear/create_issue"]}
+{"text": "explain the error in my last CI run", "need": "single", "domains": ["code"], "actions": ["read"], "tool_ids": ["ci/get_workflow_run_logs"]}

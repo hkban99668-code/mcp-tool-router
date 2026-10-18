@@ -1,0 +1,2071 @@
+{
+  "need_head": {
+    "need_rules": true,
+    "two_stage": true,
+    "drop_gold_only": true
+  },
+  "keyword_leak_check": {
+    "total_words": 103,
+    "source_counts": {
+      "train": 42,
+      "taxonomy": 1,
+      "prior": 60
+    },
+    "rows": [
+      {
+        "word": "介绍一下",
+        "group": "explain",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "概念",
+        "group": "explain",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "写一首",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "写一段",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "写一封",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "帮我写",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "润色",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "自我介绍",
+        "group": "authoring",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "说说你",
+        "group": "chitchat",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "看法",
+        "group": "chitchat",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "我这",
+        "group": "OBJECT_HINTS",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "prod",
+        "group": "OBJECT_HINTS",
+        "source": "prior",
+        "train": 0,
+        "gold": 1
+      },
+      {
+        "word": "日程",
+        "group": "OBJECT_HINTS",
+        "source": "taxonomy",
+        "train": 0,
+        "gold": 1
+      }
+    ],
+    "words": [
+      "prod",
+      "介绍一下",
+      "写一封",
+      "写一段",
+      "写一首",
+      "帮我写",
+      "我这",
+      "日程",
+      "概念",
+      "润色",
+      "看法",
+      "自我介绍",
+      "说说你"
+    ],
+    "declared": [
+      "prod",
+      "介绍一下",
+      "写一封",
+      "写一段",
+      "写一首",
+      "帮我写",
+      "我这",
+      "日程",
+      "概念",
+      "润色",
+      "看法",
+      "自我介绍",
+      "说说你"
+    ],
+    "matches_declared": true,
+    "source_problems": []
+  },
+  "requests": {
+    "n": 69,
+    "need": {
+      "n": 69,
+      "recall_needs_mcp": 0.9827586206896551,
+      "precision_needs_mcp": 0.8769230769230769,
+      "recall_none": 0.2727272727272727,
+      "macro_f1_3class": 0.6342182890855458,
+      "accuracy_3class": 0.8260869565217391,
+      "confusion": {
+        "none": {
+          "none": 3,
+          "single": 7,
+          "multi": 1
+        },
+        "single": {
+          "none": 1,
+          "single": 51,
+          "multi": 1
+        },
+        "multi": {
+          "none": 0,
+          "single": 2,
+          "multi": 3
+        }
+      }
+    },
+    "domain": {
+      "micro_f1": 0.743801652892562,
+      "macro_f1": 0.7409465534465535
+    },
+    "action": {
+      "micro_f1": 0.6417910447761194,
+      "macro_f1": 0.5612451818334171
+    },
+    "routing": {
+      "filtered@1": 0.5344827586206896,
+      "filtered@3": 0.8189655172413793,
+      "filtered@5": 0.8879310344827587,
+      "unfiltered@1": 0.5258620689655172,
+      "unfiltered@3": 0.8275862068965517,
+      "unfiltered@5": 0.8793103448275862,
+      "catalog_size": 53,
+      "avg_candidates_after_filter": 29.810344827586206,
+      "candidate_reduction": 0.43754066363044897
+    },
+    "latency_ms": {
+      "p50": 2.236834028735757,
+      "p95": 3.8750077830627556
+    },
+    "llm_fallback_rate": 0.17391304347826086,
+    "errors": [
+      {
+        "text": "projects 文件夹里有几个子目录",
+        "gold": [
+          "single",
+          [
+            "file"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "code"
+          ]
+        ],
+        "conf": 0.596
+      },
+      {
+        "text": "看看远程仓库里 setup.py 的内容",
+        "gold": [
+          "single",
+          [
+            "code"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "file"
+          ]
+        ],
+        "conf": 0.791
+      },
+      {
+        "text": "这次流水线报错信息是什么",
+        "gold": [
+          "single",
+          [
+            "code"
+          ]
+        ],
+        "pred": [
+          "none",
+          []
+        ],
+        "conf": 0.969
+      },
+      {
+        "text": "帮我 rerun 一下那个 workflow",
+        "gold": [
+          "single",
+          [
+            "code"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "cloud_ops"
+          ]
+        ],
+        "conf": 0.71
+      },
+      {
+        "text": "查询销售额前十的商品",
+        "gold": [
+          "single",
+          [
+            "database"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "business"
+          ]
+        ],
+        "conf": 0.714
+      },
+      {
+        "text": "帮我上网查一下这家公司的背景",
+        "gold": [
+          "single",
+          [
+            "search_web"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "business"
+          ]
+        ],
+        "conf": 0.646
+      },
+      {
+        "text": "打开这个 URL 看看写了什么",
+        "gold": [
+          "single",
+          [
+            "search_web"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "business"
+          ]
+        ],
+        "conf": 0.764
+      },
+      {
+        "text": "帮我在浏览器里打开这个链接",
+        "gold": [
+          "single",
+          [
+            "browser"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "search_web",
+            "browser"
+          ]
+        ],
+        "conf": 0.615
+      },
+      {
+        "text": "把弹窗的关闭按钮点掉",
+        "gold": [
+          "single",
+          [
+            "browser"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "calendar_task"
+          ]
+        ],
+        "conf": 0.512
+      },
+      {
+        "text": "在搜索框里输入关键词",
+        "gold": [
+          "single",
+          [
+            "browser"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "search_web"
+          ]
+        ],
+        "conf": 0.784
+      },
+      {
+        "text": "往 general 频道发一句欢迎新同事",
+        "gold": [
+          "single",
+          [
+            "comms"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "comms",
+            "media"
+          ]
+        ],
+        "conf": 0.706
+      },
+      {
+        "text": "给明天的面试准备一个会议链接",
+        "gold": [
+          "single",
+          [
+            "comms"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "calendar_task"
+          ]
+        ],
+        "conf": 0.524
+      },
+      {
+        "text": "新建一个任务分配给前端组",
+        "gold": [
+          "single",
+          [
+            "calendar_task"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "cloud_ops"
+          ]
+        ],
+        "conf": 0.749
+      },
+      {
+        "text": "查一下 prod 命名空间里 worker 的日志",
+        "gold": [
+          "single",
+          [
+            "cloud_ops"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "code"
+          ]
+        ],
+        "conf": 0.532
+      },
+      {
+        "text": "商机阶段改成已报价",
+        "gold": [
+          "single",
+          [
+            "business"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "database"
+          ]
+        ],
+        "conf": 0.751
+      },
+      {
+        "text": "写段脚本算一下复利然后运行",
+        "gold": [
+          "single",
+          [
+            "system_misc"
+          ]
+        ],
+        "pred": [
+          "multi",
+          [
+            "system_misc"
+          ]
+        ],
+        "conf": 0.507
+      },
+      {
+        "text": "写一首关于秋天的诗",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "system_misc"
+          ]
+        ],
+        "conf": 0.785
+      },
+      {
+        "text": "帮我润色一下这段话",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "media"
+          ]
+        ],
+        "conf": 0.621
+      },
+      {
+        "text": "怎么缓解工作压力",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "system_misc"
+          ]
+        ],
+        "conf": 0.685
+      },
+      {
+        "text": "给我写一段面试自我介绍",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "browser"
+          ]
+        ],
+        "conf": 0.736
+      },
+      {
+        "text": "怎么给老板写一封请假邮件的开头",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "comms"
+          ]
+        ],
+        "conf": 0.518
+      },
+      {
+        "text": "介绍一下 Docker 的基本概念",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "cloud_ops"
+          ]
+        ],
+        "conf": 0.656
+      },
+      {
+        "text": "帮我写一个函数名,功能是计算平均值",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "multi",
+          [
+            "comms"
+          ]
+        ],
+        "conf": 0.611
+      },
+      {
+        "text": "说说你对远程办公的看法",
+        "gold": [
+          "none",
+          []
+        ],
+        "pred": [
+          "single",
+          [
+            "business"
+          ]
+        ],
+        "conf": 0.795
+      },
+      {
+        "text": "把明天的会议安排发邮件告诉张三",
+        "gold": [
+          "multi",
+          [
+            "calendar_task",
+            "comms"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "calendar_task"
+          ]
+        ],
+        "conf": 0.543
+      },
+      {
+        "text": "把录音转成文字后存到 meeting.txt",
+        "gold": [
+          "multi",
+          [
+            "media",
+            "file"
+          ]
+        ],
+        "pred": [
+          "single",
+          [
+            "file"
+          ]
+        ],
+        "conf": 0.811
+      },
+      {
+        "text": "看看还有哪些 open 的 issue,给每个建个待办",
+        "gold": [
+          "multi",
+          [
+            "code",
+            "calendar_task"
+          ]
+        ],
+        "pred": [
+          "multi",
+          [
+            "code"
+          ]
+        ],
+        "conf": 0.521
+      },
+      {
+        "text": "查下我这周的日程,有空就约个和王五的会",
+        "gold": [
+          "multi",
+          [
+            "calendar_task"
+          ]
+        ],
+        "pred": [
+          "multi",
+          [
+            "comms",
+            "calendar_task"
+          ]
+        ],
+        "conf": 0.53
+      }
+    ]
+  },
+  "requests_cv": {
+    "folds": 5,
+    "random_state": 0,
+    "n": 207,
+    "per_fold": [
+      {
+        "n": 42,
+        "recall_needs_mcp": 0.9714285714285714,
+        "precision_needs_mcp": 0.9714285714285714,
+        "recall_none": 0.8571428571428571,
+        "macro_f1_3class": 0.8204365079365079,
+        "accuracy_3class": 0.9047619047619048
+      },
+      {
+        "n": 42,
+        "recall_needs_mcp": 0.9714285714285714,
+        "precision_needs_mcp": 0.9714285714285714,
+        "recall_none": 0.8571428571428571,
+        "macro_f1_3class": 0.8204365079365079,
+        "accuracy_3class": 0.9047619047619048
+      },
+      {
+        "n": 41,
+        "recall_needs_mcp": 0.9714285714285714,
+        "precision_needs_mcp": 0.9714285714285714,
+        "recall_none": 0.8333333333333334,
+        "macro_f1_3class": 0.8809523809523809,
+        "accuracy_3class": 0.926829268292683
+      },
+      {
+        "n": 41,
+        "recall_needs_mcp": 1.0,
+        "precision_needs_mcp": 0.8974358974358975,
+        "recall_none": 0.3333333333333333,
+        "macro_f1_3class": 0.6928104575163397,
+        "accuracy_3class": 0.8536585365853658
+      },
+      {
+        "n": 41,
+        "recall_needs_mcp": 0.9705882352941176,
+        "precision_needs_mcp": 0.9705882352941176,
+        "recall_none": 0.8571428571428571,
+        "macro_f1_3class": 0.8468253968253968,
+        "accuracy_3class": 0.9024390243902439
+      }
+    ],
+    "recall_needs_mcp": {
+      "mean": 0.9769747899159663,
+      "std": 0.011517204503537357
+    },
+    "precision_needs_mcp": {
+      "mean": 0.9564619694031459,
+      "std": 0.029514830470350452
+    },
+    "recall_none": {
+      "mean": 0.7476190476190476,
+      "std": 0.20734801006740228
+    },
+    "macro_f1_3class": {
+      "mean": 0.8122922502334265,
+      "std": 0.06374214998232128
+    },
+    "accuracy_3class": {
+      "mean": 0.8984901277584205,
+      "std": 0.02411324371170451
+    }
+  },
+  "requests_probe": {
+    "n": 40,
+    "recall_needs_mcp": 0.9,
+    "precision_needs_mcp": 0.75,
+    "recall_none": 0.7,
+    "macro_f1_3class": 0.5132275132275131,
+    "accuracy_3class": 0.75,
+    "confusion": {
+      "none": {
+        "none": 14,
+        "single": 6,
+        "multi": 0
+      },
+      "single": {
+        "none": 2,
+        "single": 16,
+        "multi": 0
+      },
+      "multi": {
+        "none": 0,
+        "single": 2,
+        "multi": 0
+      }
+    },
+    "none_total": 20,
+    "none_predicted_none": 14,
+    "needs_mcp_total": 20,
+    "needs_mcp_predicted_none": 2,
+    "errors": [
+      {
+        "text": "写一段 200 字的自我介绍",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.722,
+        "need_probs": {
+          "none": 0.199,
+          "single": 0.783,
+          "multi": 0.018
+        }
+      },
+      {
+        "text": "What does the volatile keyword do in Java?",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.754,
+        "need_probs": {
+          "none": 0.118,
+          "single": 0.859,
+          "multi": 0.023
+        }
+      },
+      {
+        "text": "把下面这段话改得更口语一点",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.598,
+        "need_probs": {
+          "none": 0.276,
+          "single": 0.719,
+          "multi": 0.005
+        }
+      },
+      {
+        "text": "帮我想三个健身计划的名字",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.612,
+        "need_probs": {
+          "none": 0.371,
+          "single": 0.612,
+          "multi": 0.018
+        }
+      },
+      {
+        "text": "说说你对微服务的看法",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.686,
+        "need_probs": {
+          "none": 0.131,
+          "single": 0.847,
+          "multi": 0.022
+        }
+      },
+      {
+        "text": "长时间坐着脖子疼怎么办",
+        "gold": "none",
+        "pred": "single",
+        "conf": 0.708,
+        "need_probs": {
+          "none": 0.153,
+          "single": 0.827,
+          "multi": 0.02
+        }
+      },
+      {
+        "text": "解释一下这次 CI 为什么挂了",
+        "gold": "single",
+        "pred": "none",
+        "conf": 0.988,
+        "need_probs": {
+          "none": 0.988,
+          "single": 0.011,
+          "multi": 0.001
+        }
+      },
+      {
+        "text": "explain what's written in my repo's README",
+        "gold": "single",
+        "pred": "none",
+        "conf": 0.878,
+        "need_probs": {
+          "none": 0.878,
+          "single": 0.119,
+          "multi": 0.003
+        }
+      },
+      {
+        "text": "把今天的录音转成文字后发到 #general",
+        "gold": "multi",
+        "pred": "single",
+        "conf": 0.593,
+        "need_probs": {
+          "none": 0.09,
+          "single": 0.903,
+          "multi": 0.006
+        }
+      },
+      {
+        "text": "把这周的会议整理成待办事项",
+        "gold": "multi",
+        "pred": "single",
+        "conf": 0.722,
+        "need_probs": {
+          "none": 0.093,
+          "single": 0.887,
+          "multi": 0.02
+        }
+      }
+    ]
+  },
+  "tools_by_server": {
+    "n": 53,
+    "domain": {
+      "micro_f1": 0.897196261682243,
+      "macro_f1": 0.8541666666666666
+    },
+    "action": {
+      "micro_f1": 0.9369369369369369,
+      "macro_f1": 0.8981717628776452
+    },
+    "risk_accuracy": 0.8867924528301887,
+    "l3_recall": 1.0,
+    "risk_under_report_rate": 0.018867924528301886,
+    "under_reported": [
+      "playwright/browser_take_screenshot"
+    ],
+    "rule_only_risk_accuracy": 0.9056603773584906,
+    "servers": 29,
+    "review_queue": 24
+  },
+  "adversarial": {
+    "n": 6,
+    "domain": {
+      "micro_f1": 0.6666666666666666,
+      "macro_f1": 0.6666666666666666
+    },
+    "action": {
+      "micro_f1": 0.3076923076923077,
+      "macro_f1": 0.26666666666666666
+    },
+    "risk_accuracy": 1.0,
+    "l3_recall": 1.0,
+    "risk_under_report_rate": 0.0,
+    "under_reported": [],
+    "items": [
+      {
+        "tool_id": "helper/cleanup_helper",
+        "gold_risk": "L3",
+        "pred_risk": "L3",
+        "pred_actions": [
+          "read"
+        ]
+      },
+      {
+        "tool_id": "helper/notify_friend",
+        "gold_risk": "L3",
+        "pred_risk": "L3",
+        "pred_actions": [
+          "send"
+        ]
+      },
+      {
+        "tool_id": "helper/get_info",
+        "gold_risk": "L3",
+        "pred_risk": "L3",
+        "pred_actions": [
+          "read"
+        ]
+      },
+      {
+        "tool_id": "helper/sync_records",
+        "gold_risk": "L3",
+        "pred_risk": "L3",
+        "pred_actions": [
+          "update"
+        ]
+      },
+      {
+        "tool_id": "helper/quick_pay",
+        "gold_risk": "L3",
+        "pred_risk": "L3",
+        "pred_actions": [
+          "read"
+        ]
+      },
+      {
+        "tool_id": "helper/view_page",
+        "gold_risk": "L1",
+        "pred_risk": "L1",
+        "pred_actions": [
+          "read"
+        ]
+      }
+    ]
+  },
+  "requests_variants": {
+    "含 gold-only 词": {
+      "requests": {
+        "n": 69,
+        "need": {
+          "n": 69,
+          "recall_needs_mcp": 0.9827586206896551,
+          "precision_needs_mcp": 0.9827586206896551,
+          "recall_none": 0.9090909090909091,
+          "macro_f1_3class": 0.8430095345983196,
+          "accuracy_3class": 0.927536231884058,
+          "confusion": {
+            "none": {
+              "none": 10,
+              "single": 1,
+              "multi": 0
+            },
+            "single": {
+              "none": 1,
+              "single": 51,
+              "multi": 1
+            },
+            "multi": {
+              "none": 0,
+              "single": 2,
+              "multi": 3
+            }
+          }
+        },
+        "domain": {
+          "micro_f1": 0.743801652892562,
+          "macro_f1": 0.7409465534465535
+        },
+        "action": {
+          "micro_f1": 0.6417910447761194,
+          "macro_f1": 0.5612451818334171
+        },
+        "routing": {
+          "filtered@1": 0.5344827586206896,
+          "filtered@3": 0.8189655172413793,
+          "filtered@5": 0.8879310344827587,
+          "unfiltered@1": 0.5258620689655172,
+          "unfiltered@3": 0.8275862068965517,
+          "unfiltered@5": 0.8793103448275862,
+          "catalog_size": 53,
+          "avg_candidates_after_filter": 29.810344827586206,
+          "candidate_reduction": 0.43754066363044897
+        },
+        "latency_ms": {
+          "p50": 1.95629196241498,
+          "p95": 2.7294165920466176
+        },
+        "llm_fallback_rate": 0.17391304347826086,
+        "errors": [
+          {
+            "text": "projects 文件夹里有几个子目录",
+            "gold": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.596
+          },
+          {
+            "text": "看看远程仓库里 setup.py 的内容",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "conf": 0.791
+          },
+          {
+            "text": "这次流水线报错信息是什么",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "none",
+              []
+            ],
+            "conf": 0.969
+          },
+          {
+            "text": "帮我 rerun 一下那个 workflow",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "conf": 0.71
+          },
+          {
+            "text": "查询销售额前十的商品",
+            "gold": [
+              "single",
+              [
+                "database"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.714
+          },
+          {
+            "text": "帮我上网查一下这家公司的背景",
+            "gold": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.646
+          },
+          {
+            "text": "打开这个 URL 看看写了什么",
+            "gold": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.764
+          },
+          {
+            "text": "帮我在浏览器里打开这个链接",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "search_web",
+                "browser"
+              ]
+            ],
+            "conf": 0.615
+          },
+          {
+            "text": "把弹窗的关闭按钮点掉",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.512
+          },
+          {
+            "text": "在搜索框里输入关键词",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "conf": 0.784
+          },
+          {
+            "text": "往 general 频道发一句欢迎新同事",
+            "gold": [
+              "single",
+              [
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "comms",
+                "media"
+              ]
+            ],
+            "conf": 0.706
+          },
+          {
+            "text": "给明天的面试准备一个会议链接",
+            "gold": [
+              "single",
+              [
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.524
+          },
+          {
+            "text": "新建一个任务分配给前端组",
+            "gold": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "conf": 0.749
+          },
+          {
+            "text": "查一下 prod 命名空间里 worker 的日志",
+            "gold": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.532
+          },
+          {
+            "text": "商机阶段改成已报价",
+            "gold": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "database"
+              ]
+            ],
+            "conf": 0.751
+          },
+          {
+            "text": "写段脚本算一下复利然后运行",
+            "gold": [
+              "single",
+              [
+                "system_misc"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "system_misc"
+              ]
+            ],
+            "conf": 0.507
+          },
+          {
+            "text": "怎么缓解工作压力",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "system_misc"
+              ]
+            ],
+            "conf": 0.685
+          },
+          {
+            "text": "把明天的会议安排发邮件告诉张三",
+            "gold": [
+              "multi",
+              [
+                "calendar_task",
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.543
+          },
+          {
+            "text": "把录音转成文字后存到 meeting.txt",
+            "gold": [
+              "multi",
+              [
+                "media",
+                "file"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "conf": 0.811
+          },
+          {
+            "text": "看看还有哪些 open 的 issue,给每个建个待办",
+            "gold": [
+              "multi",
+              [
+                "code",
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.521
+          },
+          {
+            "text": "查下我这周的日程,有空就约个和王五的会",
+            "gold": [
+              "multi",
+              [
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "comms",
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.53
+          }
+        ]
+      },
+      "probe": {
+        "n": 40,
+        "recall_needs_mcp": 0.9,
+        "precision_needs_mcp": 0.8181818181818182,
+        "recall_none": 0.8,
+        "macro_f1_3class": 0.5473684210526316,
+        "accuracy_3class": 0.8,
+        "confusion": {
+          "none": {
+            "none": 16,
+            "single": 4,
+            "multi": 0
+          },
+          "single": {
+            "none": 2,
+            "single": 16,
+            "multi": 0
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 0
+          }
+        },
+        "none_total": 20,
+        "none_predicted_none": 16,
+        "needs_mcp_total": 20,
+        "needs_mcp_predicted_none": 2,
+        "errors": [
+          {
+            "text": "What does the volatile keyword do in Java?",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.754,
+            "need_probs": {
+              "none": 0.118,
+              "single": 0.859,
+              "multi": 0.023
+            }
+          },
+          {
+            "text": "把下面这段话改得更口语一点",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.598,
+            "need_probs": {
+              "none": 0.276,
+              "single": 0.719,
+              "multi": 0.005
+            }
+          },
+          {
+            "text": "帮我想三个健身计划的名字",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.612,
+            "need_probs": {
+              "none": 0.371,
+              "single": 0.612,
+              "multi": 0.018
+            }
+          },
+          {
+            "text": "长时间坐着脖子疼怎么办",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.708,
+            "need_probs": {
+              "none": 0.153,
+              "single": 0.827,
+              "multi": 0.02
+            }
+          },
+          {
+            "text": "解释一下这次 CI 为什么挂了",
+            "gold": "single",
+            "pred": "none",
+            "conf": 0.988,
+            "need_probs": {
+              "none": 0.988,
+              "single": 0.011,
+              "multi": 0.001
+            }
+          },
+          {
+            "text": "explain what's written in my repo's README",
+            "gold": "single",
+            "pred": "none",
+            "conf": 0.878,
+            "need_probs": {
+              "none": 0.878,
+              "single": 0.119,
+              "multi": 0.003
+            }
+          },
+          {
+            "text": "把今天的录音转成文字后发到 #general",
+            "gold": "multi",
+            "pred": "single",
+            "conf": 0.593,
+            "need_probs": {
+              "none": 0.09,
+              "single": 0.903,
+              "multi": 0.006
+            }
+          },
+          {
+            "text": "把这周的会议整理成待办事项",
+            "gold": "multi",
+            "pred": "single",
+            "conf": 0.722,
+            "need_probs": {
+              "none": 0.093,
+              "single": 0.887,
+              "multi": 0.02
+            }
+          }
+        ]
+      }
+    },
+    "去掉 gold-only 词": {
+      "requests": {
+        "n": 69,
+        "need": {
+          "n": 69,
+          "recall_needs_mcp": 0.9827586206896551,
+          "precision_needs_mcp": 0.8769230769230769,
+          "recall_none": 0.2727272727272727,
+          "macro_f1_3class": 0.6342182890855458,
+          "accuracy_3class": 0.8260869565217391,
+          "confusion": {
+            "none": {
+              "none": 3,
+              "single": 7,
+              "multi": 1
+            },
+            "single": {
+              "none": 1,
+              "single": 51,
+              "multi": 1
+            },
+            "multi": {
+              "none": 0,
+              "single": 2,
+              "multi": 3
+            }
+          }
+        },
+        "domain": {
+          "micro_f1": 0.743801652892562,
+          "macro_f1": 0.7409465534465535
+        },
+        "action": {
+          "micro_f1": 0.6417910447761194,
+          "macro_f1": 0.5612451818334171
+        },
+        "routing": {
+          "filtered@1": 0.5344827586206896,
+          "filtered@3": 0.8189655172413793,
+          "filtered@5": 0.8879310344827587,
+          "unfiltered@1": 0.5258620689655172,
+          "unfiltered@3": 0.8275862068965517,
+          "unfiltered@5": 0.8793103448275862,
+          "catalog_size": 53,
+          "avg_candidates_after_filter": 29.810344827586206,
+          "candidate_reduction": 0.43754066363044897
+        },
+        "latency_ms": {
+          "p50": 2.236834028735757,
+          "p95": 3.8750077830627556
+        },
+        "llm_fallback_rate": 0.17391304347826086,
+        "errors": [
+          {
+            "text": "projects 文件夹里有几个子目录",
+            "gold": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.596
+          },
+          {
+            "text": "看看远程仓库里 setup.py 的内容",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "conf": 0.791
+          },
+          {
+            "text": "这次流水线报错信息是什么",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "none",
+              []
+            ],
+            "conf": 0.969
+          },
+          {
+            "text": "帮我 rerun 一下那个 workflow",
+            "gold": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "conf": 0.71
+          },
+          {
+            "text": "查询销售额前十的商品",
+            "gold": [
+              "single",
+              [
+                "database"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.714
+          },
+          {
+            "text": "帮我上网查一下这家公司的背景",
+            "gold": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.646
+          },
+          {
+            "text": "打开这个 URL 看看写了什么",
+            "gold": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.764
+          },
+          {
+            "text": "帮我在浏览器里打开这个链接",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "search_web",
+                "browser"
+              ]
+            ],
+            "conf": 0.615
+          },
+          {
+            "text": "把弹窗的关闭按钮点掉",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.512
+          },
+          {
+            "text": "在搜索框里输入关键词",
+            "gold": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "search_web"
+              ]
+            ],
+            "conf": 0.784
+          },
+          {
+            "text": "往 general 频道发一句欢迎新同事",
+            "gold": [
+              "single",
+              [
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "comms",
+                "media"
+              ]
+            ],
+            "conf": 0.706
+          },
+          {
+            "text": "给明天的面试准备一个会议链接",
+            "gold": [
+              "single",
+              [
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.524
+          },
+          {
+            "text": "新建一个任务分配给前端组",
+            "gold": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "conf": 0.749
+          },
+          {
+            "text": "查一下 prod 命名空间里 worker 的日志",
+            "gold": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.532
+          },
+          {
+            "text": "商机阶段改成已报价",
+            "gold": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "database"
+              ]
+            ],
+            "conf": 0.751
+          },
+          {
+            "text": "写段脚本算一下复利然后运行",
+            "gold": [
+              "single",
+              [
+                "system_misc"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "system_misc"
+              ]
+            ],
+            "conf": 0.507
+          },
+          {
+            "text": "写一首关于秋天的诗",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "system_misc"
+              ]
+            ],
+            "conf": 0.785
+          },
+          {
+            "text": "帮我润色一下这段话",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "media"
+              ]
+            ],
+            "conf": 0.621
+          },
+          {
+            "text": "怎么缓解工作压力",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "system_misc"
+              ]
+            ],
+            "conf": 0.685
+          },
+          {
+            "text": "给我写一段面试自我介绍",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "browser"
+              ]
+            ],
+            "conf": 0.736
+          },
+          {
+            "text": "怎么给老板写一封请假邮件的开头",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "comms"
+              ]
+            ],
+            "conf": 0.518
+          },
+          {
+            "text": "介绍一下 Docker 的基本概念",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "cloud_ops"
+              ]
+            ],
+            "conf": 0.656
+          },
+          {
+            "text": "帮我写一个函数名,功能是计算平均值",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "multi",
+              [
+                "comms"
+              ]
+            ],
+            "conf": 0.611
+          },
+          {
+            "text": "说说你对远程办公的看法",
+            "gold": [
+              "none",
+              []
+            ],
+            "pred": [
+              "single",
+              [
+                "business"
+              ]
+            ],
+            "conf": 0.795
+          },
+          {
+            "text": "把明天的会议安排发邮件告诉张三",
+            "gold": [
+              "multi",
+              [
+                "calendar_task",
+                "comms"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.543
+          },
+          {
+            "text": "把录音转成文字后存到 meeting.txt",
+            "gold": [
+              "multi",
+              [
+                "media",
+                "file"
+              ]
+            ],
+            "pred": [
+              "single",
+              [
+                "file"
+              ]
+            ],
+            "conf": 0.811
+          },
+          {
+            "text": "看看还有哪些 open 的 issue,给每个建个待办",
+            "gold": [
+              "multi",
+              [
+                "code",
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "code"
+              ]
+            ],
+            "conf": 0.521
+          },
+          {
+            "text": "查下我这周的日程,有空就约个和王五的会",
+            "gold": [
+              "multi",
+              [
+                "calendar_task"
+              ]
+            ],
+            "pred": [
+              "multi",
+              [
+                "comms",
+                "calendar_task"
+              ]
+            ],
+            "conf": 0.53
+          }
+        ]
+      },
+      "probe": {
+        "n": 40,
+        "recall_needs_mcp": 0.9,
+        "precision_needs_mcp": 0.75,
+        "recall_none": 0.7,
+        "macro_f1_3class": 0.5132275132275131,
+        "accuracy_3class": 0.75,
+        "confusion": {
+          "none": {
+            "none": 14,
+            "single": 6,
+            "multi": 0
+          },
+          "single": {
+            "none": 2,
+            "single": 16,
+            "multi": 0
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 0
+          }
+        },
+        "none_total": 20,
+        "none_predicted_none": 14,
+        "needs_mcp_total": 20,
+        "needs_mcp_predicted_none": 2,
+        "errors": [
+          {
+            "text": "写一段 200 字的自我介绍",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.722,
+            "need_probs": {
+              "none": 0.199,
+              "single": 0.783,
+              "multi": 0.018
+            }
+          },
+          {
+            "text": "What does the volatile keyword do in Java?",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.754,
+            "need_probs": {
+              "none": 0.118,
+              "single": 0.859,
+              "multi": 0.023
+            }
+          },
+          {
+            "text": "把下面这段话改得更口语一点",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.598,
+            "need_probs": {
+              "none": 0.276,
+              "single": 0.719,
+              "multi": 0.005
+            }
+          },
+          {
+            "text": "帮我想三个健身计划的名字",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.612,
+            "need_probs": {
+              "none": 0.371,
+              "single": 0.612,
+              "multi": 0.018
+            }
+          },
+          {
+            "text": "说说你对微服务的看法",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.686,
+            "need_probs": {
+              "none": 0.131,
+              "single": 0.847,
+              "multi": 0.022
+            }
+          },
+          {
+            "text": "长时间坐着脖子疼怎么办",
+            "gold": "none",
+            "pred": "single",
+            "conf": 0.708,
+            "need_probs": {
+              "none": 0.153,
+              "single": 0.827,
+              "multi": 0.02
+            }
+          },
+          {
+            "text": "解释一下这次 CI 为什么挂了",
+            "gold": "single",
+            "pred": "none",
+            "conf": 0.988,
+            "need_probs": {
+              "none": 0.988,
+              "single": 0.011,
+              "multi": 0.001
+            }
+          },
+          {
+            "text": "explain what's written in my repo's README",
+            "gold": "single",
+            "pred": "none",
+            "conf": 0.878,
+            "need_probs": {
+              "none": 0.878,
+              "single": 0.119,
+              "multi": 0.003
+            }
+          },
+          {
+            "text": "把今天的录音转成文字后发到 #general",
+            "gold": "multi",
+            "pred": "single",
+            "conf": 0.593,
+            "need_probs": {
+              "none": 0.09,
+              "single": 0.903,
+              "multi": 0.006
+            }
+          },
+          {
+            "text": "把这周的会议整理成待办事项",
+            "gold": "multi",
+            "pred": "single",
+            "conf": 0.722,
+            "need_probs": {
+              "none": 0.093,
+              "single": 0.887,
+              "multi": 0.02
+            }
+          }
+        ]
+      }
+    }
+  }
+}

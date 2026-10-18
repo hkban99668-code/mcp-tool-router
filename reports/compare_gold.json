@@ -1,0 +1,900 @@
+{
+  "dataset": "gold",
+  "n": 69,
+  "threshold": 0.55,
+  "live": true,
+  "clients": [
+    "jev",
+    "haiku"
+  ],
+  "need_versions": [
+    "v1",
+    "v2"
+  ],
+  "baseline": {
+    "client": "-",
+    "need_version": "-",
+    "strategy": "local",
+    "trigger": "low_conf",
+    "called_rate": 0.0,
+    "used_rate": 0.0,
+    "cost_usd": 0.0,
+    "latency_ms": {
+      "p50": 1.177125028334558,
+      "p95": 1.285966974683106
+    },
+    "need_accuracy": 0.8260869565217391,
+    "need_macro_f1": 0.6342182890855458,
+    "recall_needs_mcp": 0.9827586206896551,
+    "none_correct": 3,
+    "none_total": 11,
+    "domain": {
+      "micro_f1": 0.743801652892562,
+      "macro_f1": 0.7409465534465535
+    },
+    "action": {
+      "micro_f1": 0.6417910447761194,
+      "macro_f1": 0.5612451818334171
+    }
+  },
+  "rows": [
+    {
+      "client": "-",
+      "need_version": "-",
+      "strategy": "local",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "local",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "local",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "replace",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001073142,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 885.5326919583589
+      },
+      "need_accuracy": 0.782608695652174,
+      "need_macro_f1": 0.5272556390977443,
+      "recall_needs_mcp": 0.9310344827586207,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7642276422764228,
+        "macro_f1": 0.7475198412698413
+      },
+      "action": {
+        "micro_f1": 0.6821705426356589,
+        "macro_f1": 0.5920127759664885
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "replace",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.0061645920000000035,
+      "latency_ms": {
+        "p50": 790.2241250267252,
+        "p95": 3169.7105922270503
+      },
+      "need_accuracy": 0.782608695652174,
+      "need_macro_f1": 0.6706758304696449,
+      "recall_needs_mcp": 0.8103448275862069,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.6802721088435374,
+        "macro_f1": 0.6638324774354185
+      },
+      "action": {
+        "micro_f1": 0.7175572519083969,
+        "macro_f1": 0.7026430811327837
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "need_only",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001073142,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 885.5326919583589
+      },
+      "need_accuracy": 0.782608695652174,
+      "need_macro_f1": 0.5272556390977443,
+      "recall_needs_mcp": 0.9310344827586207,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7288135593220338,
+        "macro_f1": 0.7226023976023975
+      },
+      "action": {
+        "micro_f1": 0.6461538461538462,
+        "macro_f1": 0.543981143601637
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "need_only",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.0061645920000000035,
+      "latency_ms": {
+        "p50": 790.2241250267252,
+        "p95": 3169.7105922270503
+      },
+      "need_accuracy": 0.782608695652174,
+      "need_macro_f1": 0.6706758304696449,
+      "recall_needs_mcp": 0.8103448275862069,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.6727272727272727,
+        "macro_f1": 0.6313746438746438
+      },
+      "action": {
+        "micro_f1": 0.5737704918032787,
+        "macro_f1": 0.45279456811964547
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "both_none",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001073142,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 885.5326919583589
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v1",
+      "strategy": "both_none",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.0061645920000000035,
+      "latency_ms": {
+        "p50": 790.2241250267252,
+        "p95": 3169.7105922270503
+      },
+      "need_accuracy": 0.8405797101449275,
+      "need_macro_f1": 0.6469507101086048,
+      "recall_needs_mcp": 1.0,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7540983606557377,
+        "macro_f1": 0.7491883116883118
+      },
+      "action": {
+        "micro_f1": 0.6370370370370371,
+        "macro_f1": 0.5521542727425081
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "local",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "local",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "replace",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001204182,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 709.7226502606643
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6244143675169183,
+      "recall_needs_mcp": 0.9655172413793104,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.784,
+        "macro_f1": 0.7688873626373627
+      },
+      "action": {
+        "micro_f1": 0.6818181818181818,
+        "macro_f1": 0.6015586113946769
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "replace",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.006918071999999997,
+      "latency_ms": {
+        "p50": 593.4813749045134,
+        "p95": 3608.7597176665436
+      },
+      "need_accuracy": 0.927536231884058,
+      "need_macro_f1": 0.8607936507936508,
+      "recall_needs_mcp": 0.9482758620689655,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7388535031847133,
+        "macro_f1": 0.7410061751973517
+      },
+      "action": {
+        "micro_f1": 0.7605633802816901,
+        "macro_f1": 0.7525918458556657
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "need_only",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001204182,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 709.7226502606643
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6244143675169183,
+      "recall_needs_mcp": 0.9655172413793104,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7333333333333333,
+        "macro_f1": 0.7290417915417916
+      },
+      "action": {
+        "micro_f1": 0.6466165413533834,
+        "macro_f1": 0.5632293088175441
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "need_only",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.006918071999999997,
+      "latency_ms": {
+        "p50": 593.4813749045134,
+        "p95": 3608.7597176665436
+      },
+      "need_accuracy": 0.927536231884058,
+      "need_macro_f1": 0.8607936507936508,
+      "recall_needs_mcp": 0.9482758620689655,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7226890756302521,
+        "macro_f1": 0.7025613275613276
+      },
+      "action": {
+        "micro_f1": 0.6212121212121212,
+        "macro_f1": 0.5473728519774808
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "both_none",
+      "trigger": "low_conf",
+      "called_rate": 0.17391304347826086,
+      "used_rate": 0.17391304347826086,
+      "cost_usd": 0.001204182,
+      "latency_ms": {
+        "p50": 1.1834159959107637,
+        "p95": 709.7226502606643
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "jev",
+      "need_version": "v2",
+      "strategy": "both_none",
+      "trigger": "always",
+      "called_rate": 1.0,
+      "used_rate": 1.0,
+      "cost_usd": 0.006918071999999997,
+      "latency_ms": {
+        "p50": 593.4813749045134,
+        "p95": 3608.7597176665436
+      },
+      "need_accuracy": 0.8405797101449275,
+      "need_macro_f1": 0.6469507101086048,
+      "recall_needs_mcp": 1.0,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7540983606557377,
+        "macro_f1": 0.7491883116883118
+      },
+      "action": {
+        "micro_f1": 0.6370370370370371,
+        "macro_f1": 0.5521542727425081
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "local",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "local",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "replace",
+      "trigger": "low_conf",
+      "called_rate": 0.11594202898550725,
+      "used_rate": 0.11594202898550725,
+      "cost_usd": 0.0039359,
+      "latency_ms": {
+        "p50": 1.1820419458672404,
+        "p95": 4146.312991552976
+      },
+      "need_accuracy": 0.8405797101449275,
+      "need_macro_f1": 0.6826563958916899,
+      "recall_needs_mcp": 0.9655172413793104,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7833333333333333,
+        "macro_f1": 0.7788600288600288
+      },
+      "action": {
+        "micro_f1": 0.6717557251908397,
+        "macro_f1": 0.579375
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "replace",
+      "trigger": "always",
+      "called_rate": 0.8840579710144928,
+      "used_rate": 0.8840579710144928,
+      "cost_usd": 0.029612899999999994,
+      "latency_ms": {
+        "p50": 3384.5269579906017,
+        "p95": 17846.252974984236
+      },
+      "need_accuracy": 0.8695652173913043,
+      "need_macro_f1": 0.7506003430531732,
+      "recall_needs_mcp": 0.9482758620689655,
+      "none_correct": 8,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.9,
+        "macro_f1": 0.892002442002442
+      },
+      "action": {
+        "micro_f1": 0.7969924812030075,
+        "macro_f1": 0.7576009625444654
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "need_only",
+      "trigger": "low_conf",
+      "called_rate": 0.11594202898550725,
+      "used_rate": 0.11594202898550725,
+      "cost_usd": 0.0039359,
+      "latency_ms": {
+        "p50": 1.1820419458672404,
+        "p95": 4146.312991552976
+      },
+      "need_accuracy": 0.8405797101449275,
+      "need_macro_f1": 0.6826563958916899,
+      "recall_needs_mcp": 0.9655172413793104,
+      "none_correct": 4,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7333333333333333,
+        "macro_f1": 0.7303404928404928
+      },
+      "action": {
+        "micro_f1": 0.6466165413533834,
+        "macro_f1": 0.5632293088175441
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "need_only",
+      "trigger": "always",
+      "called_rate": 0.8840579710144928,
+      "used_rate": 0.8840579710144928,
+      "cost_usd": 0.029612899999999994,
+      "latency_ms": {
+        "p50": 3384.5269579906017,
+        "p95": 17846.252974984236
+      },
+      "need_accuracy": 0.8695652173913043,
+      "need_macro_f1": 0.7506003430531732,
+      "recall_needs_mcp": 0.9482758620689655,
+      "none_correct": 8,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7226890756302521,
+        "macro_f1": 0.6941378066378067
+      },
+      "action": {
+        "micro_f1": 0.6212121212121212,
+        "macro_f1": 0.5473728519774808
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "both_none",
+      "trigger": "low_conf",
+      "called_rate": 0.11594202898550725,
+      "used_rate": 0.11594202898550725,
+      "cost_usd": 0.0039359,
+      "latency_ms": {
+        "p50": 1.1820419458672404,
+        "p95": 4146.312991552976
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v1",
+      "strategy": "both_none",
+      "trigger": "always",
+      "called_rate": 0.8840579710144928,
+      "used_rate": 0.8840579710144928,
+      "cost_usd": 0.029612899999999994,
+      "latency_ms": {
+        "p50": 3384.5269579906017,
+        "p95": 17846.252974984236
+      },
+      "need_accuracy": 0.8405797101449275,
+      "need_macro_f1": 0.6469507101086048,
+      "recall_needs_mcp": 1.0,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.7540983606557377,
+        "macro_f1": 0.7491883116883118
+      },
+      "action": {
+        "micro_f1": 0.6370370370370371,
+        "macro_f1": 0.5521542727425081
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "local",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "local",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "replace",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "replace",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "need_only",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "need_only",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "both_none",
+      "trigger": "low_conf",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    },
+    {
+      "client": "haiku",
+      "need_version": "v2",
+      "strategy": "both_none",
+      "trigger": "always",
+      "called_rate": 0.0,
+      "used_rate": 0.0,
+      "cost_usd": 0.0,
+      "latency_ms": {
+        "p50": 1.177125028334558,
+        "p95": 1.285966974683106
+      },
+      "need_accuracy": 0.8260869565217391,
+      "need_macro_f1": 0.6342182890855458,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 3,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      }
+    }
+  ]
+}

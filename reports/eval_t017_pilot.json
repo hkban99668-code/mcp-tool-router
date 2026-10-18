@@ -1,0 +1,213 @@
+{
+  "need_version": "v3",
+  "n": 210,
+  "live": false,
+  "workers": 8,
+  "rows": [
+    {
+      "model": "haiku",
+      "cache_name": "haiku@claude-haiku-5-5",
+      "is_candidate": false,
+      "metrics": {
+        "n": 210,
+        "both_answered": 208,
+        "agree": 171,
+        "agree_rate": 0.8221153846153846,
+        "silver_covered": 171,
+        "silver_hit": 171,
+        "silver_rate": 1.0,
+        "domain_denom": 91,
+        "domain_hit": 91,
+        "domain_rate": 1.0,
+        "asked": 0,
+        "failed": 2,
+        "missing": 2,
+        "fail_rate": 0.009523809523809525,
+        "latency_ms": {
+          "p50": 4469.050854502711,
+          "p95": 6701.263031223789
+        },
+        "tokens": {
+          "prompt": 0.0,
+          "completion": 0.0,
+          "reasoning": 0.0,
+          "total": 0.0
+        }
+      },
+      "stats": {
+        "asked": 0,
+        "failed": 0,
+        "stopped": ""
+      }
+    },
+    {
+      "model": "deepseek/deepseek-v4.1-flash",
+      "cache_name": "chat@deepseek-deepseek-v4.1-flash",
+      "is_candidate": true,
+      "metrics": {
+        "n": 210,
+        "both_answered": 210,
+        "agree": 173,
+        "agree_rate": 0.8238095238095238,
+        "silver_covered": 171,
+        "silver_hit": 164,
+        "silver_rate": 0.9590643274853801,
+        "domain_denom": 103,
+        "domain_hit": 70,
+        "domain_rate": 0.6796116504854369,
+        "asked": 0,
+        "failed": 0,
+        "missing": 0,
+        "fail_rate": 0.0,
+        "latency_ms": {
+          "p50": 6232.5977080035955,
+          "p95": 23045.52790394518
+        },
+        "tokens": {
+          "prompt": 1829.4809523809524,
+          "completion": 867.6761904761905,
+          "reasoning": 724.6238095238095,
+          "total": 2697.157142857143
+        }
+      },
+      "stats": {
+        "asked": 0,
+        "failed": 0,
+        "first_error": "",
+        "cost_usd": 0.0,
+        "stopped": "",
+        "line": ""
+      }
+    },
+    {
+      "model": "z-ai/glm-5.3-flash",
+      "cache_name": "chat@z-ai-glm-5.3-flash",
+      "is_candidate": true,
+      "metrics": {
+        "n": 210,
+        "both_answered": 206,
+        "agree": 169,
+        "agree_rate": 0.8203883495145631,
+        "silver_covered": 168,
+        "silver_hit": 160,
+        "silver_rate": 0.9523809523809523,
+        "domain_denom": 103,
+        "domain_hit": 69,
+        "domain_rate": 0.6699029126213593,
+        "asked": 0,
+        "failed": 4,
+        "missing": 4,
+        "fail_rate": 0.01904761904761905,
+        "latency_ms": {
+          "p50": 16877.44789593853,
+          "p95": 79577.87236428703
+        },
+        "tokens": {
+          "prompt": 1800.9708737864078,
+          "completion": 1235.3155339805826,
+          "reasoning": 1072.621359223301,
+          "total": 3036.28640776699
+        }
+      },
+      "stats": {
+        "asked": 0,
+        "failed": 0,
+        "first_error": "",
+        "cost_usd": 0.0,
+        "stopped": "",
+        "line": ""
+      }
+    },
+    {
+      "model": "Qwen/Qwen3.8-Flash",
+      "cache_name": "chat@Qwen-Qwen3.8-Flash",
+      "is_candidate": true,
+      "metrics": {
+        "n": 210,
+        "both_answered": 23,
+        "agree": 20,
+        "agree_rate": 0.8695652173913043,
+        "silver_covered": 17,
+        "silver_hit": 16,
+        "silver_rate": 0.9411764705882353,
+        "domain_denom": 7,
+        "domain_hit": 4,
+        "domain_rate": 0.5714285714285714,
+        "asked": 0,
+        "failed": 187,
+        "missing": 187,
+        "fail_rate": 0.8904761904761904,
+        "latency_ms": {
+          "p50": 16892.999084084295,
+          "p95": 36861.006933881436
+        },
+        "tokens": {
+          "prompt": 1822.3478260869565,
+          "completion": 848.7826086956521,
+          "reasoning": 667.7826086956521,
+          "total": 2671.1304347826085
+        }
+      },
+      "stats": {
+        "asked": 0,
+        "failed": 0,
+        "first_error": "",
+        "cost_usd": 0.0,
+        "stopped": "",
+        "line": ""
+      }
+    },
+    {
+      "model": "xiaomi/mimo-v2.6-flash",
+      "cache_name": "chat@xiaomi-mimo-v2.6-flash",
+      "is_candidate": true,
+      "metrics": {
+        "n": 210,
+        "both_answered": 210,
+        "agree": 170,
+        "agree_rate": 0.8095238095238095,
+        "silver_covered": 171,
+        "silver_hit": 166,
+        "silver_rate": 0.9707602339181286,
+        "domain_denom": 101,
+        "domain_hit": 68,
+        "domain_rate": 0.6732673267326733,
+        "asked": 0,
+        "failed": 0,
+        "missing": 0,
+        "fail_rate": 0.0,
+        "latency_ms": {
+          "p50": 8234.690312005114,
+          "p95": 23405.189310590496
+        },
+        "tokens": {
+          "prompt": 1803.4285714285713,
+          "completion": 251.6904761904762,
+          "reasoning": 123.4,
+          "total": 2055.1190476190477
+        }
+      },
+      "stats": {
+        "asked": 0,
+        "failed": 0,
+        "first_error": "",
+        "cost_usd": 0.0,
+        "stopped": "",
+        "line": ""
+      }
+    }
+  ],
+  "picked": "deepseek/deepseek-v4.1-flash",
+  "tied": [
+    "deepseek/deepseek-v4.1-flash",
+    "z-ai/glm-5.3-flash"
+  ],
+  "excluded": [
+    "Qwen/Qwen3.8-Flash"
+  ],
+  "by_source": {
+    "alpaca_zh": 70,
+    "apibank": 70,
+    "bfcl": 70
+  }
+}

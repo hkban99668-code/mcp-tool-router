@@ -1,0 +1,2009 @@
+{
+  "encoders": [
+    {
+      "spec": "tfidf",
+      "label": "基线(tfidf 分类头)"
+    },
+    {
+      "spec": "st:intfloat/multilingual-e5-small",
+      "label": "C1:e5-small need 头"
+    },
+    {
+      "spec": "st:BAAI/bge-m3",
+      "label": "C2:bge-m3 need 头"
+    }
+  ],
+  "base_spec": "tfidf",
+  "dev_ids": [
+    "alpaca_zh-10008",
+    "alpaca_zh-10077",
+    "alpaca_zh-10243",
+    "alpaca_zh-10292",
+    "alpaca_zh-10451",
+    "alpaca_zh-1050",
+    "alpaca_zh-10570",
+    "alpaca_zh-10746",
+    "alpaca_zh-10765",
+    "alpaca_zh-10915",
+    "alpaca_zh-11215",
+    "alpaca_zh-11263",
+    "alpaca_zh-12072",
+    "alpaca_zh-12384",
+    "alpaca_zh-12434",
+    "alpaca_zh-12465",
+    "alpaca_zh-12507",
+    "alpaca_zh-12873",
+    "alpaca_zh-12929",
+    "alpaca_zh-12966",
+    "alpaca_zh-12983",
+    "alpaca_zh-1305",
+    "alpaca_zh-13437",
+    "alpaca_zh-13464",
+    "alpaca_zh-13517",
+    "alpaca_zh-13626",
+    "alpaca_zh-13759",
+    "alpaca_zh-13954",
+    "alpaca_zh-14371",
+    "alpaca_zh-14469",
+    "alpaca_zh-14695",
+    "alpaca_zh-14892",
+    "alpaca_zh-14978",
+    "alpaca_zh-15077",
+    "alpaca_zh-15110",
+    "alpaca_zh-15174",
+    "alpaca_zh-15199",
+    "alpaca_zh-15524",
+    "alpaca_zh-15779",
+    "alpaca_zh-15807",
+    "alpaca_zh-15897",
+    "alpaca_zh-16087",
+    "alpaca_zh-16245",
+    "alpaca_zh-16303",
+    "alpaca_zh-16454",
+    "alpaca_zh-16583",
+    "alpaca_zh-16610",
+    "alpaca_zh-16622",
+    "alpaca_zh-17592",
+    "alpaca_zh-17693",
+    "alpaca_zh-1779",
+    "alpaca_zh-18069",
+    "alpaca_zh-18156",
+    "alpaca_zh-18216",
+    "alpaca_zh-18417",
+    "alpaca_zh-18479",
+    "alpaca_zh-18794",
+    "alpaca_zh-18853",
+    "alpaca_zh-18891",
+    "alpaca_zh-19052",
+    "alpaca_zh-19140",
+    "alpaca_zh-19396",
+    "alpaca_zh-19656",
+    "alpaca_zh-19772",
+    "alpaca_zh-19785",
+    "alpaca_zh-19866",
+    "alpaca_zh-2",
+    "alpaca_zh-20117",
+    "alpaca_zh-20121",
+    "alpaca_zh-20328",
+    "alpaca_zh-20519",
+    "alpaca_zh-20674",
+    "alpaca_zh-20729",
+    "alpaca_zh-20975",
+    "alpaca_zh-21483",
+    "alpaca_zh-21888",
+    "alpaca_zh-21897",
+    "alpaca_zh-22586",
+    "alpaca_zh-22837",
+    "alpaca_zh-23144",
+    "alpaca_zh-23322",
+    "alpaca_zh-23754",
+    "alpaca_zh-23804",
+    "alpaca_zh-2423",
+    "alpaca_zh-25119",
+    "alpaca_zh-25153",
+    "alpaca_zh-25243",
+    "alpaca_zh-25324",
+    "alpaca_zh-25340",
+    "alpaca_zh-25753",
+    "alpaca_zh-26424",
+    "alpaca_zh-26724",
+    "alpaca_zh-27017",
+    "alpaca_zh-2718",
+    "alpaca_zh-27367",
+    "alpaca_zh-27845",
+    "alpaca_zh-28513",
+    "alpaca_zh-2858",
+    "alpaca_zh-28643",
+    "alpaca_zh-28673",
+    "alpaca_zh-28793",
+    "alpaca_zh-28795",
+    "alpaca_zh-2882",
+    "alpaca_zh-28869",
+    "alpaca_zh-29651",
+    "alpaca_zh-2974",
+    "alpaca_zh-30357",
+    "alpaca_zh-304",
+    "alpaca_zh-30848",
+    "alpaca_zh-31279",
+    "alpaca_zh-31665",
+    "alpaca_zh-31673",
+    "alpaca_zh-31862",
+    "alpaca_zh-32011",
+    "alpaca_zh-32019",
+    "alpaca_zh-32059",
+    "alpaca_zh-32064",
+    "alpaca_zh-32360",
+    "alpaca_zh-32549",
+    "alpaca_zh-32595",
+    "alpaca_zh-32777",
+    "alpaca_zh-32936",
+    "alpaca_zh-33516",
+    "alpaca_zh-33594",
+    "alpaca_zh-33680",
+    "alpaca_zh-3396",
+    "alpaca_zh-34011",
+    "alpaca_zh-34361",
+    "alpaca_zh-34441",
+    "alpaca_zh-34753",
+    "alpaca_zh-3480",
+    "alpaca_zh-34931",
+    "alpaca_zh-34971",
+    "alpaca_zh-35112",
+    "alpaca_zh-3513",
+    "alpaca_zh-35282",
+    "alpaca_zh-3539",
+    "alpaca_zh-35401",
+    "alpaca_zh-35583",
+    "alpaca_zh-3602",
+    "alpaca_zh-36047",
+    "alpaca_zh-36089",
+    "alpaca_zh-36272",
+    "alpaca_zh-36598",
+    "alpaca_zh-3671",
+    "alpaca_zh-37141",
+    "alpaca_zh-38051",
+    "alpaca_zh-38162",
+    "alpaca_zh-38184",
+    "alpaca_zh-3825",
+    "alpaca_zh-38522",
+    "alpaca_zh-38562",
+    "alpaca_zh-3860",
+    "alpaca_zh-38645",
+    "alpaca_zh-38879",
+    "alpaca_zh-38912",
+    "alpaca_zh-39210",
+    "alpaca_zh-39358",
+    "alpaca_zh-39593",
+    "alpaca_zh-39638",
+    "alpaca_zh-39815",
+    "alpaca_zh-40051",
+    "alpaca_zh-40450",
+    "alpaca_zh-40512",
+    "alpaca_zh-40645",
+    "alpaca_zh-40650",
+    "alpaca_zh-41051",
+    "alpaca_zh-41424",
+    "alpaca_zh-4143",
+    "alpaca_zh-41503",
+    "alpaca_zh-41520",
+    "alpaca_zh-41669",
+    "alpaca_zh-4179",
+    "alpaca_zh-41901",
+    "alpaca_zh-423",
+    "alpaca_zh-42802",
+    "alpaca_zh-44038",
+    "alpaca_zh-44332",
+    "alpaca_zh-44381",
+    "alpaca_zh-445",
+    "alpaca_zh-44674",
+    "alpaca_zh-45054",
+    "alpaca_zh-45241",
+    "alpaca_zh-4551",
+    "alpaca_zh-45853",
+    "alpaca_zh-45960",
+    "alpaca_zh-46084",
+    "alpaca_zh-46472",
+    "alpaca_zh-46683",
+    "alpaca_zh-46686",
+    "alpaca_zh-46752",
+    "alpaca_zh-46824",
+    "alpaca_zh-47120",
+    "alpaca_zh-47413",
+    "alpaca_zh-47819",
+    "alpaca_zh-4790",
+    "alpaca_zh-48378",
+    "alpaca_zh-516",
+    "alpaca_zh-5236",
+    "alpaca_zh-5717",
+    "alpaca_zh-5798",
+    "alpaca_zh-5871",
+    "alpaca_zh-5895",
+    "alpaca_zh-5955",
+    "alpaca_zh-6043",
+    "alpaca_zh-6044",
+    "alpaca_zh-6054",
+    "alpaca_zh-6070",
+    "alpaca_zh-6550",
+    "alpaca_zh-6647",
+    "alpaca_zh-6742",
+    "alpaca_zh-6820",
+    "alpaca_zh-7325",
+    "alpaca_zh-7375",
+    "alpaca_zh-7567",
+    "alpaca_zh-7735",
+    "alpaca_zh-8031",
+    "alpaca_zh-8187",
+    "alpaca_zh-8222",
+    "alpaca_zh-894",
+    "alpaca_zh-9169",
+    "alpaca_zh-9194",
+    "alpaca_zh-930",
+    "alpaca_zh-9324",
+    "alpaca_zh-9969",
+    "apibank-1007",
+    "apibank-1013",
+    "apibank-1023",
+    "apibank-1027",
+    "apibank-1047",
+    "apibank-1059",
+    "apibank-1073",
+    "apibank-111",
+    "apibank-1110",
+    "apibank-1116",
+    "apibank-1151",
+    "apibank-1153",
+    "apibank-1154",
+    "apibank-1168",
+    "apibank-1185",
+    "apibank-119",
+    "apibank-1245",
+    "apibank-1250",
+    "apibank-126",
+    "apibank-1261",
+    "apibank-1280",
+    "apibank-1291",
+    "apibank-1299",
+    "apibank-1313",
+    "apibank-1349",
+    "apibank-1354",
+    "apibank-1356",
+    "apibank-1404",
+    "apibank-1406",
+    "apibank-145",
+    "apibank-152",
+    "apibank-153",
+    "apibank-166",
+    "apibank-194",
+    "apibank-218",
+    "apibank-229",
+    "apibank-26",
+    "apibank-29",
+    "apibank-292",
+    "apibank-295",
+    "apibank-310",
+    "apibank-341",
+    "apibank-344",
+    "apibank-351",
+    "apibank-368",
+    "apibank-377",
+    "apibank-385",
+    "apibank-386",
+    "apibank-391",
+    "apibank-398",
+    "apibank-4",
+    "apibank-42",
+    "apibank-437",
+    "apibank-44",
+    "apibank-440",
+    "apibank-444",
+    "apibank-454",
+    "apibank-457",
+    "apibank-472",
+    "apibank-473",
+    "apibank-5",
+    "apibank-500",
+    "apibank-503",
+    "apibank-506",
+    "apibank-51",
+    "apibank-516",
+    "apibank-530",
+    "apibank-542",
+    "apibank-547",
+    "apibank-559",
+    "apibank-561",
+    "apibank-569",
+    "apibank-575",
+    "apibank-583",
+    "apibank-588",
+    "apibank-60",
+    "apibank-606",
+    "apibank-625",
+    "apibank-634",
+    "apibank-647",
+    "apibank-651",
+    "apibank-655",
+    "apibank-656",
+    "apibank-672",
+    "apibank-683",
+    "apibank-7",
+    "apibank-706",
+    "apibank-72",
+    "apibank-720",
+    "apibank-77",
+    "apibank-770",
+    "apibank-781",
+    "apibank-80",
+    "apibank-810",
+    "apibank-834",
+    "apibank-837",
+    "apibank-859",
+    "apibank-867",
+    "apibank-876",
+    "apibank-900",
+    "apibank-920",
+    "apibank-926",
+    "apibank-927",
+    "apibank-943",
+    "apibank-955",
+    "apibank-956",
+    "apibank-960",
+    "apibank-983",
+    "apibank-992",
+    "bfcl-1012",
+    "bfcl-1015",
+    "bfcl-1023",
+    "bfcl-1038",
+    "bfcl-1042",
+    "bfcl-105",
+    "bfcl-106",
+    "bfcl-1099",
+    "bfcl-110",
+    "bfcl-1100",
+    "bfcl-1104",
+    "bfcl-115",
+    "bfcl-1183",
+    "bfcl-1212",
+    "bfcl-1218",
+    "bfcl-1223",
+    "bfcl-1236",
+    "bfcl-1257",
+    "bfcl-1269",
+    "bfcl-127",
+    "bfcl-1274",
+    "bfcl-1276",
+    "bfcl-1277",
+    "bfcl-1278",
+    "bfcl-1279",
+    "bfcl-1283",
+    "bfcl-1285",
+    "bfcl-1287",
+    "bfcl-1288",
+    "bfcl-1289",
+    "bfcl-1291",
+    "bfcl-1292",
+    "bfcl-1293",
+    "bfcl-1294",
+    "bfcl-1295",
+    "bfcl-1298",
+    "bfcl-1301",
+    "bfcl-131",
+    "bfcl-1314",
+    "bfcl-1335",
+    "bfcl-1340",
+    "bfcl-1341",
+    "bfcl-1354",
+    "bfcl-1357",
+    "bfcl-1370",
+    "bfcl-1375",
+    "bfcl-1383",
+    "bfcl-1396",
+    "bfcl-1404",
+    "bfcl-1419",
+    "bfcl-142",
+    "bfcl-144",
+    "bfcl-1469",
+    "bfcl-1472",
+    "bfcl-148",
+    "bfcl-1517",
+    "bfcl-153",
+    "bfcl-1532",
+    "bfcl-1534",
+    "bfcl-1541",
+    "bfcl-155",
+    "bfcl-1550",
+    "bfcl-1569",
+    "bfcl-157",
+    "bfcl-1578",
+    "bfcl-1579",
+    "bfcl-1587",
+    "bfcl-1588",
+    "bfcl-159",
+    "bfcl-1592",
+    "bfcl-1628",
+    "bfcl-1633",
+    "bfcl-167",
+    "bfcl-1670",
+    "bfcl-1680",
+    "bfcl-1684",
+    "bfcl-1687",
+    "bfcl-1688",
+    "bfcl-1704",
+    "bfcl-1708",
+    "bfcl-1711",
+    "bfcl-1712",
+    "bfcl-1715",
+    "bfcl-1716",
+    "bfcl-1718",
+    "bfcl-172",
+    "bfcl-1726",
+    "bfcl-1728",
+    "bfcl-1731",
+    "bfcl-1734",
+    "bfcl-1736",
+    "bfcl-1739",
+    "bfcl-174",
+    "bfcl-1740",
+    "bfcl-1741",
+    "bfcl-1743",
+    "bfcl-1748",
+    "bfcl-1749",
+    "bfcl-1755",
+    "bfcl-1758",
+    "bfcl-1759",
+    "bfcl-1760",
+    "bfcl-1762",
+    "bfcl-1765",
+    "bfcl-1766",
+    "bfcl-1770",
+    "bfcl-1776",
+    "bfcl-1777",
+    "bfcl-1778",
+    "bfcl-1785",
+    "bfcl-1787",
+    "bfcl-1788",
+    "bfcl-1790",
+    "bfcl-1798",
+    "bfcl-1802",
+    "bfcl-1803",
+    "bfcl-1809",
+    "bfcl-1812",
+    "bfcl-1813",
+    "bfcl-1817",
+    "bfcl-1818",
+    "bfcl-1825",
+    "bfcl-1827",
+    "bfcl-1829",
+    "bfcl-1830",
+    "bfcl-1834",
+    "bfcl-1838",
+    "bfcl-1840",
+    "bfcl-1841",
+    "bfcl-1843",
+    "bfcl-1852",
+    "bfcl-1855",
+    "bfcl-1862",
+    "bfcl-1868",
+    "bfcl-1871",
+    "bfcl-1874",
+    "bfcl-1877",
+    "bfcl-1880",
+    "bfcl-1882",
+    "bfcl-1884",
+    "bfcl-1887",
+    "bfcl-189",
+    "bfcl-19",
+    "bfcl-1900",
+    "bfcl-1906",
+    "bfcl-1907",
+    "bfcl-191",
+    "bfcl-1914",
+    "bfcl-1931",
+    "bfcl-1932",
+    "bfcl-1942",
+    "bfcl-1943",
+    "bfcl-1949",
+    "bfcl-1950",
+    "bfcl-1954",
+    "bfcl-1960",
+    "bfcl-1964",
+    "bfcl-1965",
+    "bfcl-1970",
+    "bfcl-1973",
+    "bfcl-1974",
+    "bfcl-1975",
+    "bfcl-1976",
+    "bfcl-1979",
+    "bfcl-198",
+    "bfcl-1981",
+    "bfcl-1983",
+    "bfcl-1985",
+    "bfcl-1986",
+    "bfcl-1992",
+    "bfcl-1995",
+    "bfcl-203",
+    "bfcl-206",
+    "bfcl-210",
+    "bfcl-211",
+    "bfcl-215",
+    "bfcl-221",
+    "bfcl-230",
+    "bfcl-235",
+    "bfcl-236",
+    "bfcl-26",
+    "bfcl-291",
+    "bfcl-317",
+    "bfcl-325",
+    "bfcl-328",
+    "bfcl-337",
+    "bfcl-361",
+    "bfcl-363",
+    "bfcl-40",
+    "bfcl-409",
+    "bfcl-416",
+    "bfcl-449",
+    "bfcl-455",
+    "bfcl-464",
+    "bfcl-484",
+    "bfcl-5",
+    "bfcl-53",
+    "bfcl-558",
+    "bfcl-57",
+    "bfcl-58",
+    "bfcl-6",
+    "bfcl-60",
+    "bfcl-63",
+    "bfcl-639",
+    "bfcl-65",
+    "bfcl-657",
+    "bfcl-69",
+    "bfcl-694",
+    "bfcl-71",
+    "bfcl-736",
+    "bfcl-752",
+    "bfcl-805",
+    "bfcl-816",
+    "bfcl-866",
+    "bfcl-871",
+    "bfcl-875",
+    "bfcl-886",
+    "bfcl-89",
+    "bfcl-906",
+    "bfcl-918",
+    "bfcl-921",
+    "bfcl-93",
+    "bfcl-933",
+    "bfcl-96",
+    "bfcl-960",
+    "bfcl-971",
+    "bfcl-979",
+    "bfcl-99"
+  ],
+  "test_ids": [
+    "alpaca_zh-10019",
+    "alpaca_zh-10068",
+    "alpaca_zh-10418",
+    "alpaca_zh-10763",
+    "alpaca_zh-1080",
+    "alpaca_zh-10893",
+    "alpaca_zh-1095",
+    "alpaca_zh-11026",
+    "alpaca_zh-11052",
+    "alpaca_zh-11209",
+    "alpaca_zh-11446",
+    "alpaca_zh-11878",
+    "alpaca_zh-12219",
+    "alpaca_zh-12551",
+    "alpaca_zh-12816",
+    "alpaca_zh-12954",
+    "alpaca_zh-13053",
+    "alpaca_zh-13730",
+    "alpaca_zh-14100",
+    "alpaca_zh-14103",
+    "alpaca_zh-14230",
+    "alpaca_zh-14321",
+    "alpaca_zh-14338",
+    "alpaca_zh-14442",
+    "alpaca_zh-14683",
+    "alpaca_zh-14761",
+    "alpaca_zh-14796",
+    "alpaca_zh-15792",
+    "alpaca_zh-163",
+    "alpaca_zh-16826",
+    "alpaca_zh-1687",
+    "alpaca_zh-17035",
+    "alpaca_zh-17150",
+    "alpaca_zh-17380",
+    "alpaca_zh-17384",
+    "alpaca_zh-17638",
+    "alpaca_zh-18004",
+    "alpaca_zh-18020",
+    "alpaca_zh-18398",
+    "alpaca_zh-1874",
+    "alpaca_zh-19410",
+    "alpaca_zh-1944",
+    "alpaca_zh-19450",
+    "alpaca_zh-19694",
+    "alpaca_zh-19981",
+    "alpaca_zh-20068",
+    "alpaca_zh-2010",
+    "alpaca_zh-208",
+    "alpaca_zh-2082",
+    "alpaca_zh-21036",
+    "alpaca_zh-21149",
+    "alpaca_zh-21271",
+    "alpaca_zh-21471",
+    "alpaca_zh-21946",
+    "alpaca_zh-2223",
+    "alpaca_zh-22248",
+    "alpaca_zh-22400",
+    "alpaca_zh-22561",
+    "alpaca_zh-22576",
+    "alpaca_zh-22596",
+    "alpaca_zh-2264",
+    "alpaca_zh-22687",
+    "alpaca_zh-22823",
+    "alpaca_zh-23237",
+    "alpaca_zh-23373",
+    "alpaca_zh-23528",
+    "alpaca_zh-23657",
+    "alpaca_zh-23990",
+    "alpaca_zh-24012",
+    "alpaca_zh-24099",
+    "alpaca_zh-24491",
+    "alpaca_zh-24895",
+    "alpaca_zh-25445",
+    "alpaca_zh-25595",
+    "alpaca_zh-25712",
+    "alpaca_zh-26949",
+    "alpaca_zh-27006",
+    "alpaca_zh-27093",
+    "alpaca_zh-27123",
+    "alpaca_zh-27204",
+    "alpaca_zh-27546",
+    "alpaca_zh-27630",
+    "alpaca_zh-27834",
+    "alpaca_zh-27849",
+    "alpaca_zh-28113",
+    "alpaca_zh-2821",
+    "alpaca_zh-28915",
+    "alpaca_zh-29007",
+    "alpaca_zh-29464",
+    "alpaca_zh-29503",
+    "alpaca_zh-29677",
+    "alpaca_zh-30156",
+    "alpaca_zh-30221",
+    "alpaca_zh-30504",
+    "alpaca_zh-30516",
+    "alpaca_zh-30609",
+    "alpaca_zh-30653",
+    "alpaca_zh-30742",
+    "alpaca_zh-30994",
+    "alpaca_zh-31644",
+    "alpaca_zh-31750",
+    "alpaca_zh-33021",
+    "alpaca_zh-33104",
+    "alpaca_zh-33438",
+    "alpaca_zh-33862",
+    "alpaca_zh-34655",
+    "alpaca_zh-34750",
+    "alpaca_zh-34814",
+    "alpaca_zh-35121",
+    "alpaca_zh-35657",
+    "alpaca_zh-35874",
+    "alpaca_zh-36210",
+    "alpaca_zh-36280",
+    "alpaca_zh-36460",
+    "alpaca_zh-36544",
+    "alpaca_zh-36758",
+    "alpaca_zh-37069",
+    "alpaca_zh-37228",
+    "alpaca_zh-37350",
+    "alpaca_zh-37414",
+    "alpaca_zh-37884",
+    "alpaca_zh-37991",
+    "alpaca_zh-38036",
+    "alpaca_zh-38549",
+    "alpaca_zh-3897",
+    "alpaca_zh-39317",
+    "alpaca_zh-39355",
+    "alpaca_zh-39671",
+    "alpaca_zh-39976",
+    "alpaca_zh-4009",
+    "alpaca_zh-40290",
+    "alpaca_zh-41443",
+    "alpaca_zh-41473",
+    "alpaca_zh-41980",
+    "alpaca_zh-4213",
+    "alpaca_zh-42378",
+    "alpaca_zh-42641",
+    "alpaca_zh-42709",
+    "alpaca_zh-43138",
+    "alpaca_zh-43167",
+    "alpaca_zh-43253",
+    "alpaca_zh-43352",
+    "alpaca_zh-43544",
+    "alpaca_zh-43946",
+    "alpaca_zh-44025",
+    "alpaca_zh-44109",
+    "alpaca_zh-44342",
+    "alpaca_zh-44630",
+    "alpaca_zh-44810",
+    "alpaca_zh-44845",
+    "alpaca_zh-45012",
+    "alpaca_zh-460",
+    "alpaca_zh-46209",
+    "alpaca_zh-46313",
+    "alpaca_zh-47038",
+    "alpaca_zh-4706",
+    "alpaca_zh-47217",
+    "alpaca_zh-47423",
+    "alpaca_zh-4807",
+    "alpaca_zh-48360",
+    "alpaca_zh-48407",
+    "alpaca_zh-4949",
+    "alpaca_zh-5289",
+    "alpaca_zh-5304",
+    "alpaca_zh-5814",
+    "alpaca_zh-6503",
+    "alpaca_zh-7802",
+    "alpaca_zh-7892",
+    "alpaca_zh-8015",
+    "alpaca_zh-8114",
+    "alpaca_zh-8223",
+    "alpaca_zh-838",
+    "alpaca_zh-8386",
+    "alpaca_zh-8945",
+    "alpaca_zh-8962",
+    "alpaca_zh-9911",
+    "alpaca_zh-9997",
+    "apibank-1055",
+    "apibank-1115",
+    "apibank-1190",
+    "apibank-1204",
+    "apibank-1282",
+    "apibank-1289",
+    "apibank-1315",
+    "apibank-1371",
+    "apibank-1375",
+    "apibank-1378",
+    "apibank-1382",
+    "apibank-1397",
+    "apibank-1407",
+    "apibank-146",
+    "apibank-184",
+    "apibank-209",
+    "apibank-237",
+    "apibank-242",
+    "apibank-332",
+    "apibank-333",
+    "apibank-336",
+    "apibank-37",
+    "apibank-374",
+    "apibank-38",
+    "apibank-399",
+    "apibank-407",
+    "apibank-426",
+    "apibank-466",
+    "apibank-477",
+    "apibank-537",
+    "apibank-565",
+    "apibank-566",
+    "apibank-585",
+    "apibank-613",
+    "apibank-627",
+    "apibank-630",
+    "apibank-636",
+    "apibank-642",
+    "apibank-664",
+    "apibank-719",
+    "apibank-721",
+    "apibank-740",
+    "apibank-741",
+    "apibank-798",
+    "apibank-870",
+    "apibank-875",
+    "apibank-947",
+    "apibank-958",
+    "apibank-97",
+    "apibank-973",
+    "apibank-991",
+    "bfcl-1",
+    "bfcl-100",
+    "bfcl-101",
+    "bfcl-1032",
+    "bfcl-1033",
+    "bfcl-1041",
+    "bfcl-108",
+    "bfcl-1086",
+    "bfcl-112",
+    "bfcl-1161",
+    "bfcl-119",
+    "bfcl-123",
+    "bfcl-1270",
+    "bfcl-1271",
+    "bfcl-1272",
+    "bfcl-1280",
+    "bfcl-1282",
+    "bfcl-1290",
+    "bfcl-1297",
+    "bfcl-13",
+    "bfcl-1300",
+    "bfcl-1316",
+    "bfcl-1329",
+    "bfcl-1333",
+    "bfcl-134",
+    "bfcl-1364",
+    "bfcl-137",
+    "bfcl-1386",
+    "bfcl-1395",
+    "bfcl-1397",
+    "bfcl-1410",
+    "bfcl-1415",
+    "bfcl-1443",
+    "bfcl-1516",
+    "bfcl-1538",
+    "bfcl-161",
+    "bfcl-162",
+    "bfcl-1624",
+    "bfcl-1626",
+    "bfcl-1640",
+    "bfcl-1651",
+    "bfcl-1686",
+    "bfcl-1699",
+    "bfcl-1703",
+    "bfcl-1717",
+    "bfcl-1719",
+    "bfcl-1723",
+    "bfcl-1727",
+    "bfcl-1735",
+    "bfcl-1737",
+    "bfcl-1742",
+    "bfcl-1746",
+    "bfcl-1747",
+    "bfcl-176",
+    "bfcl-1767",
+    "bfcl-1779",
+    "bfcl-1780",
+    "bfcl-1786",
+    "bfcl-1800",
+    "bfcl-1805",
+    "bfcl-1811",
+    "bfcl-1824",
+    "bfcl-183",
+    "bfcl-1832",
+    "bfcl-1847",
+    "bfcl-1864",
+    "bfcl-1872",
+    "bfcl-1873",
+    "bfcl-1883",
+    "bfcl-1885",
+    "bfcl-1888",
+    "bfcl-1890",
+    "bfcl-1891",
+    "bfcl-1897",
+    "bfcl-1898",
+    "bfcl-1901",
+    "bfcl-1904",
+    "bfcl-1921",
+    "bfcl-1926",
+    "bfcl-1927",
+    "bfcl-1928",
+    "bfcl-1929",
+    "bfcl-1930",
+    "bfcl-1935",
+    "bfcl-1940",
+    "bfcl-1945",
+    "bfcl-1946",
+    "bfcl-1947",
+    "bfcl-1957",
+    "bfcl-1963",
+    "bfcl-1968",
+    "bfcl-1969",
+    "bfcl-1971",
+    "bfcl-1972",
+    "bfcl-1977",
+    "bfcl-1978",
+    "bfcl-1993",
+    "bfcl-1996",
+    "bfcl-1997",
+    "bfcl-1998",
+    "bfcl-1999",
+    "bfcl-209",
+    "bfcl-21",
+    "bfcl-219",
+    "bfcl-231",
+    "bfcl-232",
+    "bfcl-264",
+    "bfcl-265",
+    "bfcl-334",
+    "bfcl-34",
+    "bfcl-355",
+    "bfcl-381",
+    "bfcl-39",
+    "bfcl-4",
+    "bfcl-41",
+    "bfcl-412",
+    "bfcl-417",
+    "bfcl-44",
+    "bfcl-46",
+    "bfcl-50",
+    "bfcl-500",
+    "bfcl-516",
+    "bfcl-521",
+    "bfcl-536",
+    "bfcl-54",
+    "bfcl-554",
+    "bfcl-576",
+    "bfcl-59",
+    "bfcl-624",
+    "bfcl-67",
+    "bfcl-679",
+    "bfcl-7",
+    "bfcl-70",
+    "bfcl-745",
+    "bfcl-75",
+    "bfcl-759",
+    "bfcl-78",
+    "bfcl-786",
+    "bfcl-817",
+    "bfcl-843",
+    "bfcl-846",
+    "bfcl-861",
+    "bfcl-862",
+    "bfcl-94",
+    "bfcl-948",
+    "bfcl-97"
+  ],
+  "soft": 0.7,
+  "top_k": 5,
+  "folds": 5,
+  "constraints": {
+    "precision_drop_max": 0.03,
+    "attach_margin": 0.05
+  },
+  "selected_key": "enc:st:BAAI/bge-m3",
+  "buckets": {
+    "tfidf": {
+      "total": 41,
+      "by_source": {
+        "alpaca_zh": 3,
+        "apibank": 8,
+        "bfcl": 30
+      },
+      "buckets": {
+        "<0.5": 8,
+        "0.5-0.7": 21,
+        "0.7-0.9": 10,
+        ">=0.9": 2
+      }
+    },
+    "st:intfloat/multilingual-e5-small": {
+      "total": 29,
+      "by_source": {
+        "alpaca_zh": 2,
+        "apibank": 5,
+        "bfcl": 22
+      },
+      "buckets": {
+        "<0.5": 3,
+        "0.5-0.7": 17,
+        "0.7-0.9": 8,
+        ">=0.9": 1
+      }
+    },
+    "st:BAAI/bge-m3": {
+      "total": 24,
+      "by_source": {
+        "alpaca_zh": 2,
+        "apibank": 4,
+        "bfcl": 18
+      },
+      "buckets": {
+        "<0.5": 1,
+        "0.5-0.7": 12,
+        "0.7-0.9": 10,
+        ">=0.9": 1
+      }
+    }
+  },
+  "attach": {
+    "tfidf": {
+      "n": 480,
+      "hits": 14,
+      "rate": 0.029166666666666667,
+      "n_holdout": 87,
+      "holdout_hits": 8,
+      "holdout_rate": 0.09195402298850575
+    },
+    "st:intfloat/multilingual-e5-small": {
+      "n": 480,
+      "hits": 43,
+      "rate": 0.08958333333333333,
+      "n_holdout": 87,
+      "holdout_hits": 11,
+      "holdout_rate": 0.12643678160919541
+    },
+    "st:BAAI/bge-m3": {
+      "n": 480,
+      "hits": 30,
+      "rate": 0.0625,
+      "n_holdout": 87,
+      "holdout_hits": 9,
+      "holdout_rate": 0.10344827586206896
+    }
+  },
+  "candidates": [
+    {
+      "key": "baseline",
+      "kind": "baseline",
+      "label": "基线(tfidf 分类头)",
+      "spec": "tfidf",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.7960199004975125,
+        "precision": 0.7881773399014779,
+        "confusion": {
+          "none": {
+            "none": 318,
+            "single": 41,
+            "multi": 2
+          },
+          "single": {
+            "none": 41,
+            "single": 147,
+            "multi": 10
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.5,
+            "precision": 0.42857142857142855
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.8840579710144928,
+            "precision": 0.8026315789473685
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.7619047619047619,
+            "precision": 0.8
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "test": {
+        "n": 374,
+        "pos": 118,
+        "recall": 0.7711864406779662,
+        "precision": 0.8125,
+        "confusion": {
+          "none": {
+            "none": 235,
+            "single": 18,
+            "multi": 3
+          },
+          "single": {
+            "none": 27,
+            "single": 85,
+            "multi": 3
+          },
+          "multi": {
+            "none": 0,
+            "single": 3,
+            "multi": 0
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 177,
+            "pos": 3,
+            "recall": 0.3333333333333333,
+            "precision": 0.25
+          },
+          "apibank": {
+            "n": 51,
+            "pos": 34,
+            "recall": 0.7941176470588235,
+            "precision": 0.8181818181818182
+          },
+          "bfcl": {
+            "n": 146,
+            "pos": 81,
+            "recall": 0.7777777777777778,
+            "precision": 0.84
+          }
+        }
+      },
+      "reference": {
+        "n": 200,
+        "pos": 147,
+        "recall": 0.7551020408163265,
+        "precision": 0.9487179487179487,
+        "confusion": {
+          "none": {
+            "none": 47,
+            "single": 5,
+            "multi": 1
+          },
+          "single": {
+            "none": 34,
+            "single": 90,
+            "multi": 10
+          },
+          "multi": {
+            "none": 2,
+            "single": 7,
+            "multi": 4
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 31,
+            "pos": 4,
+            "recall": 0.0,
+            "precision": null
+          },
+          "apibank": {
+            "n": 62,
+            "pos": 57,
+            "recall": 0.8596491228070176,
+            "precision": 0.9423076923076923
+          },
+          "bfcl": {
+            "n": 107,
+            "pos": 86,
+            "recall": 0.7209302325581395,
+            "precision": 0.9538461538461539
+          }
+        }
+      }
+    },
+    {
+      "key": "A@0.5",
+      "kind": "none_threshold",
+      "t": 0.5,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.5",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.835820895522388,
+        "precision": 0.7850467289719626,
+        "confusion": {
+          "none": {
+            "none": 315,
+            "single": 43,
+            "multi": 3
+          },
+          "single": {
+            "none": 33,
+            "single": 154,
+            "multi": 11
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.5,
+            "precision": 0.42857142857142855
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.8985507246376812,
+            "precision": 0.8051948051948052
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.8174603174603174,
+            "precision": 0.7923076923076923
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.003130610929515276,
+      "attach_delta": 0.0,
+      "qualified": true
+    },
+    {
+      "key": "A@0.55",
+      "kind": "none_threshold",
+      "t": 0.55,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.55",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.8706467661691543,
+        "precision": 0.7641921397379913,
+        "confusion": {
+          "none": {
+            "none": 307,
+            "single": 50,
+            "multi": 4
+          },
+          "single": {
+            "none": 26,
+            "single": 160,
+            "multi": 12
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.3333333333333333
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.8985507246376812,
+            "precision": 0.7948717948717948
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.8650793650793651,
+            "precision": 0.7841726618705036
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.023985200163486597,
+      "attach_delta": 0.0,
+      "qualified": true,
+      "reference": {
+        "n": 200,
+        "pos": 147,
+        "recall": 0.8095238095238095,
+        "precision": 0.9444444444444444,
+        "confusion": {
+          "none": {
+            "none": 46,
+            "single": 6,
+            "multi": 1
+          },
+          "single": {
+            "none": 26,
+            "single": 95,
+            "multi": 13
+          },
+          "multi": {
+            "none": 2,
+            "single": 7,
+            "multi": 4
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 31,
+            "pos": 4,
+            "recall": 0.0,
+            "precision": null
+          },
+          "apibank": {
+            "n": 62,
+            "pos": 57,
+            "recall": 0.9122807017543859,
+            "precision": 0.9454545454545454
+          },
+          "bfcl": {
+            "n": 107,
+            "pos": 86,
+            "recall": 0.7790697674418605,
+            "precision": 0.9436619718309859
+          }
+        }
+      }
+    },
+    {
+      "key": "A@0.6",
+      "kind": "none_threshold",
+      "t": 0.6,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.6",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.8905472636815921,
+        "precision": 0.7427385892116183,
+        "confusion": {
+          "none": {
+            "none": 299,
+            "single": 58,
+            "multi": 4
+          },
+          "single": {
+            "none": 22,
+            "single": 163,
+            "multi": 13
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.3333333333333333
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9420289855072463,
+            "precision": 0.7831325301204819
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.873015873015873,
+            "precision": 0.7534246575342466
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.045438750689859586,
+      "attach_delta": 0.0,
+      "qualified": false
+    },
+    {
+      "key": "A@0.65",
+      "kind": "none_threshold",
+      "t": 0.65,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.65",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.9104477611940298,
+        "precision": 0.7093023255813954,
+        "confusion": {
+          "none": {
+            "none": 286,
+            "single": 70,
+            "multi": 5
+          },
+          "single": {
+            "none": 18,
+            "single": 167,
+            "multi": 13
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.25
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9420289855072463,
+            "precision": 0.7647058823529411
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.9047619047619048,
+            "precision": 0.7261146496815286
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.07887501432008248,
+      "attach_delta": 0.0,
+      "qualified": false
+    },
+    {
+      "key": "A@0.7",
+      "kind": "none_threshold",
+      "t": 0.7,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.7",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.9402985074626866,
+        "precision": 0.6585365853658537,
+        "confusion": {
+          "none": {
+            "none": 263,
+            "single": 90,
+            "multi": 8
+          },
+          "single": {
+            "none": 12,
+            "single": 170,
+            "multi": 16
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.16666666666666666
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9710144927536232,
+            "precision": 0.7362637362637363
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.9365079365079365,
+            "precision": 0.686046511627907
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.12964075453562418,
+      "attach_delta": 0.0,
+      "qualified": false
+    },
+    {
+      "key": "A@0.75",
+      "kind": "none_threshold",
+      "t": 0.75,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.75",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.9402985074626866,
+        "precision": 0.6176470588235294,
+        "confusion": {
+          "none": {
+            "none": 244,
+            "single": 107,
+            "multi": 10
+          },
+          "single": {
+            "none": 12,
+            "single": 170,
+            "multi": 16
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.12121212121212122
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9710144927536232,
+            "precision": 0.7204301075268817
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.9365079365079365,
+            "precision": 0.6555555555555556
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.17053028107794843,
+      "attach_delta": 0.0,
+      "qualified": false
+    },
+    {
+      "key": "A@0.8",
+      "kind": "none_threshold",
+      "t": 0.8,
+      "spec": "tfidf",
+      "label": "A:none 阈值 0.8",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.9701492537313433,
+        "precision": 0.5735294117647058,
+        "confusion": {
+          "none": {
+            "none": 216,
+            "single": 133,
+            "multi": 12
+          },
+          "single": {
+            "none": 6,
+            "single": 174,
+            "multi": 18
+          },
+          "multi": {
+            "none": 0,
+            "single": 2,
+            "multi": 1
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.8333333333333334,
+            "precision": 0.10204081632653061
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9855072463768116,
+            "precision": 0.6868686868686869
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.9682539682539683,
+            "precision": 0.6354166666666666
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 14,
+        "rate": 0.029166666666666667,
+        "n_holdout": 87,
+        "holdout_hits": 8,
+        "holdout_rate": 0.09195402298850575
+      },
+      "precision_drop": 0.21464792813677203,
+      "attach_delta": 0.0,
+      "qualified": false
+    },
+    {
+      "key": "enc:st:intfloat/multilingual-e5-small",
+      "kind": "encoder",
+      "spec": "st:intfloat/multilingual-e5-small",
+      "label": "C1:e5-small need 头",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.8557213930348259,
+        "precision": 0.8472906403940886,
+        "confusion": {
+          "none": {
+            "none": 330,
+            "single": 29,
+            "multi": 2
+          },
+          "single": {
+            "none": 29,
+            "single": 145,
+            "multi": 24
+          },
+          "multi": {
+            "none": 0,
+            "single": 0,
+            "multi": 3
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.5
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.927536231884058,
+            "precision": 0.8648648648648649
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.8253968253968254,
+            "precision": 0.859504132231405
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 43,
+        "rate": 0.08958333333333333,
+        "n_holdout": 87,
+        "holdout_hits": 11,
+        "holdout_rate": 0.12643678160919541
+      },
+      "precision_drop": -0.059113300492610765,
+      "attach_delta": 0.06041666666666667,
+      "qualified": false
+    },
+    {
+      "key": "enc:st:BAAI/bge-m3",
+      "kind": "encoder",
+      "spec": "st:BAAI/bge-m3",
+      "label": "C2:bge-m3 need 头",
+      "dev": {
+        "n": 562,
+        "pos": 201,
+        "recall": 0.8805970149253731,
+        "precision": 0.8719211822660099,
+        "confusion": {
+          "none": {
+            "none": 335,
+            "single": 24,
+            "multi": 2
+          },
+          "single": {
+            "none": 24,
+            "single": 157,
+            "multi": 17
+          },
+          "multi": {
+            "none": 0,
+            "single": 1,
+            "multi": 2
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 225,
+            "pos": 6,
+            "recall": 0.6666666666666666,
+            "precision": 0.4444444444444444
+          },
+          "apibank": {
+            "n": 109,
+            "pos": 69,
+            "recall": 0.9420289855072463,
+            "precision": 0.8904109589041096
+          },
+          "bfcl": {
+            "n": 228,
+            "pos": 126,
+            "recall": 0.8571428571428571,
+            "precision": 0.8925619834710744
+          }
+        }
+      },
+      "attach": {
+        "n": 480,
+        "hits": 30,
+        "rate": 0.0625,
+        "n_holdout": 87,
+        "holdout_hits": 9,
+        "holdout_rate": 0.10344827586206896
+      },
+      "precision_drop": -0.08374384236453203,
+      "attach_delta": 0.03333333333333333,
+      "qualified": true,
+      "test": {
+        "n": 374,
+        "pos": 118,
+        "recall": 0.9152542372881356,
+        "precision": 0.8181818181818182,
+        "confusion": {
+          "none": {
+            "none": 232,
+            "single": 19,
+            "multi": 5
+          },
+          "single": {
+            "none": 10,
+            "single": 96,
+            "multi": 9
+          },
+          "multi": {
+            "none": 0,
+            "single": 3,
+            "multi": 0
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 177,
+            "pos": 3,
+            "recall": 0.3333333333333333,
+            "precision": 0.14285714285714285
+          },
+          "apibank": {
+            "n": 51,
+            "pos": 34,
+            "recall": 0.9117647058823529,
+            "precision": 0.8378378378378378
+          },
+          "bfcl": {
+            "n": 146,
+            "pos": 81,
+            "recall": 0.9382716049382716,
+            "precision": 0.8636363636363636
+          }
+        }
+      },
+      "reference": {
+        "n": 200,
+        "pos": 147,
+        "recall": 0.7687074829931972,
+        "precision": 0.9658119658119658,
+        "confusion": {
+          "none": {
+            "none": 49,
+            "single": 3,
+            "multi": 1
+          },
+          "single": {
+            "none": 30,
+            "single": 88,
+            "multi": 16
+          },
+          "multi": {
+            "none": 4,
+            "single": 6,
+            "multi": 3
+          }
+        },
+        "by_source": {
+          "alpaca_zh": {
+            "n": 31,
+            "pos": 4,
+            "recall": 0.0,
+            "precision": null
+          },
+          "apibank": {
+            "n": 62,
+            "pos": 57,
+            "recall": 0.8421052631578947,
+            "precision": 0.9795918367346939
+          },
+          "bfcl": {
+            "n": 107,
+            "pos": 86,
+            "recall": 0.7558139534883721,
+            "precision": 0.9558823529411765
+          }
+        }
+      }
+    }
+  ],
+  "samples": [
+    {
+      "source": "alpaca_zh",
+      "p_none": 0.9862592190076925,
+      "gold": "single",
+      "text": "创建一个数据可视化，比较2020年和2019年的死亡率。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.9517476234778075,
+      "gold": "single",
+      "text": "{'answer': '我想看一部有 Dan Bittner 出演的剧情片，你能推荐几部可以在线观看的吗？'}"
+    },
+    {
+      "source": "apibank",
+      "p_none": 0.9219945061127046,
+      "gold": "single",
+      "text": "能推荐几款含维生素C、价格在我承受范围内的膳食补充剂吗？"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.9096436204487699,
+      "gold": "single",
+      "text": "从法国巴黎到意大利罗马，使用公共交通的最短路线是什么？"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.8900242652336654,
+      "gold": "single",
+      "text": "生成一张数字图像，画面中捕捉到“一个穿着红色连衣裙的男人”。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.8618758318328905,
+      "gold": "single",
+      "text": "帮我查一下纽约州一个叫 John Doe 的罪犯是否被定罪，另外再查查他犯的是什么性质的罪。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.8521045335024906,
+      "gold": "single",
+      "text": "帮我分析一下L.A Lakers上一场比赛的表现，并告诉我他们的投篮命中率和罚球命中率。另外，比较一下这支球队2018-2019赛季和2019-2020赛季的场均得分（ppg）。"
+    },
+    {
+      "source": "apibank",
+      "p_none": 0.8508519778805427,
+      "gold": "single",
+      "text": "能帮我给推荐的运动和疼痛管理方法设置提醒吗？"
+    },
+    {
+      "source": "alpaca_zh",
+      "p_none": 0.8158479589944395,
+      "gold": "single",
+      "text": "写一篇报纸标题，概括当前的总统选举。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.8009760393958222,
+      "gold": "single",
+      "text": "请问一下当前应用的版本信息是什么?包括应用名称和版本号。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.7886434296491922,
+      "gold": "single",
+      "text": "你可以完全控制命令提示符。如果任务需要执行某个命令，直接执行就行，列出 C 盘的内容。"
+    },
+    {
+      "source": "alpaca_zh",
+      "p_none": 0.7855189770508181,
+      "gold": "single",
+      "text": "法国最新估计的人口是多少？"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.7844901099527188,
+      "gold": "single",
+      "text": "The Weeknd 12月那场演唱会是什么时候、在哪里举行的？"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.773079683505521,
+      "gold": "single",
+      "text": "把 'Hello World' 这句话从英语翻译成西班牙语,再把 'Goodbye' 从法语翻译成英语。另外,帮我查一下洛杉矶和伦敦现在的时间。"
+    },
+    {
+      "source": "apibank",
+      "p_none": 0.7718940878543171,
+      "gold": "single",
+      "text": "我打算做根管治疗，想比较一下上海和北京两家诊所的费用。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.7712487176147469,
+      "gold": "single",
+      "text": "把这句话转成音频格式：我是一个漂亮的女孩。"
+    },
+    {
+      "source": "apibank",
+      "p_none": 0.7494378557552392,
+      "gold": "single",
+      "text": "我对参加一项医学研究挺感兴趣的。你能给我介绍一下研究编号为 1234 的这项研究的更多信息吗？"
+    },
+    {
+      "source": "apibank",
+      "p_none": 0.7119665394642982,
+      "gold": "single",
+      "text": "我想了解过去一个月内，阿司匹林（Aspirin）是否有过近期召回事件。"
+    },
+    {
+      "source": "bfcl",
+      "p_none": 0.7085626205956483,
+      "gold": "single",
+      "text": "你们有8码的红色鞋子吗？"
+    },
+    {
+      "source": "alpaca_zh",
+      "p_none": 0.7075315765342886,
+      "gold": "single",
+      "text": "将最近的新闻文章“AI的最新进展”概括在不到50个字内。"
+    }
+  ],
+  "e2e": {
+    "baseline": {
+      "dev": {
+        "zh_main_r5_strict": 0.37546296296296294,
+        "zh_main_r5_name": 0.4898148148148148,
+        "en_main_r5_strict": 0.638425925925926,
+        "en_main_r5_name": 0.7564814814814814
+      },
+      "test": {
+        "zh_main_r5_strict": 0.32013888888888886,
+        "zh_main_r5_name": 0.43680555555555556,
+        "en_main_r5_strict": 0.5722222222222223,
+        "en_main_r5_name": 0.7055555555555556
+      }
+    },
+    "selected": {
+      "dev": {
+        "zh_main_r5_strict": 0.3458333333333333,
+        "zh_main_r5_name": 0.4435185185185185,
+        "en_main_r5_strict": 0.4212962962962963,
+        "en_main_r5_name": 0.5282407407407407
+      },
+      "test": {
+        "zh_main_r5_strict": 0.27361111111111114,
+        "zh_main_r5_name": 0.3902777777777778,
+        "en_main_r5_strict": 0.39375,
+        "en_main_r5_name": 0.5104166666666666
+      }
+    },
+    "retrieval_encoder": "tfidf"
+  }
+}

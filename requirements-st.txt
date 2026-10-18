@@ -1,0 +1,6 @@
+# 语义编码器(可选,T-016/T-019)。
+# 装上才能用 `--encoder st:<模型名>` 或 `--retrieval-encoder st:<模型名>`;会连带装上 torch。
+# 默认的 tfidf 不需要这个文件。模型权重不进仓库,首次使用时从 HuggingFace 下载到 ~/.cache/huggingface。
+# T-019 的结论见 reports/eval_t019.md:检索编码器可以独立于分类头配置。
+sentence-transformers==6.1.0
+torch==2.14.1

@@ -1,0 +1,1844 @@
+{
+  "n_tools": 2405,
+  "rule": {
+    "by_name": {
+      "开发份": {
+        "n": 1018,
+        "l3_n": 138,
+        "accuracy_old": 0.8614931237721022,
+        "accuracy_new": 0.8673870333988212,
+        "l3_recall_old": 0.5507246376811594,
+        "l3_recall_new": 0.5942028985507246,
+        "under_old": 0.08840864440078586,
+        "under_new": 0.0825147347740668,
+        "over_old": 39,
+        "over_new": 39
+      },
+      "测试份": {
+        "n": 666,
+        "l3_n": 111,
+        "accuracy_old": 0.8723723723723724,
+        "accuracy_new": 0.8798798798798799,
+        "l3_recall_old": 0.5495495495495496,
+        "l3_recall_new": 0.5945945945945946,
+        "under_old": 0.0915915915915916,
+        "under_new": 0.08408408408408409,
+        "over_old": 17,
+        "over_new": 17
+      }
+    },
+    "by_server": {
+      "开发份": {
+        "n": 879,
+        "l3_n": 122,
+        "accuracy_old": 0.8657565415244596,
+        "accuracy_new": 0.8680318543799772,
+        "l3_recall_old": 0.4672131147540984,
+        "l3_recall_new": 0.48360655737704916,
+        "under_old": 0.09556313993174062,
+        "under_new": 0.09328782707622298,
+        "over_old": 31,
+        "over_new": 31
+      },
+      "测试份": {
+        "n": 805,
+        "l3_n": 127,
+        "accuracy_old": 0.8658385093167702,
+        "accuracy_new": 0.8770186335403727,
+        "l3_recall_old": 0.6299212598425197,
+        "l3_recall_new": 0.7007874015748031,
+        "under_old": 0.08322981366459627,
+        "under_new": 0.07204968944099378,
+        "over_old": 25,
+        "over_new": 25
+      }
+    }
+  },
+  "words": {
+    "scan": {
+      "penetration": {
+        "开发份": {
+          "L3": 2,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 2,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "scan": {
+        "开发份": {
+          "L3": 3,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 1,
+          "hit": 4,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 1,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 1,
+          "non_l3": 0
+        }
+      },
+      "scanner": {
+        "开发份": {
+          "L3": 2,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 2,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      }
+    },
+    "device_nouns": {
+      "appliance": {
+        "开发份": {
+          "L3": 2,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 2,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 4,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 4,
+          "non_l3": 0
+        }
+      },
+      "bulb": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "device": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 10,
+          "hit": 10,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 1,
+          "L2": 0,
+          "L1": 0,
+          "L0": 1,
+          "unagreed": 1,
+          "hit": 3,
+          "non_l3": 1
+        }
+      },
+      "garage": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 2,
+          "unagreed": 4,
+          "hit": 6,
+          "non_l3": 2
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "heater": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "lamp": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "light": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 2,
+          "unagreed": 0,
+          "hit": 2,
+          "non_l3": 2
+        }
+      },
+      "lock": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "oven": {
+        "开发份": {
+          "L3": 1,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 1,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "thermostat": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      }
+    },
+    "device_verbs": {
+      "activate": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 1,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 1,
+          "non_l3": 1
+        }
+      },
+      "control": {
+        "开发份": {
+          "L3": 2,
+          "L2": 2,
+          "L1": 0,
+          "L0": 1,
+          "unagreed": 0,
+          "hit": 5,
+          "non_l3": 3
+        },
+        "测试份": {
+          "L3": 6,
+          "L2": 1,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 1,
+          "hit": 8,
+          "non_l3": 1
+        }
+      },
+      "deactivate": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "dim": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "heat": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 3,
+          "unagreed": 1,
+          "hit": 4,
+          "non_l3": 3
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 1,
+          "unagreed": 0,
+          "hit": 1,
+          "non_l3": 1
+        }
+      },
+      "lock": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "power": {
+        "开发份": {
+          "L3": 3,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 3,
+          "hit": 6,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "preheat": {
+        "开发份": {
+          "L3": 1,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 1,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "set": {
+        "开发份": {
+          "L3": 2,
+          "L2": 17,
+          "L1": 0,
+          "L0": 2,
+          "unagreed": 15,
+          "hit": 36,
+          "non_l3": 19
+        },
+        "测试份": {
+          "L3": 3,
+          "L2": 0,
+          "L1": 0,
+          "L0": 2,
+          "unagreed": 8,
+          "hit": 13,
+          "non_l3": 2
+        }
+      },
+      "toggle": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      },
+      "unlock": {
+        "开发份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        },
+        "测试份": {
+          "L3": 0,
+          "L2": 0,
+          "L1": 0,
+          "L0": 0,
+          "unagreed": 0,
+          "hit": 0,
+          "non_l3": 0
+        }
+      }
+    }
+  },
+  "candidates": [
+    {
+      "group": "控制设备",
+      "word": "power",
+      "kept": true,
+      "dev": {
+        "hit": 6,
+        "L3": 3,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 3,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "temperature",
+      "kept": false,
+      "dev": {
+        "hit": 30,
+        "L3": 3,
+        "L2": 0,
+        "L1": 0,
+        "L0": 21,
+        "unagreed": 6,
+        "non_l3": 21
+      },
+      "test": {
+        "hit": 18,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 12,
+        "unagreed": 5,
+        "non_l3": 12
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "appliance",
+      "kept": true,
+      "dev": {
+        "hit": 2,
+        "L3": 2,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 4,
+        "L3": 4,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "control",
+      "kept": true,
+      "dev": {
+        "hit": 5,
+        "L3": 2,
+        "L2": 2,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 0,
+        "non_l3": 3
+      },
+      "test": {
+        "hit": 8,
+        "L3": 6,
+        "L2": 1,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 1,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "oven",
+      "kept": true,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "preheat",
+      "kept": true,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "device",
+      "kept": true,
+      "dev": {
+        "hit": 10,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 10,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 3,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 1,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "iot",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 1,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "thermostat",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "light",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 2,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 2,
+        "unagreed": 0,
+        "non_l3": 2
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "lock",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "unlock",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "heater",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "bulb",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "lamp",
+      "kept": true,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "turn on",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "turn off",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "switch",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "camera",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "door",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "garage",
+      "kept": true,
+      "dev": {
+        "hit": 6,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 2,
+        "unagreed": 4,
+        "non_l3": 2
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "heat",
+      "kept": true,
+      "dev": {
+        "hit": 4,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 3,
+        "unagreed": 1,
+        "non_l3": 3
+      },
+      "test": {
+        "hit": 1,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 0,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "sensor",
+      "kept": false,
+      "dev": {
+        "hit": 6,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 5,
+        "unagreed": 1,
+        "non_l3": 5
+      },
+      "test": {
+        "hit": 7,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 3,
+        "unagreed": 4,
+        "non_l3": 3
+      }
+    },
+    {
+      "group": "控制设备",
+      "word": "vehicle",
+      "kept": false,
+      "dev": {
+        "hit": 7,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 7,
+        "unagreed": 0,
+        "non_l3": 7
+      },
+      "test": {
+        "hit": 1,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 0,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "scan",
+      "kept": true,
+      "dev": {
+        "hit": 4,
+        "L3": 3,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 1,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "scanner",
+      "kept": true,
+      "dev": {
+        "hit": 2,
+        "L3": 2,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "penetration",
+      "kept": true,
+      "dev": {
+        "hit": 2,
+        "L3": 2,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "vulnerabilities",
+      "kept": false,
+      "dev": {
+        "hit": 4,
+        "L3": 2,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 2,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 11,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 10,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "nuclei",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "attack",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "subdomain",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "osint",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "crawl",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "crawler",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 1,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "probe",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "port",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 1,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "nmap",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "ping",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "traceroute",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "whois",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "enumerate",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "enum",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "vulnerability",
+      "kept": false,
+      "dev": {
+        "hit": 9,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 9,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 11,
+        "L3": 0,
+        "L2": 1,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 10,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "recon",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "detect",
+      "kept": false,
+      "dev": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      },
+      "test": {
+        "hit": 2,
+        "L3": 1,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 0,
+        "non_l3": 1
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "exploit",
+      "kept": false,
+      "dev": {
+        "hit": 1,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 0,
+        "non_l3": 1
+      },
+      "test": {
+        "hit": 0,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 0,
+        "unagreed": 0,
+        "non_l3": 0
+      }
+    },
+    {
+      "group": "扫描/探测",
+      "word": "discover",
+      "kept": false,
+      "dev": {
+        "hit": 7,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 3,
+        "unagreed": 4,
+        "non_l3": 3
+      },
+      "test": {
+        "hit": 7,
+        "L3": 0,
+        "L2": 0,
+        "L1": 0,
+        "L0": 1,
+        "unagreed": 6,
+        "non_l3": 1
+      }
+    }
+  ],
+  "reference": {
+    "n": 60,
+    "l3_n": 28,
+    "accuracy_old": 0.5666666666666667,
+    "accuracy_new": 0.6,
+    "l3_recall_old": 0.9285714285714286,
+    "l3_recall_new": 1.0,
+    "under_old": 0.11666666666666667,
+    "under_new": 0.08333333333333333,
+    "over_old": 17,
+    "over_new": 17,
+    "under_old_ids": [
+      "Crawler/Crawler.scan",
+      "misc/oven_preheat"
+    ],
+    "under_new_ids": [],
+    "over_old_ids": [
+      "ApplicationSettingsApi/ApplicationSettingsApi.order_service_config",
+      "Media/Media_3_PlayMovie",
+      "Media/Media_3_PlayMovie#2",
+      "Media/Media_3_PlayMovie#3",
+      "Media/Media_3_PlayMovie#5",
+      "Music/Music_3_PlayMedia",
+      "Music/Music_3_PlayMedia#2",
+      "Music/Music_3_PlayMedia#3",
+      "Music/Music_3_PlayMedia#4",
+      "Music/Music_3_PlayMedia#5",
+      "Music/Music_3_PlayMedia#6",
+      "Music/Music_3_PlayMedia#7",
+      "Music/Music_3_PlayMedia#8",
+      "Music/Music_3_PlayMedia#9",
+      "Restaurants/Restaurants_2_ReserveRestaurant#5",
+      "Restaurants/Restaurants_2_ReserveRestaurant#8",
+      "Services/Services_1_BookAppointment"
+    ],
+    "over_new_ids": [
+      "ApplicationSettingsApi/ApplicationSettingsApi.order_service_config",
+      "Media/Media_3_PlayMovie",
+      "Media/Media_3_PlayMovie#2",
+      "Media/Media_3_PlayMovie#3",
+      "Media/Media_3_PlayMovie#5",
+      "Music/Music_3_PlayMedia",
+      "Music/Music_3_PlayMedia#2",
+      "Music/Music_3_PlayMedia#3",
+      "Music/Music_3_PlayMedia#4",
+      "Music/Music_3_PlayMedia#5",
+      "Music/Music_3_PlayMedia#6",
+      "Music/Music_3_PlayMedia#7",
+      "Music/Music_3_PlayMedia#8",
+      "Music/Music_3_PlayMedia#9",
+      "Restaurants/Restaurants_2_ReserveRestaurant#5",
+      "Restaurants/Restaurants_2_ReserveRestaurant#8",
+      "Services/Services_1_BookAppointment"
+    ],
+    "added_l3": [
+      {
+        "tool_id": "Crawler/Crawler.scan",
+        "old": "L1",
+        "new": "L3",
+        "truth": "L3"
+      },
+      {
+        "tool_id": "misc/oven_preheat",
+        "old": "L0",
+        "new": "L3",
+        "truth": "L3"
+      }
+    ],
+    "removed_l3": []
+  },
+  "flagged": [
+    {
+      "tool_id": "ControlAppliance/ControlAppliance.execute",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L3",
+      "new": "L3"
+    },
+    {
+      "tool_id": "ControlAppliance/ControlAppliance.execute#2",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L3",
+      "new": "L3"
+    },
+    {
+      "tool_id": "Crawler/Crawler.scan",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "测试份",
+      "old": "L1",
+      "new": "L3"
+    },
+    {
+      "tool_id": "XSS_Scanner/XSS_Scanner.scan",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "hacking/hacking.query",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/Attack",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/ThinQ_Connect",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "测试份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/ThinQ_Connect#2",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "测试份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/ThinQ_Connect#3",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "测试份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/ThinQ_Connect#4",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "测试份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/nuclei_http",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/oven_preheat",
+      "signal": "device_control",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    },
+    {
+      "tool_id": "misc/wps_scan",
+      "signal": "scan_host",
+      "silver": null,
+      "split_by_name": "开发份",
+      "old": "L1",
+      "new": "L3"
+    },
+    {
+      "tool_id": "network_scanner/network_scanner.scan",
+      "signal": "scan_host",
+      "silver": "L3",
+      "split_by_name": "开发份",
+      "old": "L0",
+      "new": "L3"
+    }
+  ],
+  "classes": {
+    "device_control": {
+      "n": 7,
+      "L3": 7,
+      "L2": 0,
+      "L1": 0,
+      "L0": 0,
+      "unagreed": 0,
+      "examples": [
+        "ControlAppliance/ControlAppliance.execute",
+        "ControlAppliance/ControlAppliance.execute#2",
+        "misc/ThinQ_Connect",
+        "misc/ThinQ_Connect#2",
+        "misc/ThinQ_Connect#3"
+      ]
+    },
+    "scan_host": {
+      "n": 7,
+      "L3": 6,
+      "L2": 0,
+      "L1": 0,
+      "L0": 0,
+      "unagreed": 1,
+      "examples": [
+        "Crawler/Crawler.scan",
+        "XSS_Scanner/XSS_Scanner.scan",
+        "hacking/hacking.query",
+        "misc/Attack",
+        "misc/nuclei_http"
+      ]
+    }
+  }
+}

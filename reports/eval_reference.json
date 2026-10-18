@@ -1,0 +1,360 @@
+{
+  "config": {
+    "encoder": "tfidf",
+    "threshold": 0.55,
+    "top_k": 5,
+    "use_filter": false,
+    "dedupe_by_name": false,
+    "retrieval_encoder": null,
+    "soft_need_threshold": 0.7
+  },
+  "encoder": "tfidf",
+  "top_k": 5,
+  "soft_need_threshold": 0.7,
+  "tool_head_mode": "synth",
+  "request": {
+    "n": 200,
+    "dropped_train": 0,
+    "dropped_ids": [],
+    "overall": {
+      "n": 200,
+      "confusion": {
+        "none": {
+          "none": 47,
+          "single": 5,
+          "multi": 1
+        },
+        "single": {
+          "none": 34,
+          "single": 90,
+          "multi": 10
+        },
+        "multi": {
+          "none": 2,
+          "single": 7,
+          "multi": 4
+        }
+      },
+      "per_class": {
+        "none": {
+          "n": 53,
+          "pred": 83,
+          "recall": 0.8867924528301887,
+          "precision": 0.5662650602409639
+        },
+        "single": {
+          "n": 134,
+          "pred": 102,
+          "recall": 0.6716417910447762,
+          "precision": 0.8823529411764706
+        },
+        "multi": {
+          "n": 13,
+          "pred": 15,
+          "recall": 0.3076923076923077,
+          "precision": 0.26666666666666666
+        }
+      },
+      "need_tool_recall": 0.7551020408163265,
+      "need_tool_precision": 0.9487179487179487,
+      "accuracy": 0.705
+    },
+    "by_source": {
+      "alpaca_zh": {
+        "n": 31,
+        "confusion": {
+          "none": {
+            "none": 27,
+            "single": 0,
+            "multi": 0
+          },
+          "single": {
+            "none": 4,
+            "single": 0,
+            "multi": 0
+          },
+          "multi": {
+            "none": 0,
+            "single": 0,
+            "multi": 0
+          }
+        },
+        "per_class": {
+          "none": {
+            "n": 27,
+            "pred": 31,
+            "recall": 1.0,
+            "precision": 0.8709677419354839
+          },
+          "single": {
+            "n": 4,
+            "pred": 0,
+            "recall": 0.0,
+            "precision": null
+          },
+          "multi": {
+            "n": 0,
+            "pred": 0,
+            "recall": null,
+            "precision": null
+          }
+        },
+        "need_tool_recall": 0.0,
+        "need_tool_precision": 0.0,
+        "accuracy": 0.8709677419354839
+      },
+      "apibank": {
+        "n": 62,
+        "confusion": {
+          "none": {
+            "none": 2,
+            "single": 3,
+            "multi": 0
+          },
+          "single": {
+            "none": 8,
+            "single": 45,
+            "multi": 3
+          },
+          "multi": {
+            "none": 0,
+            "single": 1,
+            "multi": 0
+          }
+        },
+        "per_class": {
+          "none": {
+            "n": 5,
+            "pred": 10,
+            "recall": 0.4,
+            "precision": 0.2
+          },
+          "single": {
+            "n": 56,
+            "pred": 49,
+            "recall": 0.8035714285714286,
+            "precision": 0.9183673469387755
+          },
+          "multi": {
+            "n": 1,
+            "pred": 3,
+            "recall": 0.0,
+            "precision": 0.0
+          }
+        },
+        "need_tool_recall": 0.8596491228070176,
+        "need_tool_precision": 0.9423076923076923,
+        "accuracy": 0.7580645161290323
+      },
+      "bfcl": {
+        "n": 107,
+        "confusion": {
+          "none": {
+            "none": 18,
+            "single": 2,
+            "multi": 1
+          },
+          "single": {
+            "none": 22,
+            "single": 45,
+            "multi": 7
+          },
+          "multi": {
+            "none": 2,
+            "single": 6,
+            "multi": 4
+          }
+        },
+        "per_class": {
+          "none": {
+            "n": 21,
+            "pred": 42,
+            "recall": 0.8571428571428571,
+            "precision": 0.42857142857142855
+          },
+          "single": {
+            "n": 74,
+            "pred": 53,
+            "recall": 0.6081081081081081,
+            "precision": 0.8490566037735849
+          },
+          "multi": {
+            "n": 12,
+            "pred": 12,
+            "recall": 0.3333333333333333,
+            "precision": 0.3333333333333333
+          }
+        },
+        "need_tool_recall": 0.7209302325581395,
+        "need_tool_precision": 0.9538461538461539,
+        "accuracy": 0.6261682242990654
+      }
+    },
+    "silver": {
+      "n": 143,
+      "agree": 0.9790209790209791,
+      "confusion": {
+        "none": {
+          "none": 47,
+          "single": 2,
+          "multi": 0
+        },
+        "single": {
+          "none": 0,
+          "single": 88,
+          "multi": 1
+        },
+        "multi": {
+          "none": 0,
+          "single": 0,
+          "multi": 5
+        }
+      }
+    },
+    "domain": {
+      "n": 147,
+      "primary_accuracy": 0.30612244897959184,
+      "argmax_accuracy": 0.40816326530612246,
+      "empty_pred": 36
+    },
+    "action": {
+      "micro_f1": 0.6666666666666666,
+      "macro_f1": 0.38118070440051866
+    }
+  },
+  "risk": {
+    "n": 60,
+    "truth_source": {
+      "claude": 60
+    },
+    "truth_counts": {
+      "L0": 7,
+      "L1": 3,
+      "L2": 22,
+      "L3": 28
+    },
+    "paths": {
+      "rule": {
+        "n": 60,
+        "accuracy": 0.5666666666666667,
+        "l3_total": 28,
+        "l3_recall": 0.9285714285714286,
+        "confusion": {
+          "L0": {
+            "L0": 6,
+            "L1": 0,
+            "L2": 1,
+            "L3": 0
+          },
+          "L1": {
+            "L0": 2,
+            "L1": 0,
+            "L2": 1,
+            "L3": 0
+          },
+          "L2": {
+            "L0": 3,
+            "L1": 0,
+            "L2": 2,
+            "L3": 17
+          },
+          "L3": {
+            "L0": 2,
+            "L1": 0,
+            "L2": 0,
+            "L3": 26
+          }
+        },
+        "l3_under": 2,
+        "low_over": 17,
+        "l3_under_ids": [
+          {
+            "tool_id": "Crawler/Crawler.scan",
+            "pred": "L0",
+            "note": "主动扫描外部主机,有安全与合规风险"
+          },
+          {
+            "tool_id": "misc/oven_preheat",
+            "pred": "L0",
+            "note": "操作实体设备(加热)"
+          }
+        ]
+      },
+      "head": {
+        "n": 60,
+        "accuracy": 0.5666666666666667,
+        "l3_total": 28,
+        "l3_recall": 1.0,
+        "confusion": {
+          "L0": {
+            "L0": 1,
+            "L1": 0,
+            "L2": 1,
+            "L3": 5
+          },
+          "L1": {
+            "L0": 1,
+            "L1": 1,
+            "L2": 1,
+            "L3": 0
+          },
+          "L2": {
+            "L0": 0,
+            "L1": 0,
+            "L2": 4,
+            "L3": 18
+          },
+          "L3": {
+            "L0": 0,
+            "L1": 0,
+            "L2": 0,
+            "L3": 28
+          }
+        },
+        "l3_under": 0,
+        "low_over": 23,
+        "l3_under_ids": []
+      },
+      "silver": {
+        "n": 60,
+        "accuracy": 0.4666666666666667,
+        "l3_total": 28,
+        "l3_recall": 1.0,
+        "confusion": {
+          "L0": {
+            "L0": 0,
+            "L1": 0,
+            "L2": 0,
+            "L3": 7
+          },
+          "L1": {
+            "L0": 1,
+            "L1": 0,
+            "L2": 0,
+            "L3": 2
+          },
+          "L2": {
+            "L0": 0,
+            "L1": 0,
+            "L2": 0,
+            "L3": 22
+          },
+          "L3": {
+            "L0": 0,
+            "L1": 0,
+            "L2": 0,
+            "L3": 28
+          }
+        },
+        "l3_under": 0,
+        "low_over": 31,
+        "l3_under_ids": []
+      }
+    },
+    "csv_drift": {
+      "silver": 0,
+      "rule": 33,
+      "head": 12
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "encoder": "tfidf",
+  "rows": [
+    {
+      "variant": "A 只用合成训练集",
+      "train_n": 207,
+      "eval_set": "合成 gold",
+      "n": 69,
+      "need_accuracy": 0.927536231884058,
+      "need_macro_f1": 0.8430095345983196,
+      "recall_needs_mcp": 0.9827586206896551,
+      "none_correct": 10,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.743801652892562,
+        "macro_f1": 0.7409465534465535
+      },
+      "action": {
+        "micro_f1": 0.6417910447761194,
+        "macro_f1": 0.5612451818334171
+      },
+      "recall": {
+        "1": 0.5344827586206896,
+        "3": 0.8189655172413793,
+        "5": 0.8879310344827587
+      }
+    },
+    {
+      "variant": "A 只用合成训练集",
+      "train_n": 207,
+      "eval_set": "银标留出集",
+      "n": 196,
+      "need_accuracy": 0.22448979591836735,
+      "need_macro_f1": 0.1858210031438378,
+      "recall_needs_mcp": 0.9333333333333333,
+      "none_correct": 27,
+      "none_total": 166,
+      "domain": {
+        "micro_f1": 0.22857142857142856,
+        "macro_f1": 0.25337301587301586
+      },
+      "action": {
+        "micro_f1": 0.5128205128205128,
+        "macro_f1": 0.440175510763746
+      },
+      "recall": null,
+      "by_source": {
+        "alpaca_zh": 0.20224719101123595,
+        "apibank": 0.34285714285714286,
+        "bfcl": 0.19444444444444445
+      },
+      "by_math_like": {
+        "math_like": {
+          "n": 24,
+          "accuracy": 0.08333333333333333,
+          "need": {
+            "none": 22,
+            "multi": 1,
+            "single": 1
+          }
+        },
+        "other": {
+          "n": 172,
+          "accuracy": 0.2441860465116279,
+          "need": {
+            "none": 144,
+            "single": 28
+          }
+        }
+      }
+    },
+    {
+      "variant": "B 只用 real_train",
+      "train_n": 784,
+      "eval_set": "合成 gold",
+      "n": 69,
+      "need_accuracy": 0.3188405797101449,
+      "need_macro_f1": 0.22056384742951907,
+      "recall_needs_mcp": 0.22413793103448276,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.05194805194805195,
+        "macro_f1": 0.03333333333333333
+      },
+      "action": {
+        "micro_f1": 0.19047619047619047,
+        "macro_f1": 0.106359649122807
+      },
+      "recall": {
+        "1": 0.1206896551724138,
+        "3": 0.21551724137931033,
+        "5": 0.3275862068965517
+      }
+    },
+    {
+      "variant": "B 只用 real_train",
+      "train_n": 784,
+      "eval_set": "银标留出集",
+      "n": 196,
+      "need_accuracy": 0.8877551020408163,
+      "need_macro_f1": 0.5306766055045872,
+      "recall_needs_mcp": 0.7333333333333333,
+      "none_correct": 153,
+      "none_total": 166,
+      "domain": {
+        "micro_f1": 0.48484848484848486,
+        "macro_f1": 0.32916666666666666
+      },
+      "action": {
+        "micro_f1": 0.4918032786885246,
+        "macro_f1": 0.39351851851851855
+      },
+      "recall": null,
+      "by_source": {
+        "alpaca_zh": 1.0,
+        "apibank": 0.7142857142857143,
+        "bfcl": 0.8333333333333334
+      },
+      "by_math_like": {
+        "math_like": {
+          "n": 24,
+          "accuracy": 0.9166666666666666,
+          "need": {
+            "none": 22,
+            "multi": 1,
+            "single": 1
+          }
+        },
+        "other": {
+          "n": 172,
+          "accuracy": 0.8837209302325582,
+          "need": {
+            "none": 144,
+            "single": 28
+          }
+        }
+      }
+    },
+    {
+      "variant": "C 合成 + real_train",
+      "train_n": 991,
+      "eval_set": "合成 gold",
+      "n": 69,
+      "need_accuracy": 0.8115942028985508,
+      "need_macro_f1": 0.6380992938003477,
+      "recall_needs_mcp": 0.8448275862068966,
+      "none_correct": 11,
+      "none_total": 11,
+      "domain": {
+        "micro_f1": 0.6434782608695652,
+        "macro_f1": 0.6069037444037444
+      },
+      "action": {
+        "micro_f1": 0.532258064516129,
+        "macro_f1": 0.4538608592317033
+      },
+      "recall": {
+        "1": 0.47413793103448276,
+        "3": 0.7068965517241379,
+        "5": 0.8103448275862069
+      }
+    },
+    {
+      "variant": "C 合成 + real_train",
+      "train_n": 991,
+      "eval_set": "银标留出集",
+      "n": 196,
+      "need_accuracy": 0.9081632653061225,
+      "need_macro_f1": 0.5492873901320167,
+      "recall_needs_mcp": 0.6666666666666666,
+      "none_correct": 158,
+      "none_total": 166,
+      "domain": {
+        "micro_f1": 0.4444444444444444,
+        "macro_f1": 0.4310897435897436
+      },
+      "action": {
+        "micro_f1": 0.5,
+        "macro_f1": 0.5186868686868688
+      },
+      "recall": null,
+      "by_source": {
+        "alpaca_zh": 1.0,
+        "apibank": 0.7714285714285715,
+        "bfcl": 0.8611111111111112
+      },
+      "by_math_like": {
+        "math_like": {
+          "n": 24,
+          "accuracy": 0.9583333333333334,
+          "need": {
+            "none": 22,
+            "multi": 1,
+            "single": 1
+          }
+        },
+        "other": {
+          "n": 172,
+          "accuracy": 0.9011627906976745,
+          "need": {
+            "none": 144,
+            "single": 28
+          }
+        }
+      }
+    }
+  ],
+  "cv_on_real": {
+    "folds": 4,
+    "random_state": 0,
+    "n": 784,
+    "per_fold": [
+      {
+        "n": 196,
+        "recall_needs_mcp": 0.5862068965517241,
+        "precision_needs_mcp": 0.6538461538461539,
+        "recall_none": 0.9461077844311377,
+        "macro_f1_3class": 0.5224383631900942,
+        "accuracy_3class": 0.8928571428571429
+      },
+      {
+        "n": 196,
+        "recall_needs_mcp": 0.7333333333333333,
+        "precision_needs_mcp": 0.6875,
+        "recall_none": 0.9397590361445783,
+        "macro_f1_3class": 0.5446597118728266,
+        "accuracy_3class": 0.9030612244897959
+      },
+      {
+        "n": 196,
+        "recall_needs_mcp": 0.6666666666666666,
+        "precision_needs_mcp": 0.6896551724137931,
+        "recall_none": 0.9457831325301205,
+        "macro_f1_3class": 0.5441993717855786,
+        "accuracy_3class": 0.9030612244897959
+      },
+      {
+        "n": 196,
+        "recall_needs_mcp": 0.6333333333333333,
+        "precision_needs_mcp": 0.7037037037037037,
+        "recall_none": 0.9518072289156626,
+        "macro_f1_3class": 0.5287135749822317,
+        "accuracy_3class": 0.8979591836734694
+      }
+    ],
+    "accuracy_3class": {
+      "mean": 0.8992346938775511,
+      "std": 0.004230388763208377
+    },
+    "macro_f1_3class": {
+      "mean": 0.5350027554576828,
+      "std": 0.009685715038048857
+    },
+    "recall_needs_mcp": {
+      "mean": 0.6548850574712644,
+      "std": 0.05355862419249631
+    }
+  },
+  "n": {
+    "synth_train": 207,
+    "gold": 69,
+    "real_train": 784,
+    "holdout": 196,
+    "labeled_single": 0
+  }
+}
