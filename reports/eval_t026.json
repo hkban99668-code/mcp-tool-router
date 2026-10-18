@@ -797,7 +797,7 @@
     }
   ],
   "controls": {
-    "path": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/reports/eval_t025.json",
+    "path": "reports/eval_t025.json",
     "source": "eval_t025.json",
     "main": {
       "key": "linear|BAAI/bge-m3|50|0.5",
@@ -1562,14 +1562,14 @@
       "build_ms": 1.9706250168383121,
       "n_tools": 2405,
       "dim": 1024,
-      "path": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/.cache/tool_vecs/BAAI__bge-m3-9c268bc29b951cad-2405.npy"
+      "path": ".cache/tool_vecs/BAAI__bge-m3-9c268bc29b951cad-2405.npy"
     },
     "intfloat/multilingual-e5-small": {
       "cached": true,
       "build_ms": 0.7244580192491412,
       "n_tools": 2405,
       "dim": 384,
-      "path": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/.cache/tool_vecs/intfloat__multilingual-e5-small-9c268bc29b951cad-2405.npy"
+      "path": ".cache/tool_vecs/intfloat__multilingual-e5-small-9c268bc29b951cad-2405.npy"
     }
   },
   "model_mb": {

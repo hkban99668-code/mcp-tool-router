@@ -1690,14 +1690,14 @@
       "build_ms": 3.396417014300823,
       "n_tools": 2405,
       "dim": 1024,
-      "path": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/.cache/tool_vecs/BAAI__bge-m3-9c268bc29b951cad-2405.npy"
+      "path": ".cache/tool_vecs/BAAI__bge-m3-9c268bc29b951cad-2405.npy"
     },
     "intfloat/multilingual-e5-small": {
       "cached": true,
       "build_ms": 0.9167500538751483,
       "n_tools": 2405,
       "dim": 384,
-      "path": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/.cache/tool_vecs/intfloat__multilingual-e5-small-9c268bc29b951cad-2405.npy"
+      "path": ".cache/tool_vecs/intfloat__multilingual-e5-small-9c268bc29b951cad-2405.npy"
     }
   },
   "model_mb": {

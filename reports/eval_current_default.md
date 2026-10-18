@@ -133,9 +133,9 @@
 
 | 配置 | 请求头训练数据 | router.pkl |
 | --- | --- | --- |
-| 当前默认配置 | `/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary/real_train.jsonl` | 24.3 MB |
-| T-012 时的默认配置 | `/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary/real_train.jsonl` | 24.3 MB |
-| T-017 结论对应的候选默认(未接入 `cli train`) | `/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary-cn/real_train.jsonl` | 24.1 MB |
+| 当前默认配置 | `data/v3-primary/real_train.jsonl` | 24.3 MB |
+| T-012 时的默认配置 | `data/v3-primary/real_train.jsonl` | 24.3 MB |
+| T-017 结论对应的候选默认(未接入 `cli train`) | `data/v3-primary-cn/real_train.jsonl` | 24.1 MB |
 
 整份数据训一个默认 router(真实目录 + 双语索引 + 软过滤关)后 pickle 到临时文件。分类头与检索都是 tfidf,所以都在二十几 MB;软 need 只多存一个阈值,不影响量级。
 

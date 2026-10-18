@@ -16,21 +16,21 @@
     {
       "key": "current",
       "label": "当前默认配置",
-      "request_train": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary/real_train.jsonl",
+      "request_train": "data/v3-primary/real_train.jsonl",
       "soft_need_threshold": 0.7,
       "why": "`cli train --real-train` 的默认值 + `build_real_router` 的软 need 默认(见 `reports/eval_t020.md`)"
     },
     {
       "key": "t012",
       "label": "T-012 时的默认配置",
-      "request_train": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary/real_train.jsonl",
+      "request_train": "data/v3-primary/real_train.jsonl",
       "soft_need_threshold": null,
       "why": "`reports/eval_e2e.md` 的『真实目录 + 双语索引』行:同一份请求头,软 need 关"
     },
     {
       "key": "cn",
       "label": "T-017 结论对应的候选默认(未接入 `cli train`)",
-      "request_train": "/Users/gu/基于jev的llm分类器/mcp-classifier-t016/data/v3-primary-cn/real_train.jsonl",
+      "request_train": "data/v3-primary-cn/real_train.jsonl",
       "soft_need_threshold": 0.7,
       "why": "`reports/eval_t017.md`:第二路换成 DeepSeek 后的 `data/v3-primary-cn`"
     }
