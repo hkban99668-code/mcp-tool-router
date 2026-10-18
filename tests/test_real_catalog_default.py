@@ -206,7 +206,7 @@ def test_e2e_eval_structure_and_render():
 
 def test_readme_cites_reports_and_default_catalog():
     """A6:README 的指标都标了来源报告,快速开始用真实目录(默认 train)。"""
-    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    text = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
     for report in ("reports/eval_t010.md", "reports/eval_t011.md", "reports/eval_e2e.md"):
         assert report in text
     assert "48.4%" in text and "10.2%" in text       # T-011 双语/单语中文 R@5

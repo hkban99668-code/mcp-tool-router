@@ -217,6 +217,6 @@ def test_dropped_gold_counts_low_scoring_variant():
 
 def test_readme_cites_t013_report():
     """A6:README 的建议一节引用 eval_t013.md,并给出开发折结论的数字。"""
-    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    text = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
     assert "reports/eval_t013.md" in text
     assert "51.0%" in text and "43.9%" in text     # 开发折中文上限严格 R@5:关 → 开

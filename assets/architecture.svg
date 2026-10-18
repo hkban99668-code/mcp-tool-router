@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="440" rx="14" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker>
+  </defs>
+  <text x="32" y="40" font-size="20" font-weight="700" fill="#0f172a">MCP Tool Router</text>
+  <text x="32" y="62" font-size="13" fill="#475569">Online: decide if a request needs a tool and pick the top 5 out of 2,405. Offline: classify every tool and grade its risk.</text>
+
+  <!-- online row -->
+  <text x="32" y="98" font-size="12" font-weight="700" fill="#0369a1">ONLINE (per request, ~3 ms on CPU)</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="32" y="110" width="140" height="74" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="102" y="138" font-weight="700" fill="#0f172a">User request</text><text x="102" y="156" fill="#334155">English or Chinese</text>
+
+    <rect x="200" y="110" width="170" height="74" rx="10" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="285" y="134" font-weight="700" fill="#075985">Need classifier</text><text x="285" y="152" fill="#0f172a">none / single / multi</text><text x="285" y="168" fill="#0f172a">+ domain, action</text>
+
+    <rect x="398" y="110" width="170" height="74" rx="10" fill="#e0f2fe" stroke="#0284c7"/>
+    <text x="483" y="134" font-weight="700" fill="#075985">Tool retrieval</text><text x="483" y="152" fill="#0f172a">TF-IDF, bilingual index</text><text x="483" y="168" fill="#0f172a">optional semantic rerank</text>
+
+    <rect x="596" y="110" width="160" height="74" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="676" y="134" font-weight="700" fill="#166534">Top-5 candidates</text><text x="676" y="152" fill="#0f172a">each with risk L0–L3</text><text x="676" y="168" fill="#0f172a">L3 → ask user first</text>
+
+    <rect x="784" y="110" width="144" height="74" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="856" y="138" font-weight="700" fill="#0f172a">Your agent</text><text x="856" y="156" fill="#334155">calls the tool</text>
+  </g>
+  <g stroke="#64748b" stroke-width="1.5" marker-end="url(#a)">
+    <line x1="172" y1="147" x2="198" y2="147"/><line x1="370" y1="147" x2="396" y2="147"/>
+    <line x1="568" y1="147" x2="594" y2="147"/><line x1="756" y1="147" x2="782" y2="147"/>
+  </g>
+  <!-- fallback -->
+  <rect x="200" y="214" width="170" height="54" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="285" y="237" font-size="12" font-weight="700" text-anchor="middle" fill="#5b21b6">LLM fallback</text>
+  <text x="285" y="254" font-size="12" text-anchor="middle" fill="#0f172a">low-confidence cases only</text>
+  <path d="M285,186 L285,212" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="5 4" fill="none" marker-end="url(#a)"/>
+
+  <!-- offline row -->
+  <line x1="32" y1="296" x2="928" y2="296" stroke="#e2e8f0"/>
+  <text x="32" y="324" font-size="12" font-weight="700" fill="#b45309">OFFLINE (per tool catalog)</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="32" y="336" width="170" height="74" rx="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="117" y="362" font-weight="700" fill="#0f172a">MCP servers</text><text x="117" y="380" fill="#334155">tools/list, schemas,</text><text x="117" y="396" fill="#334155">annotations</text>
+
+    <rect x="230" y="336" width="200" height="74" rx="10" fill="#fef3c7" stroke="#d97706"/>
+    <text x="330" y="360" font-weight="700" fill="#92400e">Two-LLM labeling</text><text x="330" y="378" fill="#0f172a">domain + action, keep only</text><text x="330" y="394" fill="#0f172a">labels both models agree on</text>
+
+    <rect x="458" y="336" width="210" height="74" rx="10" fill="#fef3c7" stroke="#d97706"/>
+    <text x="563" y="360" font-weight="700" fill="#92400e">Risk grading L0–L3</text><text x="563" y="378" fill="#0f172a">rules + model,</text><text x="563" y="394" fill="#0f172a">higher grade wins</text>
+
+    <rect x="696" y="336" width="232" height="74" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="812" y="362" font-weight="700" fill="#166534">Tool catalog index</text><text x="812" y="380" fill="#0f172a">2,405 tools, EN + ZH descriptions</text>
+  </g>
+  <g stroke="#64748b" stroke-width="1.5" marker-end="url(#a)">
+    <line x1="202" y1="373" x2="228" y2="373"/><line x1="430" y1="373" x2="456" y2="373"/><line x1="668" y1="373" x2="694" y2="373"/>
+  </g>
+  <path d="M812,334 L812,300 L483,300 L483,186" stroke="#16a34a" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+</svg>

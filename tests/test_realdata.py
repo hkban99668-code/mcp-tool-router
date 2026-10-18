@@ -647,7 +647,7 @@ def test_no_api_key_literal_anywhere():
     # 拼出来而不是直接写,免得这条断言自己把 key 前缀带进仓库
     needle = "sk" + "-" + "or"
     files = list((ROOT / "mcpcls").glob("*.py")) + list((ROOT / "tests").glob("*.py")) \
-        + list((ROOT / "scripts").glob("*.py")) + [ROOT / "README.md"]
+        + list((ROOT / "scripts").glob("*.py")) + [ROOT / "README.md", ROOT / "README.zh-CN.md"]
     assert files
     for path in files:
         assert needle not in path.read_text(encoding="utf-8"), path
